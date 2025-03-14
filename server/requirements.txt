@@ -1,4 +1,5 @@
+torch==2.4.1+cu126
+torchvision==0.19.1+cu126
+torchaudio==2.4.1+cu126
 flwr==1.5.0
-torch==2.4.1
-numpy==1.25.0
-torchvision==0.19.1
+psutil

@@ -1,0 +1,66 @@
+version: "3.8"
+services:
+  cloud-1:
+    image: cloud_image
+    ports:
+      - "8080:8080"
+    networks:
+      - fl_network
+
+  edge0-1:
+    image: edge_image
+    ports:
+      - "8081:8080"  # Map to different host ports to avoid conflicts
+    depends_on:
+      - cloud-1
+    networks:
+      - fl_network
+
+  edge1-1:
+    image: edge_image
+    ports:
+      - "8082:8080"
+    depends_on:
+      - cloud-1
+    networks:
+      - fl_network
+
+  client0-1:
+    image: client_image
+    environment:
+      - CLIENT_ID=0
+    depends_on:
+      - edge0-1
+    networks:
+      - fl_network
+
+  client1-1:
+    image: client_image
+    environment:
+      - CLIENT_ID=1
+    depends_on:
+      - edge1-1
+    networks:
+      - fl_network
+
+  client2-1:
+    image: client_image
+    environment:
+      - CLIENT_ID=2
+    depends_on:
+      - edge0-1
+    networks:
+      - fl_network
+
+  client3-1:
+    image: client_image
+    environment:
+      - CLIENT_ID=3
+    depends_on:
+      - edge1-1
+    networks:
+      - fl_network
+
+networks:
+  fl_network:
+    driver: bridge

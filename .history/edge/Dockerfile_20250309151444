@@ -1,0 +1,6 @@
+FROM fl_base:latest
+WORKDIR /app
+COPY . .
+# No MNIST data needed for edge, but we’ll keep it consistent
+COPY ../data/mnist/raw /app/data
+CMD ["python3.9", "edge_node.py"]

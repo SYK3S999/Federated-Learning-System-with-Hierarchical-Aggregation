@@ -1,0 +1,168 @@
+version: '3.8'
+services:
+  cloud:
+    build:
+      context: ./cloud
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"  # Cap for realism
+          memory: "2g"
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - hfl-net
+    volumes:
+      - ./data:/app/data
+
+  edge0:
+    build:
+      context: ./edge
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    environment:
+      - EDGE_ID=0
+    depends_on:
+      - cloud
+    deploy:
+      resources:
+        limits:
+          cpus: "0.4"
+          memory: "1g"
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - hfl-net
+    volumes:
+      - ./data:/app/data
+
+  edge1:
+    build:
+      context: ./edge
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8080"
+    environment:
+      - EDGE_ID=1
+    depends_on:
+      - cloud
+    deploy:
+      resources:
+        limits:
+          cpus: "0.4"
+          memory: "1g"
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - hfl-net
+    volumes:
+      - ./data:/app/data
+
+  client0:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    depends_on:
+      - edge0
+    environment:
+      - CLIENT_ID=0
+    deploy:
+      resources:
+        limits:
+          cpus: "0.3"
+          memory: "1g"
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - hfl-net
+    volumes:
+      - ./data:/app/data
+
+  client1:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    depends_on:
+      - edge0
+    environment:
+      - CLIENT_ID=1
+    deploy:
+      resources:
+        limits:
+          cpus: "0.3"
+          memory: "1g"
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - hfl-net
+    volumes:
+      - ./data:/app/data
+
+  client2:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    depends_on:
+      - edge1
+    environment:
+      - CLIENT_ID=2
+    deploy:
+      resources:
+        limits:
+          cpus: "0.3"
+          memory: "1g"
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - hfl-net
+    volumes:
+      - ./data:/app/data
+
+  client3:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    depends_on:
+      - edge1
+    environment:
+      - CLIENT_ID=3
+    deploy:
+      resources:
+        limits:
+          cpus: "0.3"
+          memory: "1g"
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - hfl-net
+    volumes:
+      - ./data:/app/data
+
+networks:
+  hfl-net:
+    driver: bridge

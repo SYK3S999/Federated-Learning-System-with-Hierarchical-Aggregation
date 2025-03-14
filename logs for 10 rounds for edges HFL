@@ -1,0 +1,636 @@
+cloud-1-1    | 2025-03-09 17:58:25 [INFO] Cloud - Starting Cloud Server on 0.0.0.0:8080
+cloud-1-1    | INFO flwr 2025-03-09 17:58:25,361 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=30, round_timeout=None)
+cloud-1-1    | 2025-03-09 17:58:25 [INFO] Cloud - Starting Flower server, config: ServerConfig(num_rounds=30, round_timeout=None)                                                          
+cloud-1-1    | INFO flwr 2025-03-09 17:58:25,399 | app.py:175 | Flower ECE: gRPC server running (30 rounds), SSL is disabled                                                               
+cloud-1-1    | 2025-03-09 17:58:25 [INFO] Cloud - Flower ECE: gRPC server running (30 rounds), SSL is disabled
+cloud-1-1    | INFO flwr 2025-03-09 17:58:25,399 | server.py:89 | Initializing global parameters                                                                                           
+cloud-1-1    | 2025-03-09 17:58:25 [INFO] Cloud - Initializing global parameters                                                                                                           
+cloud-1-1    | INFO flwr 2025-03-09 17:58:25,399 | server.py:272 | Using initial parameters provided by strategy                                                                           
+cloud-1-1    | 2025-03-09 17:58:25 [INFO] Cloud - Using initial parameters provided by strategy                                                                                            
+cloud-1-1    | INFO flwr 2025-03-09 17:58:25,399 | server.py:91 | Evaluating initial parameters                                                                                            
+cloud-1-1    | 2025-03-09 17:58:25 [INFO] Cloud - Evaluating initial parameters                                                                                                            
+cloud-1-1    | 2025-03-09 17:58:25 [INFO] Cloud - Round 0 Pre-Eval - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+cloud-1-1    | 2025-03-09 17:58:26 [INFO] Cloud - Round 0 Post-Eval (took 1.18s) - CPU: 109.6% | TX: 0.00 MB | Energy: 16.44 J/s
+cloud-1-1    | INFO flwr 2025-03-09 17:58:26,782 | server.py:94 | initial parameters (loss, other metrics): 183.98662686347961, {'accuracy': 0.1048, 'cpu': 109.6, 'tx_mb': 0.002711, 'energy': 16.44, 'eval_time': 1.1804430019983556}                                                                                                                                               
+cloud-1-1    | 2025-03-09 17:58:26 [INFO] Cloud - initial parameters (loss, other metrics): 183.98662686347961, {'accuracy': 0.1048, 'cpu': 109.6, 'tx_mb': 0.002711, 'energy': 16.44, 'eval_time': 1.1804430019983556}                                                                                                                                                               
+cloud-1-1    | INFO flwr 2025-03-09 17:58:26,782 | server.py:104 | FL starting
+cloud-1-1    | 2025-03-09 17:58:26 [INFO] Cloud - FL starting                                                                                                                              
+edge1-1-1-1  | 2025-03-09 17:58:39 [INFO] Edge 1 - Attempt 1/10 to connect to cloud-1:8080                                                                                                 
+edge0-1-1-1  | 2025-03-09 17:58:39 [INFO] Edge 1 - Attempt 1/10 to connect to cloud-1:8080
+edge0-1-1-1  | INFO flwr 2025-03-09 17:58:39,636 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)                                                              
+edge1-1-1-1  | INFO flwr 2025-03-09 17:58:39,637 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+edge0-1-1-1  | DEBUG flwr 2025-03-09 17:58:39,639 | connection.py:42 | ChannelConnectivity.IDLE
+edge1-1-1-1  | DEBUG flwr 2025-03-09 17:58:39,639 | connection.py:42 | ChannelConnectivity.IDLE                                                                                            
+edge0-1-1-1  | DEBUG flwr 2025-03-09 17:58:39,640 | connection.py:42 | ChannelConnectivity.CONNECTING                                                                                      
+cloud-1-1    | DEBUG flwr 2025-03-09 17:58:39,645 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)                                                                     
+edge1-1-1-1  | DEBUG flwr 2025-03-09 17:58:39,641 | connection.py:42 | ChannelConnectivity.CONNECTING                                                                                      
+edge0-1-1-1  | DEBUG flwr 2025-03-09 17:58:39,642 | connection.py:42 | ChannelConnectivity.READY                                                                                           
+cloud-1-1    | 2025-03-09 17:58:39 [DEBUG] Cloud - fit_round 1: strategy sampled 2 clients (out of 2)                                                                                      
+edge1-1-1-1  | DEBUG flwr 2025-03-09 17:58:39,644 | connection.py:42 | ChannelConnectivity.READY
+edge0-1-1-1  | 2025-03-09 17:58:39 [INFO] Edge 1 - Pre-Aggregation - CPU: 10.0% | TX: 0.00 MB | Energy: 1.00 J/s                                                                           
+edge1-1-1-1  | 2025-03-09 17:58:39 [INFO] Edge 1 - Pre-Aggregation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+edge0-1-1-1  | INFO flwr 2025-03-09 17:58:41,752 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=10, round_timeout=None)                                            
+edge1-1-1-1  | INFO flwr 2025-03-09 17:58:41,753 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=10, round_timeout=None)
+edge0-1-1-1  | WARNING: All log messages before absl::InitializeLog() is called are written to STDERR                                                                                      
+edge0-1-1-1  | I0000 00:00:1741543121.755770      42 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                                             
+edge0-1-1-1  | INFO flwr 2025-03-09 17:58:41,766 | app.py:175 | Flower ECE: gRPC server running (10 rounds), SSL is disabled                                                               
+edge0-1-1-1  | INFO flwr 2025-03-09 17:58:41,766 | server.py:89 | Initializing global parameters                                                                                           
+edge0-1-1-1  | INFO flwr 2025-03-09 17:58:41,766 | server.py:272 | Using initial parameters provided by strategy                                                                           
+edge0-1-1-1  | INFO flwr 2025-03-09 17:58:41,766 | server.py:91 | Evaluating initial parameters                                                                                            
+edge0-1-1-1  | INFO flwr 2025-03-09 17:58:41,766 | server.py:104 | FL starting
+edge1-1-1-1  | INFO flwr 2025-03-09 17:58:42,178 | app.py:175 | Flower ECE: gRPC server running (10 rounds), SSL is disabled                                                               
+edge1-1-1-1  | INFO flwr 2025-03-09 17:58:42,179 | server.py:89 | Initializing global parameters
+edge1-1-1-1  | INFO flwr 2025-03-09 17:58:42,179 | server.py:272 | Using initial parameters provided by strategy                                                                           
+edge1-1-1-1  | INFO flwr 2025-03-09 17:58:42,179 | server.py:91 | Evaluating initial parameters                                                                                            
+edge1-1-1-1  | INFO flwr 2025-03-09 17:58:42,179 | server.py:104 | FL starting                                                                                                             
+client3-1-1  | 2025-03-09 18:00:10 [INFO] Client 3 - Attempt 1/10 to connect to edge1-1-1:8080                                                                                             
+client0-1-1  | 2025-03-09 18:00:10 [INFO] Client 0 - Attempt 1/10 to connect to edge0-1-1:8080
+client3-1-1  | 2025-03-09 18:00:10 [INFO] Client 3 - Using device: cpu                                                                                                                     
+client0-1-1  | 2025-03-09 18:00:10 [INFO] Client 0 - Using device: cpu                                                                                                                     
+client1-1-1  | 2025-03-09 18:00:10 [INFO] Client 1 - Attempt 1/10 to connect to edge1-1-1:8080                                                                                             
+client1-1-1  | 2025-03-09 18:00:10 [INFO] Client 1 - Using device: cpu
+client2-1-1  | 2025-03-09 18:00:10 [INFO] Client 2 - Attempt 1/10 to connect to edge0-1-1:8080                                                                                             
+client2-1-1  | 2025-03-09 18:00:10 [INFO] Client 2 - Using device: cpu
+100.0%3-1-1  |                                                                                                                                                                             
+100.0%3-1-1  | 
+100.0%3-1-1  | 
+100.0%3-1-1  | 
+client3-1-1  | INFO flwr 2025-03-09 18:00:32,220 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+client3-1-1  | WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+client3-1-1  | I0000 00:00:1741543232.222211      49 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                                             
+client3-1-1  | DEBUG flwr 2025-03-09 18:00:32,227 | connection.py:42 | ChannelConnectivity.IDLE                                                                                            
+client3-1-1  | I0000 00:00:1741543232.231990      49 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                                             
+100.0%0-1-1  |                                                                                                                                                                             
+client3-1-1  | DEBUG flwr 2025-03-09 18:00:32,430 | connection.py:139 | gRPC channel closed
+client3-1-1  | 2025-03-09 18:00:32 [WARNING] Client 3 - Attempt 1/10 failed: <_MultiThreadedRendezvous of RPC that terminated with:
+client3-1-1  |  status = StatusCode.UNAVAILABLE                                                                                                                                            
+client3-1-1  |  details = "Socket closed"                                                                                                                                                  
+client3-1-1  |  debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-03-09T18:00:32.227056598+00:00", grpc_status:14, grpc_message:"Socket closed"}"                
+client3-1-1  | >                                                                                                                                                                           
+100.0%1-1-1  |                                                                                                                                                                             
+100.0%0-1-1  | 
+100.0%1-1-1  | 
+100.0%0-1-1  | 
+100.0%1-1-1  | 
+100.0%1-1-1  | 
+100.0%0-1-1  | 
+client1-1-1  | INFO flwr 2025-03-09 18:00:39,021 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+client1-1-1  | DEBUG flwr 2025-03-09 18:00:39,029 | connection.py:42 | ChannelConnectivity.IDLE                                                                                            
+client1-1-1  | DEBUG flwr 2025-03-09 18:00:39,030 | connection.py:42 | ChannelConnectivity.CONNECTING
+client1-1-1  | DEBUG flwr 2025-03-09 18:00:39,031 | connection.py:42 | ChannelConnectivity.READY                                                                                           
+client0-1-1  | INFO flwr 2025-03-09 18:00:39,073 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)                                                              
+client0-1-1  | DEBUG flwr 2025-03-09 18:00:39,074 | connection.py:42 | ChannelConnectivity.IDLE
+client0-1-1  | DEBUG flwr 2025-03-09 18:00:39,082 | connection.py:42 | ChannelConnectivity.CONNECTING                                                                                      
+client0-1-1  | DEBUG flwr 2025-03-09 18:00:39,083 | connection.py:42 | ChannelConnectivity.READY                                                                                           
+100.0%2-1-1  |                                                                                                                                                                             
+100.0%2-1-1  | 
+100.0%2-1-1  | 
+100.0%2-1-1  | 
+client2-1-1  | INFO flwr 2025-03-09 18:00:50,021 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+client2-1-1  | DEBUG flwr 2025-03-09 18:00:50,023 | connection.py:42 | ChannelConnectivity.IDLE
+client2-1-1  | WARNING: All log messages before absl::InitializeLog() is called are written to STDERR                                                                                      
+client2-1-1  | I0000 00:00:1741543250.026710      49 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                                             
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:00:50,030 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)                                                                     
+client0-1-1  | 2025-03-09 18:00:50 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client0-1-1  | 2025-03-09 18:00:50 [INFO] Client 0 - Starting fit with 1 local epochs
+client2-1-1  | DEBUG flwr 2025-03-09 18:00:50,232 | connection.py:139 | gRPC channel closed                                                                                                
+client2-1-1  | 2025-03-09 18:00:50 [WARNING] Client 2 - Attempt 1/10 failed: <_MultiThreadedRendezvous of RPC that terminated with:
+client2-1-1  |  status = StatusCode.UNAVAILABLE                                                                                                                                            
+client2-1-1  |  details = "Failed parsing HTTP/2"                                                                                                                                          
+client2-1-1  |  debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Failed parsing HTTP/2", grpc_status:14, created_time:"2025-03-09T18:00:50.029539023+00:00"}"
+client2-1-1  | >                                                                                                                                                                           
+client0-1-1  | 2025-03-09 18:00:52 [INFO] Client 0 - Post-Training (took 2.41s) - CPU: 109.7% | TX: 0.00 MB | Energy: 5.49 J/s                                                             
+client0-1-1  | 2025-03-09 18:00:52 [INFO] Client 0 - Fit completed - Loss: 1.3841, Accuracy: 0.5691
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:00:52,649 | server.py:236 | fit_round 1 received 1 results and 1 failures                                                                          
+client3-1-1  | 2025-03-09 18:01:02 [INFO] Client 3 - Attempt 2/10 to connect to edge1-1-1:8080                                                                                             
+client3-1-1  | 2025-03-09 18:01:02 [INFO] Client 3 - Using device: cpu
+client3-1-1  | INFO flwr 2025-03-09 18:01:02,394 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)                                                              
+client3-1-1  | DEBUG flwr 2025-03-09 18:01:02,402 | connection.py:42 | ChannelConnectivity.IDLE
+client3-1-1  | DEBUG flwr 2025-03-09 18:01:02,403 | connection.py:42 | ChannelConnectivity.CONNECTING                                                                                      
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:02,404 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)                                                                     
+client3-1-1  | DEBUG flwr 2025-03-09 18:01:02,403 | connection.py:42 | ChannelConnectivity.READY
+client3-1-1  | 2025-03-09 18:01:02 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client3-1-1  | 2025-03-09 18:01:02 [INFO] Client 3 - Starting fit with 1 local epochs
+client1-1-1  | 2025-03-09 18:01:02 [INFO] Client 1 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                                            
+client1-1-1  | 2025-03-09 18:01:02 [INFO] Client 1 - Starting fit with 1 local epochs                                                                                                      
+client3-1-1  | 2025-03-09 18:01:05 [INFO] Client 3 - Post-Training (took 3.02s) - CPU: 89.6% | TX: 0.00 MB | Energy: 4.48 J/s
+client3-1-1  | 2025-03-09 18:01:05 [INFO] Client 3 - Fit completed - Loss: 1.3406, Accuracy: 0.5994
+client1-1-1  | 2025-03-09 18:01:05 [INFO] Client 1 - Post-Training (took 3.11s) - CPU: 79.6% | TX: 0.00 MB | Energy: 3.98 J/s                                                              
+client1-1-1  | 2025-03-09 18:01:05 [INFO] Client 1 - Fit completed - Loss: 1.3812, Accuracy: 0.5728
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:05,724 | server.py:236 | fit_round 1 received 2 results and 0 failures                                                                          
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:05,726 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)                                                                
+client3-1-1  | 2025-03-09 18:01:05 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client1-1-1  | 2025-03-09 18:01:05 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1-1  | 2025-03-09 18:01:07 [INFO] Client 1 - Evaluation - Loss: 36.5413, Accuracy: 0.8577                                                                                          
+client3-1-1  | 2025-03-09 18:01:07 [INFO] Client 3 - Evaluation - Loss: 36.5413, Accuracy: 0.8577
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:07,303 | server.py:187 | evaluate_round 1 received 2 results and 0 failures                                                                     
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:07,303 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)                                                                     
+client1-1-1  | 2025-03-09 18:01:07 [INFO] Client 1 - Pre-Training - CPU: 69.2% | TX: 0.00 MB | Energy: 3.46 J/s                                                                            
+client1-1-1  | 2025-03-09 18:01:07 [INFO] Client 1 - Starting fit with 1 local epochs
+client3-1-1  | 2025-03-09 18:01:07 [INFO] Client 3 - Pre-Training - CPU: 39.9% | TX: 0.00 MB | Energy: 2.00 J/s                                                                            
+client3-1-1  | 2025-03-09 18:01:07 [INFO] Client 3 - Starting fit with 1 local epochs
+client3-1-1  | 2025-03-09 18:01:11 [INFO] Client 3 - Post-Training (took 3.54s) - CPU: 109.7% | TX: 0.00 MB | Energy: 5.49 J/s                                                             
+client3-1-1  | 2025-03-09 18:01:11 [INFO] Client 3 - Fit completed - Loss: 0.3776, Accuracy: 0.8844
+client1-1-1  | 2025-03-09 18:01:11 [INFO] Client 1 - Post-Training (took 3.55s) - CPU: 79.8% | TX: 0.00 MB | Energy: 3.99 J/s                                                              
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:11,063 | server.py:236 | fit_round 2 received 2 results and 0 failures                                                                          
+client1-1-1  | 2025-03-09 18:01:11 [INFO] Client 1 - Fit completed - Loss: 0.3968, Accuracy: 0.8792                                                                                        
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:11,064 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)                                                                
+client1-1-1  | 2025-03-09 18:01:11 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client3-1-1  | 2025-03-09 18:01:11 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1-1  | 2025-03-09 18:01:12 [INFO] Client 1 - Evaluation - Loss: 20.1693, Accuracy: 0.9227                                                                                          
+client3-1-1  | 2025-03-09 18:01:12 [INFO] Client 3 - Evaluation - Loss: 20.1693, Accuracy: 0.9227
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:12,616 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:12,616 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)                                                                     
+client1-1-1  | 2025-03-09 18:01:12 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client1-1-1  | 2025-03-09 18:01:12 [INFO] Client 1 - Starting fit with 1 local epochs
+client3-1-1  | 2025-03-09 18:01:12 [INFO] Client 3 - Pre-Training - CPU: 79.5% | TX: 0.00 MB | Energy: 3.98 J/s                                                                            
+client3-1-1  | 2025-03-09 18:01:12 [INFO] Client 3 - Starting fit with 1 local epochs                                                                                                      
+client1-1-1  | 2025-03-09 18:01:16 [INFO] Client 1 - Post-Training (took 3.34s) - CPU: 119.6% | TX: 0.00 MB | Energy: 5.98 J/s
+client1-1-1  | 2025-03-09 18:01:16 [INFO] Client 1 - Fit completed - Loss: 0.2679, Accuracy: 0.9206
+client3-1-1  | 2025-03-09 18:01:16 [INFO] Client 3 - Post-Training (took 3.45s) - CPU: 128.7% | TX: 0.00 MB | Energy: 6.43 J/s                                                             
+client3-1-1  | 2025-03-09 18:01:16 [INFO] Client 3 - Fit completed - Loss: 0.2456, Accuracy: 0.9259
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:16,272 | server.py:236 | fit_round 3 received 2 results and 0 failures                                                                          
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:16,273 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)                                                                
+client3-1-1  | 2025-03-09 18:01:16 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client1-1-1  | 2025-03-09 18:01:16 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1-1  | 2025-03-09 18:01:17 [INFO] Client 3 - Evaluation - Loss: 14.6584, Accuracy: 0.9429                                                                                          
+client1-1-1  | 2025-03-09 18:01:17 [INFO] Client 1 - Evaluation - Loss: 14.6584, Accuracy: 0.9429
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:17,718 | server.py:187 | evaluate_round 3 received 2 results and 0 failures                                                                     
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:01:17,718 | server.py:222 | fit_round 4: strategy sampled 2 clients (out of 2)                                                                     
+client3-1-1  | 2025-03-09 18:01:17 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1-1  | 2025-03-09 18:01:17 [INFO] Client 1 - Pre-Training - CPU: 69.9% | TX: 0.00 MB | Energy: 3.50 J/s
+client3-1-1  | 2025-03-09 18:01:17 [INFO] Client 3 - Starting fit with 1 local epochs                                                                                                      
+client1-1-1  | 2025-03-09 18:01:17 [INFO] Client 1 - Starting fit with 1 local epochs                                                                                                      
+client2-1-1  | 2025-03-09 18:01:20 [INFO] Client 2 - Attempt 2/10 to connect to edge0-1-1:8080                                                                                             
+client2-1-1  | 2025-03-09 18:01:20 [INFO] Client 2 - Using device: cpu
+client2-1-1  | INFO flwr 2025-03-09 18:01:20,257 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)                                                              
+client2-1-1  | DEBUG flwr 2025-03-09 18:01:20,296 | connection.py:42 | ChannelConnectivity.IDLE
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:01:20,327 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+client2-1-1  | DEBUG flwr 2025-03-09 18:01:20,337 | connection.py:42 | ChannelConnectivity.READY
+client2-1-1  | 2025-03-09 18:01:20 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1-1  | 2025-03-09 18:01:20 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1-1  | 2025-03-09 18:01:43 [INFO] Client 0 - Evaluation - Loss: 39.0041, Accuracy: 0.8444                                                                                          
+client2-1-1  | 2025-03-09 18:01:43 [INFO] Client 2 - Evaluation - Loss: 39.0041, Accuracy: 0.8444
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:01:43,408 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:01:43,408 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)                                                                     
+client2-1-1  | 2025-03-09 18:01:43 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client2-1-1  | 2025-03-09 18:01:43 [INFO] Client 2 - Starting fit with 1 local epochs
+client0-1-1  | 2025-03-09 18:01:43 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client0-1-1  | 2025-03-09 18:01:43 [INFO] Client 0 - Starting fit with 1 local epochs                                                                                                      
+client3-1-1  | 2025-03-09 18:02:52 [INFO] Client 3 - Post-Training (took 94.75s) - CPU: 87.0% | TX: 0.00 MB | Energy: 4.35 J/s                                                             
+client3-1-1  | 2025-03-09 18:02:52 [INFO] Client 3 - Fit completed - Loss: 0.1871, Accuracy: 0.9437
+client1-1-1  | 2025-03-09 18:02:52 [INFO] Client 1 - Post-Training (took 95.26s) - CPU: 95.5% | TX: 0.00 MB | Energy: 4.78 J/s                                                             
+client1-1-1  | 2025-03-09 18:02:52 [INFO] Client 1 - Fit completed - Loss: 0.2056, Accuracy: 0.9391
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:02:52,835 | server.py:236 | fit_round 4 received 2 results and 0 failures                                                                          
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:02:52,838 | server.py:173 | evaluate_round 4: strategy sampled 2 clients (out of 2)                                                                
+client1-1-1  | 2025-03-09 18:02:52 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client3-1-1  | 2025-03-09 18:02:52 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1-1  | 2025-03-09 18:03:16 [INFO] Client 1 - Evaluation - Loss: 10.9116, Accuracy: 0.9584                                                                                          
+client3-1-1  | 2025-03-09 18:03:16 [INFO] Client 3 - Evaluation - Loss: 10.9116, Accuracy: 0.9584
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:03:16,878 | server.py:187 | evaluate_round 4 received 2 results and 0 failures
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:03:16,878 | server.py:222 | fit_round 5: strategy sampled 2 clients (out of 2)                                                                     
+client1-1-1  | 2025-03-09 18:03:16 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client1-1-1  | 2025-03-09 18:03:16 [INFO] Client 1 - Starting fit with 1 local epochs
+client3-1-1  | 2025-03-09 18:03:17 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client3-1-1  | 2025-03-09 18:03:17 [INFO] Client 3 - Starting fit with 1 local epochs
+client2-1-1  | 2025-03-09 18:05:56 [INFO] Client 2 - Post-Training (took 254.08s) - CPU: 79.8% | TX: 0.00 MB | Energy: 3.99 J/s                                                            
+client2-1-1  | 2025-03-09 18:05:56 [INFO] Client 2 - Fit completed - Loss: 0.3859, Accuracy: 0.8825
+client0-1-1  | 2025-03-09 18:05:57 [INFO] Client 0 - Post-Training (took 254.71s) - CPU: 103.4% | TX: 0.00 MB | Energy: 5.17 J/s                                                           
+client0-1-1  | 2025-03-09 18:05:57 [INFO] Client 0 - Fit completed - Loss: 0.3782, Accuracy: 0.8846
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:05:57,255 | server.py:236 | fit_round 2 received 2 results and 0 failures                                                                          
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:05:57,257 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)                                                                
+client0-1-1  | 2025-03-09 18:05:57 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client2-1-1  | 2025-03-09 18:05:57 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1-1  | 2025-03-09 18:06:20 [INFO] Client 0 - Evaluation - Loss: 20.0759, Accuracy: 0.9268                                                                                          
+client2-1-1  | 2025-03-09 18:06:20 [INFO] Client 2 - Evaluation - Loss: 20.0759, Accuracy: 0.9268
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:06:20,962 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:06:20,962 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)                                                                     
+client2-1-1  | 2025-03-09 18:06:21 [INFO] Client 2 - Pre-Training - CPU: 29.6% | TX: 0.00 MB | Energy: 1.48 J/s                                                                            
+client2-1-1  | 2025-03-09 18:06:21 [INFO] Client 2 - Starting fit with 1 local epochs
+client0-1-1  | 2025-03-09 18:06:21 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client0-1-1  | 2025-03-09 18:06:21 [INFO] Client 0 - Starting fit with 1 local epochs                                                                                                      
+client1-1-1  | 2025-03-09 18:07:27 [INFO] Client 1 - Post-Training (took 251.47s) - CPU: 73.0% | TX: 0.00 MB | Energy: 3.65 J/s                                                            
+client1-1-1  | 2025-03-09 18:07:27 [INFO] Client 1 - Fit completed - Loss: 0.1694, Accuracy: 0.9504
+client3-1-1  | 2025-03-09 18:07:31 [INFO] Client 3 - Post-Training (took 255.64s) - CPU: 99.7% | TX: 0.00 MB | Energy: 4.99 J/s                                                            
+client3-1-1  | 2025-03-09 18:07:31 [INFO] Client 3 - Fit completed - Loss: 0.1513, Accuracy: 0.9520
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:07:31,776 | server.py:236 | fit_round 5 received 2 results and 0 failures                                                                          
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:07:31,780 | server.py:173 | evaluate_round 5: strategy sampled 2 clients (out of 2)                                                                
+client1-1-1  | 2025-03-09 18:07:31 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client3-1-1  | 2025-03-09 18:07:31 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1-1  | 2025-03-09 18:07:55 [INFO] Client 1 - Evaluation - Loss: 9.3679, Accuracy: 0.9633                                                                                           
+client3-1-1  | 2025-03-09 18:07:55 [INFO] Client 3 - Evaluation - Loss: 9.3679, Accuracy: 0.9633
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:07:55,748 | server.py:187 | evaluate_round 5 received 2 results and 0 failures
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:07:55,748 | server.py:222 | fit_round 6: strategy sampled 2 clients (out of 2)                                                                     
+client1-1-1  | 2025-03-09 18:07:55 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client1-1-1  | 2025-03-09 18:07:55 [INFO] Client 1 - Starting fit with 1 local epochs
+client3-1-1  | 2025-03-09 18:07:55 [INFO] Client 3 - Pre-Training - CPU: 28.8% | TX: 0.00 MB | Energy: 1.44 J/s                                                                            
+client3-1-1  | 2025-03-09 18:07:55 [INFO] Client 3 - Starting fit with 1 local epochs                                                                                                      
+client2-1-1  | 2025-03-09 18:09:53 [INFO] Client 2 - Post-Training (took 213.15s) - CPU: 93.3% | TX: 0.00 MB | Energy: 4.67 J/s
+client2-1-1  | 2025-03-09 18:09:53 [INFO] Client 2 - Fit completed - Loss: 0.2603, Accuracy: 0.9210
+client0-1-1  | 2025-03-09 18:09:54 [INFO] Client 0 - Post-Training (took 214.58s) - CPU: 119.1% | TX: 0.00 MB | Energy: 5.96 J/s                                                           
+client0-1-1  | 2025-03-09 18:09:54 [INFO] Client 0 - Fit completed - Loss: 0.2525, Accuracy: 0.9234
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:09:54,681 | server.py:236 | fit_round 3 received 2 results and 0 failures                                                                          
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:09:54,683 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+client0-1-1  | 2025-03-09 18:09:54 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client2-1-1  | 2025-03-09 18:09:54 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1-1  | 2025-03-09 18:10:17 [INFO] Client 2 - Evaluation - Loss: 15.7339, Accuracy: 0.9367                                                                                          
+client0-1-1  | 2025-03-09 18:10:18 [INFO] Client 0 - Evaluation - Loss: 15.7339, Accuracy: 0.9367
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:10:18,219 | server.py:187 | evaluate_round 3 received 2 results and 0 failures
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:10:18,219 | server.py:222 | fit_round 4: strategy sampled 2 clients (out of 2)                                                                     
+client0-1-1  | 2025-03-09 18:10:18 [INFO] Client 0 - Pre-Training - CPU: 79.2% | TX: 0.00 MB | Energy: 3.96 J/s                                                                            
+client0-1-1  | 2025-03-09 18:10:18 [INFO] Client 0 - Starting fit with 1 local epochs
+client2-1-1  | 2025-03-09 18:10:18 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client2-1-1  | 2025-03-09 18:10:18 [INFO] Client 2 - Starting fit with 1 local epochs                                                                                                      
+client1-1-1  | 2025-03-09 18:11:51 [INFO] Client 1 - Post-Training (took 236.79s) - CPU: 89.8% | TX: 0.00 MB | Energy: 4.49 J/s                                                            
+client1-1-1  | 2025-03-09 18:11:51 [INFO] Client 1 - Fit completed - Loss: 0.1431, Accuracy: 0.9550
+client3-1-1  | 2025-03-09 18:11:53 [INFO] Client 3 - Post-Training (took 238.71s) - CPU: 93.4% | TX: 0.00 MB | Energy: 4.67 J/s                                                            
+client3-1-1  | 2025-03-09 18:11:53 [INFO] Client 3 - Fit completed - Loss: 0.1298, Accuracy: 0.9613
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:11:53,477 | server.py:236 | fit_round 6 received 2 results and 0 failures                                                                          
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:11:53,478 | server.py:173 | evaluate_round 6: strategy sampled 2 clients (out of 2)
+client1-1-1  | 2025-03-09 18:11:53 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client3-1-1  | 2025-03-09 18:11:53 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1-1  | 2025-03-09 18:12:15 [INFO] Client 1 - Evaluation - Loss: 8.1572, Accuracy: 0.9677                                                                                           
+client3-1-1  | 2025-03-09 18:12:16 [INFO] Client 3 - Evaluation - Loss: 8.1572, Accuracy: 0.9677
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:12:16,224 | server.py:187 | evaluate_round 6 received 2 results and 0 failures
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:12:16,224 | server.py:222 | fit_round 7: strategy sampled 2 clients (out of 2)                                                                     
+client1-1-1  | 2025-03-09 18:12:16 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client1-1-1  | 2025-03-09 18:12:16 [INFO] Client 1 - Starting fit with 1 local epochs
+client3-1-1  | 2025-03-09 18:12:16 [INFO] Client 3 - Pre-Training - CPU: 46.5% | TX: 0.00 MB | Energy: 2.33 J/s                                                                            
+client3-1-1  | 2025-03-09 18:12:16 [INFO] Client 3 - Starting fit with 1 local epochs                                                                                                      
+client2-1-1  | 2025-03-09 18:14:00 [INFO] Client 2 - Post-Training (took 222.61s) - CPU: 39.3% | TX: 0.00 MB | Energy: 1.97 J/s
+client2-1-1  | 2025-03-09 18:14:00 [INFO] Client 2 - Fit completed - Loss: 0.1982, Accuracy: 0.9397
+client0-1-1  | 2025-03-09 18:14:01 [INFO] Client 0 - Post-Training (took 223.50s) - CPU: 88.0% | TX: 0.00 MB | Energy: 4.40 J/s                                                            
+client0-1-1  | 2025-03-09 18:14:01 [INFO] Client 0 - Fit completed - Loss: 0.1927, Accuracy: 0.9402
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:14:01,090 | server.py:236 | fit_round 4 received 2 results and 0 failures                                                                          
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:14:01,091 | server.py:173 | evaluate_round 4: strategy sampled 2 clients (out of 2)
+client2-1-1  | 2025-03-09 18:14:01 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client0-1-1  | 2025-03-09 18:14:01 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1-1  | 2025-03-09 18:14:25 [INFO] Client 0 - Evaluation - Loss: 11.7831, Accuracy: 0.9546                                                                                          
+client2-1-1  | 2025-03-09 18:14:25 [INFO] Client 2 - Evaluation - Loss: 11.7831, Accuracy: 0.9546
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:14:25,989 | server.py:187 | evaluate_round 4 received 2 results and 0 failures
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:14:25,989 | server.py:222 | fit_round 5: strategy sampled 2 clients (out of 2)                                                                     
+client0-1-1  | 2025-03-09 18:14:26 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client2-1-1  | 2025-03-09 18:14:26 [INFO] Client 2 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s
+client0-1-1  | 2025-03-09 18:14:26 [INFO] Client 0 - Starting fit with 1 local epochs                                                                                                      
+client2-1-1  | 2025-03-09 18:14:26 [INFO] Client 2 - Starting fit with 1 local epochs                                                                                                      
+client3-1-1  | 2025-03-09 18:16:30 [INFO] Client 3 - Post-Training (took 255.10s) - CPU: 89.8% | TX: 0.00 MB | Energy: 4.49 J/s                                                            
+client3-1-1  | 2025-03-09 18:16:30 [INFO] Client 3 - Fit completed - Loss: 0.1125, Accuracy: 0.9644
+client1-1-1  | 2025-03-09 18:16:30 [INFO] Client 1 - Post-Training (took 255.17s) - CPU: 106.5% | TX: 0.00 MB | Energy: 5.33 J/s                                                           
+client1-1-1  | 2025-03-09 18:16:30 [INFO] Client 1 - Fit completed - Loss: 0.1266, Accuracy: 0.9634
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:16:30,653 | server.py:236 | fit_round 7 received 2 results and 0 failures                                                                          
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:16:30,655 | server.py:173 | evaluate_round 7: strategy sampled 2 clients (out of 2)                                                                
+client3-1-1  | 2025-03-09 18:16:30 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client1-1-1  | 2025-03-09 18:16:30 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1-1  | 2025-03-09 18:16:52 [INFO] Client 1 - Evaluation - Loss: 7.0488, Accuracy: 0.9709
+client3-1-1  | 2025-03-09 18:16:53 [INFO] Client 3 - Evaluation - Loss: 7.0488, Accuracy: 0.9709
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:16:53,019 | server.py:187 | evaluate_round 7 received 2 results and 0 failures
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:16:53,020 | server.py:222 | fit_round 8: strategy sampled 2 clients (out of 2)                                                                     
+client3-1-1  | 2025-03-09 18:16:53 [INFO] Client 3 - Pre-Training - CPU: 67.2% | TX: 0.00 MB | Energy: 3.36 J/s                                                                            
+client3-1-1  | 2025-03-09 18:16:53 [INFO] Client 3 - Starting fit with 1 local epochs
+client1-1-1  | 2025-03-09 18:16:53 [INFO] Client 1 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                                            
+client1-1-1  | 2025-03-09 18:16:53 [INFO] Client 1 - Starting fit with 1 local epochs                                                                                                      
+client0-1-1  | 2025-03-09 18:18:36 [INFO] Client 0 - Post-Training (took 251.62s) - CPU: 83.3% | TX: 0.00 MB | Energy: 4.17 J/s                                                            
+client0-1-1  | 2025-03-09 18:18:36 [INFO] Client 0 - Fit completed - Loss: 0.1511, Accuracy: 0.9539
+client2-1-1  | 2025-03-09 18:18:40 [INFO] Client 2 - Post-Training (took 255.53s) - CPU: 84.7% | TX: 0.00 MB | Energy: 4.24 J/s                                                            
+client2-1-1  | 2025-03-09 18:18:40 [INFO] Client 2 - Fit completed - Loss: 0.1617, Accuracy: 0.9520
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:18:40,783 | server.py:236 | fit_round 5 received 2 results and 0 failures                                                                          
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:18:40,785 | server.py:173 | evaluate_round 5: strategy sampled 2 clients (out of 2)                                                                
+client2-1-1  | 2025-03-09 18:18:40 [INFO] Client 2 - Pre-Evaluation - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                                          
+client0-1-1  | 2025-03-09 18:18:40 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1-1  | 2025-03-09 18:19:04 [INFO] Client 0 - Evaluation - Loss: 9.4415, Accuracy: 0.9641                                                                                           
+client2-1-1  | 2025-03-09 18:19:04 [INFO] Client 2 - Evaluation - Loss: 9.4415, Accuracy: 0.9641
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:19:04,226 | server.py:187 | evaluate_round 5 received 2 results and 0 failures
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:19:04,226 | server.py:222 | fit_round 6: strategy sampled 2 clients (out of 2)
+client0-1-1  | 2025-03-09 18:19:04 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client0-1-1  | 2025-03-09 18:19:04 [INFO] Client 0 - Starting fit with 1 local epochs
+client2-1-1  | 2025-03-09 18:19:04 [INFO] Client 2 - Pre-Training - CPU: 20.0% | TX: 0.00 MB | Energy: 1.00 J/s                                                                            
+client2-1-1  | 2025-03-09 18:19:04 [INFO] Client 2 - Starting fit with 1 local epochs                                                                                                      
+client1-1-1  | 2025-03-09 18:20:11 [INFO] Client 1 - Post-Training (took 199.07s) - CPU: 127.3% | TX: 0.00 MB | Energy: 6.37 J/s                                                           
+client1-1-1  | 2025-03-09 18:20:11 [INFO] Client 1 - Fit completed - Loss: 0.1132, Accuracy: 0.9656
+client3-1-1  | 2025-03-09 18:20:13 [INFO] Client 3 - Post-Training (took 201.38s) - CPU: 109.8% | TX: 0.00 MB | Energy: 5.49 J/s                                                           
+client3-1-1  | 2025-03-09 18:20:13 [INFO] Client 3 - Fit completed - Loss: 0.1013, Accuracy: 0.9690
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:20:13,751 | server.py:236 | fit_round 8 received 2 results and 0 failures                                                                          
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:20:13,753 | server.py:173 | evaluate_round 8: strategy sampled 2 clients (out of 2)                                                                
+client1-1-1  | 2025-03-09 18:20:13 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1-1  | 2025-03-09 18:20:13 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1-1  | 2025-03-09 18:20:36 [INFO] Client 3 - Evaluation - Loss: 6.9902, Accuracy: 0.9720                                                                                           
+client1-1-1  | 2025-03-09 18:20:37 [INFO] Client 1 - Evaluation - Loss: 6.9902, Accuracy: 0.9720
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:20:37,774 | server.py:187 | evaluate_round 8 received 2 results and 0 failures
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:20:37,774 | server.py:222 | fit_round 9: strategy sampled 2 clients (out of 2)                                                                     
+client3-1-1  | 2025-03-09 18:20:37 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client3-1-1  | 2025-03-09 18:20:37 [INFO] Client 3 - Starting fit with 1 local epochs
+client1-1-1  | 2025-03-09 18:20:37 [INFO] Client 1 - Pre-Training - CPU: 9.4% | TX: 0.00 MB | Energy: 0.47 J/s                                                                             
+client1-1-1  | 2025-03-09 18:20:37 [INFO] Client 1 - Starting fit with 1 local epochs
+client0-1-1  | 2025-03-09 18:22:52 [INFO] Client 0 - Post-Training (took 229.46s) - CPU: 64.5% | TX: 0.00 MB | Energy: 3.23 J/s                                                            
+client0-1-1  | 2025-03-09 18:22:52 [INFO] Client 0 - Fit completed - Loss: 0.1258, Accuracy: 0.9607
+client2-1-1  | 2025-03-09 18:22:53 [INFO] Client 2 - Post-Training (took 229.62s) - CPU: 139.6% | TX: 0.00 MB | Energy: 6.98 J/s                                                           
+client2-1-1  | 2025-03-09 18:22:53 [INFO] Client 2 - Fit completed - Loss: 0.1350, Accuracy: 0.9610
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:22:53,112 | server.py:236 | fit_round 6 received 2 results and 0 failures                                                                          
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:22:53,113 | server.py:173 | evaluate_round 6: strategy sampled 2 clients (out of 2)                                                                
+client0-1-1  | 2025-03-09 18:22:53 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client2-1-1  | 2025-03-09 18:22:53 [INFO] Client 2 - Pre-Evaluation - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s
+client2-1-1  | 2025-03-09 18:23:15 [INFO] Client 2 - Evaluation - Loss: 8.8728, Accuracy: 0.9640
+client0-1-1  | 2025-03-09 18:23:16 [INFO] Client 0 - Evaluation - Loss: 8.8728, Accuracy: 0.9640
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:23:16,208 | server.py:187 | evaluate_round 6 received 2 results and 0 failures
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:23:16,208 | server.py:222 | fit_round 7: strategy sampled 2 clients (out of 2)                                                                     
+client2-1-1  | 2025-03-09 18:23:16 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client2-1-1  | 2025-03-09 18:23:16 [INFO] Client 2 - Starting fit with 1 local epochs
+client0-1-1  | 2025-03-09 18:23:16 [INFO] Client 0 - Pre-Training - CPU: 49.2% | TX: 0.00 MB | Energy: 2.46 J/s                                                                            
+client0-1-1  | 2025-03-09 18:23:16 [INFO] Client 0 - Starting fit with 1 local epochs                                                                                                      
+client3-1-1  | 2025-03-09 18:25:22 [INFO] Client 3 - Post-Training (took 285.99s) - CPU: 79.8% | TX: 0.00 MB | Energy: 3.99 J/s                                                            
+client3-1-1  | 2025-03-09 18:25:22 [INFO] Client 3 - Fit completed - Loss: 0.0921, Accuracy: 0.9714
+client1-1-1  | 2025-03-09 18:25:23 [INFO] Client 1 - Post-Training (took 286.59s) - CPU: 109.7% | TX: 0.00 MB | Energy: 5.49 J/s                                                           
+client1-1-1  | 2025-03-09 18:25:23 [INFO] Client 1 - Fit completed - Loss: 0.1030, Accuracy: 0.9684
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:25:23,382 | server.py:236 | fit_round 9 received 2 results and 0 failures                                                                          
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:25:23,383 | server.py:173 | evaluate_round 9: strategy sampled 2 clients (out of 2)                                                                
+client3-1-1  | 2025-03-09 18:25:23 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client1-1-1  | 2025-03-09 18:25:23 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1-1  | 2025-03-09 18:25:45 [INFO] Client 3 - Evaluation - Loss: 6.1037, Accuracy: 0.9757                                                                                           
+client1-1-1  | 2025-03-09 18:25:45 [INFO] Client 1 - Evaluation - Loss: 6.1037, Accuracy: 0.9757
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:25:45,638 | server.py:187 | evaluate_round 9 received 2 results and 0 failures
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:25:45,638 | server.py:222 | fit_round 10: strategy sampled 2 clients (out of 2)                                                                    
+client1-1-1  | 2025-03-09 18:25:45 [INFO] Client 1 - Pre-Training - CPU: 65.1% | TX: 0.00 MB | Energy: 3.25 J/s                                                                            
+client3-1-1  | 2025-03-09 18:25:45 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1-1  | 2025-03-09 18:25:45 [INFO] Client 1 - Starting fit with 1 local epochs                                                                                                      
+client3-1-1  | 2025-03-09 18:25:45 [INFO] Client 3 - Starting fit with 1 local epochs                                                                                                      
+client0-1-1  | 2025-03-09 18:27:34 [INFO] Client 0 - Post-Training (took 259.39s) - CPU: 38.2% | TX: 0.00 MB | Energy: 1.91 J/s                                                            
+client0-1-1  | 2025-03-09 18:27:34 [INFO] Client 0 - Fit completed - Loss: 0.1098, Accuracy: 0.9644
+client2-1-1  | 2025-03-09 18:27:35 [INFO] Client 2 - Post-Training (took 260.47s) - CPU: 82.0% | TX: 0.00 MB | Energy: 4.10 J/s                                                            
+client2-1-1  | 2025-03-09 18:27:35 [INFO] Client 2 - Fit completed - Loss: 0.1192, Accuracy: 0.9641
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:27:35,922 | server.py:236 | fit_round 7 received 2 results and 0 failures                                                                          
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:27:35,923 | server.py:173 | evaluate_round 7: strategy sampled 2 clients (out of 2)                                                                
+client0-1-1  | 2025-03-09 18:27:36 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client2-1-1  | 2025-03-09 18:27:36 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1-1  | 2025-03-09 18:27:59 [INFO] Client 0 - Evaluation - Loss: 7.5691, Accuracy: 0.9689                                                                                           
+client2-1-1  | 2025-03-09 18:27:59 [INFO] Client 2 - Evaluation - Loss: 7.5691, Accuracy: 0.9689
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:27:59,507 | server.py:187 | evaluate_round 7 received 2 results and 0 failures
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:27:59,507 | server.py:222 | fit_round 8: strategy sampled 2 clients (out of 2)                                                                     
+client0-1-1  | 2025-03-09 18:27:59 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                             
+client0-1-1  | 2025-03-09 18:27:59 [INFO] Client 0 - Starting fit with 1 local epochs
+client2-1-1  | 2025-03-09 18:27:59 [INFO] Client 2 - Pre-Training - CPU: 9.6% | TX: 0.00 MB | Energy: 0.48 J/s                                                                             
+client2-1-1  | 2025-03-09 18:27:59 [INFO] Client 2 - Starting fit with 1 local epochs
+client1-1-1  | 2025-03-09 18:29:55 [INFO] Client 1 - Post-Training (took 250.24s) - CPU: 45.6% | TX: 0.00 MB | Energy: 2.28 J/s                                                            
+client1-1-1  | 2025-03-09 18:29:55 [INFO] Client 1 - Fit completed - Loss: 0.0967, Accuracy: 0.9704
+client3-1-1  | 2025-03-09 18:29:55 [INFO] Client 3 - Post-Training (took 251.04s) - CPU: 126.1% | TX: 0.00 MB | Energy: 6.30 J/s                                                           
+client3-1-1  | 2025-03-09 18:29:55 [INFO] Client 3 - Fit completed - Loss: 0.0857, Accuracy: 0.9740
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:29:55,952 | server.py:236 | fit_round 10 received 2 results and 0 failures                                                                         
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:29:55,955 | server.py:173 | evaluate_round 10: strategy sampled 2 clients (out of 2)
+client1-1-1  | 2025-03-09 18:29:56 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client3-1-1  | 2025-03-09 18:29:56 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1-1  | 2025-03-09 18:30:19 [INFO] Client 3 - Evaluation - Loss: 6.6335, Accuracy: 0.9745                                                                                           
+client1-1-1  | 2025-03-09 18:30:19 [INFO] Client 1 - Evaluation - Loss: 6.6335, Accuracy: 0.9745
+edge1-1-1-1  | DEBUG flwr 2025-03-09 18:30:19,458 | server.py:187 | evaluate_round 10 received 2 results and 0 failures
+edge1-1-1-1  | INFO flwr 2025-03-09 18:30:19,458 | server.py:153 | FL finished in 1905.2417158309981                                                                                       
+edge1-1-1-1  | INFO flwr 2025-03-09 18:30:19,458 | app.py:225 | app_fit: losses_distributed [(1, 36.54134750366211), (2, 20.169286727905273), (3, 14.658374786376953), (4, 10.911556243896484), (5, 9.367877960205078), (6, 8.157170295715332), (7, 7.048792839050293), (8, 6.990180492401123), (9, 6.103708267211914), (10, 6.633494853973389)]                                      
+edge1-1-1-1  | INFO flwr 2025-03-09 18:30:19,458 | app.py:226 | app_fit: metrics_distributed_fit {'loss': [(1, 1.3608908238533832), (2, 0.3871861144467764), (3, 0.25678164351696225), (4, 0.19632626978362694), (5, 0.16033801974914086), (6, 0.13644375763579727), (7, 0.11959540384647246), (8, 0.10723651991991583), (9, 0.09752754806745048), (10, 0.09116820664993615)], 'accuracy': [(1, 0.5861111111111111), (2, 0.8817777777777778), (3, 0.9232222222222223), (4, 0.9414074074074074), (5, 0.9512222222222222), (6, 0.9581111111111111), (7, 0.963925925925926), (8, 0.9672962962962963), (9, 0.9698888888888889), (10, 0.9722222222222222)]}
+edge1-1-1-1  | INFO flwr 2025-03-09 18:30:19,458 | app.py:227 | app_fit: metrics_distributed {'accuracy': [(1, 0.8577), (2, 0.9227), (3, 0.9429), (4, 0.9584), (5, 0.9633), (6, 0.9677), (7, 0.9709), (8, 0.972), (9, 0.9757), (10, 0.9745)]}                                                                                                                                         
+client3-1-1  | DEBUG flwr 2025-03-09 18:30:19,468 | connection.py:139 | gRPC channel closed
+client1-1-1  | DEBUG flwr 2025-03-09 18:30:19,469 | connection.py:139 | gRPC channel closed                                                                                                
+edge1-1-1-1  | INFO flwr 2025-03-09 18:30:19,458 | app.py:228 | app_fit: losses_centralized []                                                                                             
+client3-1-1  | INFO flwr 2025-03-09 18:30:19,468 | app.py:215 | Disconnect and shut down                                                                                                   
+client1-1-1  | INFO flwr 2025-03-09 18:30:19,470 | app.py:215 | Disconnect and shut down
+edge1-1-1-1  | INFO flwr 2025-03-09 18:30:19,458 | app.py:229 | app_fit: metrics_centralized {}                                                                                            
+client1-1-1  | Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz                                                                                                     
+client1-1-1  | Failed to download (trying next):                                                                                                                                           
+client1-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client3-1-1  | Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz                                                                                                     
+client1-1-1  | 
+edge1-1-1-1  | WARNING: All log messages before absl::InitializeLog() is called are written to STDERR                                                                                      
+client3-1-1  | Failed to download (trying next):                                                                                                                                           
+client1-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz                                                                                        
+edge1-1-1-1  | I0000 00:00:1741545019.500124      42 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                                             
+client3-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client1-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz                                         
+client3-1-1  |                                                                                                                                                                             
+client1-1-1  | Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw                                                                                                  
+client3-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz                                                                                        
+client1-1-1  |                                                                                                                                                                             
+client3-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz
+client1-1-1  | Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz                                                                                                     
+client3-1-1  | Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw                                                                                                  
+client1-1-1  | Failed to download (trying next):
+client3-1-1  |                                                                                                                                                                             
+client1-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client3-1-1  | Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz                                                                                                     
+client1-1-1  |                                                                                                                                                                             
+client3-1-1  | Failed to download (trying next):
+client1-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz                                                                                        
+client3-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client1-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz                                         
+client3-1-1  |                                                                                                                                                                             
+client1-1-1  | Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw                                                                                                  
+client3-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz                                                                                        
+client1-1-1  |                                                                                                                                                                             
+client3-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz
+client1-1-1  | Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz                                                                                                      
+client3-1-1  | Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw                                                                                                  
+client1-1-1  | Failed to download (trying next):                                                                                                                                           
+client3-1-1  | 
+client1-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client3-1-1  | Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz                                                                                                      
+edge1-1-1-1  | 2025-03-09 18:30:19 [INFO] Edge 1 - Post-Aggregation (took 1907.69s) - CPU: 8.0% | TX: 3.61 MB | Energy: 0.80 J/s                                                           
+client1-1-1  | 
+client3-1-1  | Failed to download (trying next):                                                                                                                                           
+client1-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz                                                                                         
+client3-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client1-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz                                           
+client3-1-1  |                                                                                                                                                                             
+client1-1-1  | Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw
+client3-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz                                                                                         
+client1-1-1  |                                                                                                                                                                             
+client3-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz                                           
+client1-1-1  | Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz                                                                                                      
+client3-1-1  | Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw
+client1-1-1  | Failed to download (trying next):                                                                                                                                           
+client3-1-1  |                                                                                                                                                                             
+client1-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client3-1-1  | Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz                                                                                                      
+client1-1-1  | 
+client3-1-1  | Failed to download (trying next):                                                                                                                                           
+client1-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz                                                                                         
+client3-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client1-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz                                           
+client3-1-1  |                                                                                                                                                                             
+client1-1-1  | Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw
+client3-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz                                                                                         
+client1-1-1  |                                                                                                                                                                             
+client3-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz                                           
+client3-1-1  | Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw
+client3-1-1  |                                                                                                                                                                             
+client0-1-1  | 2025-03-09 18:30:21 [INFO] Client 0 - Post-Training (took 142.29s) - CPU: 109.7% | TX: 0.00 MB | Energy: 5.49 J/s                                                           
+client0-1-1  | 2025-03-09 18:30:21 [INFO] Client 0 - Fit completed - Loss: 0.0976, Accuracy: 0.9693
+client3-1-1 exited with code 0
+client1-1-1 exited with code 0
+client2-1-1  | 2025-03-09 18:30:21 [INFO] Client 2 - Post-Training (took 142.58s) - CPU: 89.8% | TX: 0.00 MB | Energy: 4.49 J/s
+client2-1-1  | 2025-03-09 18:30:21 [INFO] Client 2 - Fit completed - Loss: 0.1046, Accuracy: 0.9689
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:21,706 | server.py:236 | fit_round 8 received 2 results and 0 failures                                                                          
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:21,707 | server.py:173 | evaluate_round 8: strategy sampled 2 clients (out of 2)                                                                
+client2-1-1  | 2025-03-09 18:30:21 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client0-1-1  | 2025-03-09 18:30:21 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1-1  | 2025-03-09 18:30:23 [INFO] Client 0 - Evaluation - Loss: 6.7183, Accuracy: 0.9729                                                                                           
+client2-1-1  | 2025-03-09 18:30:23 [INFO] Client 2 - Evaluation - Loss: 6.7183, Accuracy: 0.9729
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:23,315 | server.py:187 | evaluate_round 8 received 2 results and 0 failures
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:23,315 | server.py:222 | fit_round 9: strategy sampled 2 clients (out of 2)                                                                     
+client2-1-1  | 2025-03-09 18:30:23 [INFO] Client 2 - Pre-Training - CPU: 99.4% | TX: 0.00 MB | Energy: 4.97 J/s                                                                            
+client2-1-1  | 2025-03-09 18:30:23 [INFO] Client 2 - Starting fit with 1 local epochs
+client0-1-1  | 2025-03-09 18:30:23 [INFO] Client 0 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                                            
+client0-1-1  | 2025-03-09 18:30:23 [INFO] Client 0 - Starting fit with 1 local epochs
+client0-1-1  | 2025-03-09 18:30:26 [INFO] Client 0 - Post-Training (took 2.83s) - CPU: 109.6% | TX: 0.00 MB | Energy: 5.48 J/s                                                             
+client0-1-1  | 2025-03-09 18:30:26 [INFO] Client 0 - Fit completed - Loss: 0.0866, Accuracy: 0.9732
+client2-1-1  | 2025-03-09 18:30:26 [INFO] Client 2 - Post-Training (took 2.88s) - CPU: 119.6% | TX: 0.00 MB | Energy: 5.98 J/s                                                             
+client2-1-1  | 2025-03-09 18:30:26 [INFO] Client 2 - Fit completed - Loss: 0.0962, Accuracy: 0.9706
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:26,399 | server.py:236 | fit_round 9 received 2 results and 0 failures                                                                          
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:26,400 | server.py:173 | evaluate_round 9: strategy sampled 2 clients (out of 2)                                                                
+client2-1-1  | 2025-03-09 18:30:26 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client0-1-1  | 2025-03-09 18:30:26 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1-1  | 2025-03-09 18:30:27 [INFO] Client 0 - Evaluation - Loss: 6.0229, Accuracy: 0.9759                                                                                           
+client2-1-1  | 2025-03-09 18:30:27 [INFO] Client 2 - Evaluation - Loss: 6.0229, Accuracy: 0.9759
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:27,891 | server.py:187 | evaluate_round 9 received 2 results and 0 failures                                                                     
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:27,891 | server.py:222 | fit_round 10: strategy sampled 2 clients (out of 2)                                                                    
+client0-1-1  | 2025-03-09 18:30:27 [INFO] Client 0 - Pre-Training - CPU: 39.8% | TX: 0.00 MB | Energy: 1.99 J/s                                                                            
+client0-1-1  | 2025-03-09 18:30:27 [INFO] Client 0 - Starting fit with 1 local epochs
+client2-1-1  | 2025-03-09 18:30:27 [INFO] Client 2 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                                            
+client2-1-1  | 2025-03-09 18:30:27 [INFO] Client 2 - Starting fit with 1 local epochs                                                                                                      
+client0-1-1  | 2025-03-09 18:30:31 [INFO] Client 0 - Post-Training (took 3.28s) - CPU: 119.7% | TX: 0.00 MB | Energy: 5.99 J/s
+client0-1-1  | 2025-03-09 18:30:31 [INFO] Client 0 - Fit completed - Loss: 0.0789, Accuracy: 0.9756
+client2-1-1  | 2025-03-09 18:30:31 [INFO] Client 2 - Post-Training (took 3.37s) - CPU: 138.4% | TX: 0.00 MB | Energy: 6.92 J/s                                                             
+client2-1-1  | 2025-03-09 18:30:31 [INFO] Client 2 - Fit completed - Loss: 0.0880, Accuracy: 0.9733
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:31,472 | server.py:236 | fit_round 10 received 2 results and 0 failures                                                                         
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:31,474 | server.py:173 | evaluate_round 10: strategy sampled 2 clients (out of 2)                                                               
+client0-1-1  | 2025-03-09 18:30:31 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                           
+client2-1-1  | 2025-03-09 18:30:31 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1-1  | 2025-03-09 18:30:33 [INFO] Client 0 - Evaluation - Loss: 5.9276, Accuracy: 0.9749                                                                                           
+client2-1-1  | 2025-03-09 18:30:33 [INFO] Client 2 - Evaluation - Loss: 5.9276, Accuracy: 0.9749
+edge0-1-1-1  | DEBUG flwr 2025-03-09 18:30:33,027 | server.py:187 | evaluate_round 10 received 2 results and 0 failures                                                                    
+edge0-1-1-1  | INFO flwr 2025-03-09 18:30:33,027 | server.py:153 | FL finished in 1919.2239344599984                                                                                       
+client0-1-1  | DEBUG flwr 2025-03-09 18:30:33,030 | connection.py:139 | gRPC channel closed
+client2-1-1  | DEBUG flwr 2025-03-09 18:30:33,030 | connection.py:139 | gRPC channel closed                                                                                                
+edge0-1-1-1  | INFO flwr 2025-03-09 18:30:33,027 | app.py:225 | app_fit: losses_distributed [(1, 39.00413131713867), (2, 20.075944900512695), (3, 15.733935356140137), (4, 11.783063888549805), (5, 9.441454887390137), (6, 8.87278938293457), (7, 7.569051265716553), (8, 6.718283653259277), (9, 6.022916316986084), (10, 5.927578926086426)]                                       
+client0-1-1  | INFO flwr 2025-03-09 18:30:33,030 | app.py:215 | Disconnect and shut down
+client2-1-1  | INFO flwr 2025-03-09 18:30:33,031 | app.py:215 | Disconnect and shut down                                                                                                   
+edge0-1-1-1  | INFO flwr 2025-03-09 18:30:33,027 | app.py:226 | app_fit: metrics_distributed_fit {'loss': [(1, 1.3841069836469622), (2, 0.3820617860845197), (3, 0.25643933473057795), (4, 0.19546828637455738), (5, 0.15636819015782308), (6, 0.1303828916047872), (7, 0.11450876413030171), (8, 0.10111909042392808), (9, 0.09142003942325698), (10, 0.08343519947366894)], 'accuracy': [(1, 0.5691111111111111), (2, 0.8835555555555555), (3, 0.9222222222222223), (4, 0.939962962962963), (5, 0.952925925925926), (6, 0.9608148148148148), (7, 0.9642592592592593), (8, 0.9691111111111111), (9, 0.9718888888888889), (10, 0.9744814814814815)]}
+client0-1-1  | Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+client2-1-1  | Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz                                                                                                     
+edge0-1-1-1  | INFO flwr 2025-03-09 18:30:33,027 | app.py:227 | app_fit: metrics_distributed {'accuracy': [(1, 0.8444), (2, 0.9268), (3, 0.9367), (4, 0.9546), (5, 0.9641), (6, 0.964), (7, 0.9689), (8, 0.9729), (9, 0.9759), (10, 0.9749)]}                                                                                                                                         
+client0-1-1  | Failed to download (trying next):
+client2-1-1  | Failed to download (trying next):                                                                                                                                           
+edge0-1-1-1  | INFO flwr 2025-03-09 18:30:33,027 | app.py:228 | app_fit: losses_centralized []                                                                                             
+client0-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client2-1-1  | HTTP Error 404: Not Found
+edge0-1-1-1  | INFO flwr 2025-03-09 18:30:33,027 | app.py:229 | app_fit: metrics_centralized {}                                                                                            
+client0-1-1  |                                                                                                                                                                             
+client2-1-1  |                                                                                                                                                                             
+edge0-1-1-1  | I0000 00:00:1741545033.033267      42 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                                             
+client0-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz                                                                                        
+client2-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz                                                                                        
+client0-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz                                         
+client2-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz
+client0-1-1  | Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw                                                                                                  
+client2-1-1  | Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw                                                                                                  
+client0-1-1  |                                                                                                                                                                             
+client2-1-1  |                                                                                                                                                                             
+client0-1-1  | Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz                                                                                                     
+client2-1-1  | Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz                                                                                                     
+client0-1-1  | Failed to download (trying next):                                                                                                                                           
+client2-1-1  | Failed to download (trying next):
+client0-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client2-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client0-1-1  |                                                                                                                                                                             
+client2-1-1  |                                                                                                                                                                             
+client0-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz                                                                                        
+client2-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz                                                                                        
+client0-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz                                         
+client2-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz
+client0-1-1  | Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw                                                                                                  
+client2-1-1  | Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw                                                                                                  
+client0-1-1  |                                                                                                                                                                             
+client2-1-1  |                                                                                                                                                                             
+client0-1-1  | Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz                                                                                                      
+client2-1-1  | Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz                                                                                                      
+client0-1-1  | Failed to download (trying next):                                                                                                                                           
+client2-1-1  | Failed to download (trying next):
+client0-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client2-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client0-1-1  |                                                                                                                                                                             
+client2-1-1  |                                                                                                                                                                             
+edge0-1-1-1  | 2025-03-09 18:30:33 [INFO] Edge 1 - Post-Aggregation (took 1921.24s) - CPU: 9.9% | TX: 3.53 MB | Energy: 0.99 J/s                                                           
+client0-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz                                                                                         
+cloud-1-1    | DEBUG flwr 2025-03-09 18:30:33,134 | server.py:236 | fit_round 1 received 2 results and 0 failures
+client2-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz                                                                                         
+client0-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz                                           
+cloud-1-1    | 2025-03-09 18:30:33 [DEBUG] Cloud - fit_round 1 received 2 results and 0 failures                                                                                           
+client2-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz                                           
+client0-1-1  | Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw                                                                                                   
+cloud-1-1    | 2025-03-09 18:30:33 [ERROR] Cloud - Cloud Server failed: 'loss'                                                                                                             
+client2-1-1  | Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw                                                                                                   
+client0-1-1  | 
+cloud-1-1    | Traceback (most recent call last):                                                                                                                                          
+client2-1-1  |                                                                                                                                                                             
+client0-1-1  | Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz                                                                                                      
+cloud-1-1    |   File "/app/server.py", line 81, in <module>                                                                                                                               
+client2-1-1  | Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz                                                                                                      
+client0-1-1  | Failed to download (trying next):                                                                                                                                           
+cloud-1-1    | Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz                                                                                                     
+client2-1-1  | Failed to download (trying next):
+client0-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+cloud-1-1    | Failed to download (trying next):                                                                                                                                           
+client2-1-1  | HTTP Error 404: Not Found                                                                                                                                                   
+client0-1-1  |                                                                                                                                                                             
+cloud-1-1    | HTTP Error 404: Not Found                                                                                                                                                   
+client2-1-1  |                                                                                                                                                                             
+client0-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz                                                                                         
+cloud-1-1    | 
+client2-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz                                                                                         
+client0-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz                                           
+cloud-1-1    | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz                                                                                        
+client2-1-1  | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz                                           
+client0-1-1  | Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw                                                                                                   
+cloud-1-1    | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz                                         
+client2-1-1  | Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw                                                                                                   
+client0-1-1  | 
+cloud-1-1    | Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw                                                                                                  
+client2-1-1  |                                                                                                                                                                             
+cloud-1-1    |                                                                                                                                                                             
+cloud-1-1    | Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz                                                                                                     
+cloud-1-1    | Failed to download (trying next):                                                                                                                                           
+cloud-1-1    | HTTP Error 404: Not Found                                                                                                                                                   
+cloud-1-1    |                                                                                                                                                                             
+cloud-1-1    | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+cloud-1-1    | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz                                         
+cloud-1-1    | Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw                                                                                                  
+cloud-1-1    |                                                                                                                                                                             
+cloud-1-1    | Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz                                                                                                      
+cloud-1-1    | Failed to download (trying next):                                                                                                                                           
+cloud-1-1    | HTTP Error 404: Not Found                                                                                                                                                   
+cloud-1-1    |                                                                                                                                                                             
+cloud-1-1    | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz                                                                                         
+cloud-1-1    | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz
+cloud-1-1    | Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw                                                                                                   
+cloud-1-1    |                                                                                                                                                                             
+cloud-1-1    | Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz                                                                                                      
+cloud-1-1    | Failed to download (trying next):                                                                                                                                           
+cloud-1-1    | HTTP Error 404: Not Found                                                                                                                                                   
+cloud-1-1    |                                                                                                                                                                             
+cloud-1-1    | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+cloud-1-1    | Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz                                           
+cloud-1-1    | Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw                                                                                                   
+cloud-1-1    |                                                                                                                                                                             
+cloud-1-1    |     fl.server.start_server(                                                                                                                                                 
+cloud-1-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/app.py", line 183, in start_server                                                                               
+cloud-1-1    |     hist = run_fl(
+cloud-1-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/app.py", line 224, in run_fl                                                                                     
+cloud-1-1    |     hist = server.fit(num_rounds=config.num_rounds, timeout=config.round_timeout)                                                                                           
+cloud-1-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/server.py", line 109, in fit                                                                                     
+cloud-1-1    |     res_fit = self.fit_round(                                                                                                                                               
+cloud-1-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/server.py", line 248, in fit_round                                                                               
+cloud-1-1    |     ] = self.strategy.aggregate_fit(server_round, results, failures)
+cloud-1-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/strategy/fedavg.py", line 240, in aggregate_fit                                                                  
+cloud-1-1    |     metrics_aggregated = self.fit_metrics_aggregation_fn(fit_metrics)                                                                                                       
+cloud-1-1    |   File "/app/server.py", line 44, in fit_metrics_aggregation_fn                                                                                                             
+cloud-1-1    |     avg_loss = sum([m["loss"] * n for n, m in fit_metrics]) / total_examples                                                                                                
+cloud-1-1    |   File "/app/server.py", line 44, in <listcomp>                                                                                                                             
+cloud-1-1    |     avg_loss = sum([m["loss"] * n for n, m in fit_metrics]) / total_examples                                                                                                
+cloud-1-1    | KeyError: 'loss'
+client0-1-1 exited with code 0
+client2-1-1 exited with code 0
+v View in Docker Desktop   o View Config   w Enable Watch

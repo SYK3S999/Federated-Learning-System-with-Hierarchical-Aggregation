@@ -1,0 +1,90 @@
+version: '3.8'
+services:
+  cloud:
+    build: ./cloud
+    ports:
+      - "8080:8080"
+    environment:
+      - CLOUD_ID=1
+    networks:
+      fl_network:
+        ipv4_address: 172.20.0.2
+
+  edge0:
+    build: ./edge
+    ports:
+      - "8081:8080"
+    environment:
+      - EDGE_ID=0
+    networks:
+      fl_network:
+        ipv4_address: 172.20.0.3
+    depends_on:
+      - cloud
+
+  edge1:
+    build: ./edge
+    ports:
+      - "8082:8080"
+    environment:
+      - EDGE_ID=1
+    networks:
+      fl_network:
+        ipv4_address: 172.20.0.4
+    depends_on:
+      - cloud
+
+  client0:
+    build: ./client
+    environment:
+      - CLIENT_ID=0
+    extra_hosts:
+      - "edge0:172.20.0.3"
+      - "edge1:172.20.0.4"
+    networks:
+      - fl_network
+    depends_on:
+      - edge0
+
+  client1:
+    build: ./client
+    environment:
+      - CLIENT_ID=1
+    extra_hosts:
+      - "edge0:172.20.0.3"
+      - "edge1:172.20.0.4"
+    networks:
+      - fl_network
+    depends_on:
+      - edge0
+
+  client2:
+    build: ./client
+    environment:
+      - CLIENT_ID=2
+    extra_hosts:
+      - "edge0:172.20.0.3"
+      - "edge1:172.20.0.4"
+    networks:
+      - fl_network
+    depends_on:
+      - edge1
+
+  client3:
+    build: ./client
+    environment:
+      - CLIENT_ID=3
+    extra_hosts:
+      - "edge0:172.20.0.3"
+      - "edge1:172.20.0.4"
+    networks:
+      - fl_network
+    depends_on:
+      - edge1
+
+networks:
+  fl_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

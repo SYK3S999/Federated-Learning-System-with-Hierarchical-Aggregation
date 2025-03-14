@@ -1,0 +1,979 @@
+ ✔ Container fl_sim_docker-cloud-1    C...                                   0.0s 
+ ✔ Container fl_sim_docker-edge0-1    C...                                   0.1s 
+ ✔ Container fl_sim_docker-edge1-1    C...                                   0.0s 
+ ✔ Container fl_sim_docker-client2-1  Created                                0.1s 
+ ✔ Container fl_sim_docker-client3-1  Created                                0.0s 
+ ✔ Container fl_sim_docker-client1-1  Created                                0.0s 
+ ✔ Container fl_sim_docker-client0-1  Created                                0.0s 
+Attaching to client0-1, client1-1, client2-1, client3-1, cloud-1, edge0-1, edge1-1
+cloud-1    |
+cloud-1    | ==========
+cloud-1    | == CUDA ==                                                           
+cloud-1    | ==========                                                           
+cloud-1    |                                                                      
+cloud-1    | CUDA Version 12.4.1                                                  
+cloud-1    |                                                                      
+cloud-1    | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.                                                         
+cloud-1    | 
+cloud-1    | This container image and its contents are governed by the NVIDIA Deep Learning Container License.                                                      
+cloud-1    | By pulling and using the container, you accept the terms and conditions of this license:                                                               
+cloud-1    | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license                                                                                
+cloud-1    | 
+cloud-1    | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.                                          
+cloud-1    | 
+cloud-1    | WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.                                                                 
+cloud-1    |    Use the NVIDIA Container Toolkit to start this container with GPU support; see                                                                      
+cloud-1    |    https://docs.nvidia.com/datacenter/cloud-native/ .
+cloud-1    |                                                                      
+edge1-1    |                                                                      
+edge1-1    | ==========
+edge1-1    | == CUDA ==                                                           
+edge1-1    | ==========                                                           
+edge1-1    |                                                                      
+edge0-1    |                                                                      
+edge1-1    | CUDA Version 12.4.1
+edge0-1    | ==========                                                           
+edge1-1    |                                                                      
+edge0-1    | == CUDA ==                                                           
+edge1-1    | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.                                                         
+edge0-1    | ==========
+edge1-1    |                                                                      
+edge0-1    |                                                                      
+edge1-1    | This container image and its contents are governed by the NVIDIA Deep Learning Container License.                                                      
+edge0-1    | CUDA Version 12.4.1
+edge1-1    | By pulling and using the container, you accept the terms and conditions of this license:                                                               
+edge0-1    | 
+edge1-1    | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license                                                                                
+edge0-1    | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.                                                         
+edge1-1    | 
+edge0-1    |                                                                      
+edge1-1    | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.                                          
+edge0-1    | This container image and its contents are governed by the NVIDIA Deep Learning Container License.                                                      
+edge1-1    | 
+edge0-1    | By pulling and using the container, you accept the terms and conditions of this license:                                                               
+edge1-1    | WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.                                                                 
+edge0-1    | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license                                                                                
+edge1-1    |    Use the NVIDIA Container Toolkit to start this container with GPU support; see                                                                      
+edge0-1    | 
+edge1-1    |    https://docs.nvidia.com/datacenter/cloud-native/ .
+edge0-1    | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.                                          
+edge1-1    | 
+edge0-1    |                                                                      
+edge0-1    | WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.                                                                 
+edge0-1    |    Use the NVIDIA Container Toolkit to start this container with GPU support; see                                                                      
+edge0-1    |    https://docs.nvidia.com/datacenter/cloud-native/ .
+edge0-1    |                                                                      
+client2-1  | 
+client2-1  | ==========
+client2-1  | == CUDA ==                                                           
+client2-1  | ==========                                                           
+client2-1  |                                                                      
+client2-1  | CUDA Version 12.4.1                                                  
+client2-1  |                                                                      
+client2-1  | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+client2-1  | 
+client2-1  | This container image and its contents are governed by the NVIDIA Deep Learning Container License.                                                      
+client2-1  | By pulling and using the container, you accept the terms and conditions of this license:                                                               
+client2-1  | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license                                                                                
+client2-1  | 
+client2-1  | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.                                          
+client2-1  | 
+client2-1  | WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.                                                                 
+client2-1  |    Use the NVIDIA Container Toolkit to start this container with GPU support; see                                                                      
+client2-1  |    https://docs.nvidia.com/datacenter/cloud-native/ .
+client2-1  |                                                                      
+client0-1  |                                                                      
+client0-1  | ==========
+client0-1  | == CUDA ==                                                           
+client0-1  | ==========                                                           
+client0-1  | 
+client0-1  | CUDA Version 12.4.1                                                  
+client0-1  |                                                                      
+client0-1  | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.                                                         
+client0-1  | 
+client0-1  | This container image and its contents are governed by the NVIDIA Deep Learning Container License.                                                      
+client0-1  | By pulling and using the container, you accept the terms and conditions of this license:                                                               
+client0-1  | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license                                                                                
+client0-1  | 
+client0-1  | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.                                          
+client0-1  | 
+client0-1  | WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.                                                                 
+client0-1  |    Use the NVIDIA Container Toolkit to start this container with GPU support; see                                                                      
+client0-1  |    https://docs.nvidia.com/datacenter/cloud-native/ .
+client0-1  |                                                                      
+client3-1  |                                                                      
+client3-1  | ==========
+client3-1  | == CUDA ==                                                           
+client3-1  | ==========                                                           
+client1-1  |                                                                      
+client3-1  | 
+client1-1  | ==========                                                           
+client3-1  | CUDA Version 12.4.1                                                  
+client1-1  | == CUDA ==                                                           
+client3-1  |                                                                      
+client1-1  | ==========                                                           
+client3-1  | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.                                                         
+client1-1  | 
+client3-1  |                                                                      
+client1-1  | CUDA Version 12.4.1                                                  
+client3-1  | This container image and its contents are governed by the NVIDIA Deep Learning Container License.                                                      
+client1-1  | 
+client3-1  | By pulling and using the container, you accept the terms and conditions of this license:                                                               
+client1-1  | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+client3-1  | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license                                                                                
+client1-1  | 
+client3-1  |                                                                      
+client1-1  | This container image and its contents are governed by the NVIDIA Deep Learning Container License.                                                      
+client3-1  | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.                                          
+client1-1  | By pulling and using the container, you accept the terms and conditions of this license:                                                               
+client3-1  | 
+client1-1  | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license                                                                                
+client3-1  | WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.                                                                 
+client1-1  | 
+client3-1  |    Use the NVIDIA Container Toolkit to start this container with GPU support; see                                                                      
+client1-1  | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.                                          
+client3-1  |    https://docs.nvidia.com/datacenter/cloud-native/ .
+client1-1  | 
+client3-1  |                                                                      
+client1-1  | WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.                                                                 
+client1-1  |    Use the NVIDIA Container Toolkit to start this container with GPU support; see                                                                      
+client1-1  |    https://docs.nvidia.com/datacenter/cloud-native/ .
+client1-1  |                                                                      
+cloud-1    | 2025-03-08 02:23:05 [INFO] Cloud - Starting Cloud Server on 0.0.0.0:8080
+cloud-1    | INFO flwr 2025-03-08 02:23:05,212 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=30, round_timeout=None)                       
+cloud-1    | 2025-03-08 02:23:05 [INFO] Cloud - Starting Flower server, config: ServerConfig(num_rounds=30, round_timeout=None)                                     
+cloud-1    | INFO flwr 2025-03-08 02:23:05,236 | app.py:175 | Flower ECE: gRPC server running (30 rounds), SSL is disabled
+cloud-1    | 2025-03-08 02:23:05 [INFO] Cloud - Flower ECE: gRPC server running (30 rounds), SSL is disabled                                                        
+cloud-1    | INFO flwr 2025-03-08 02:23:05,236 | server.py:89 | Initializing global parameters                                                                      
+cloud-1    | 2025-03-08 02:23:05 [INFO] Cloud - Initializing global parameters
+cloud-1    | INFO flwr 2025-03-08 02:23:05,236 | server.py:272 | Using initial parameters provided by strategy                                                      
+cloud-1    | 2025-03-08 02:23:05 [INFO] Cloud - Using initial parameters provided by strategy
+cloud-1    | INFO flwr 2025-03-08 02:23:05,236 | server.py:91 | Evaluating initial parameters                                                                       
+cloud-1    | 2025-03-08 02:23:05 [INFO] Cloud - Evaluating initial parameters
+cloud-1    | 2025-03-08 02:23:05 [INFO] Cloud - Round 0 Pre-Eval - CPU: 9.9% | TX: 0.00 MB | Energy: 1.49 J/s
+client2-1  | 2025-03-08 02:23:06 [INFO] Client 2 - Waiting 120s before connecting to edge0:8080
+client0-1  | 2025-03-08 02:23:06 [INFO] Client 0 - Waiting 120s before connecting to edge0:8080
+client1-1  | 2025-03-08 02:23:06 [INFO] Client 1 - Waiting 120s before connecting to edge1:8080
+client3-1  | 2025-03-08 02:23:06 [INFO] Client 3 - Waiting 120s before connecting to edge1:8080
+cloud-1    | 2025-03-08 02:23:07 [INFO] Cloud - Round 0 Post-Eval (took 1.60s) - CPU: 103.3% | TX: 0.00 MB | Energy: 15.49 J/s
+cloud-1    | INFO flwr 2025-03-08 02:23:07,045 | server.py:94 | initial parameters (loss, other metrics): 183.3498260974884, {'accuracy': 0.0565, 'cpu': 103.3, 'tx_mb': 0.002819, 'energy': 15.495, 'eval_time': 1.5984284449996267}
+cloud-1    | 2025-03-08 02:23:07 [INFO] Cloud - initial parameters (loss, other metrics): 183.3498260974884, {'accuracy': 0.0565, 'cpu': 103.3, 'tx_mb': 0.002819, 'energy': 15.495, 'eval_time': 1.5984284449996267}
+cloud-1    | INFO flwr 2025-03-08 02:23:07,045 | server.py:104 | FL starting
+cloud-1    | 2025-03-08 02:23:07 [INFO] Cloud - FL starting                       
+edge0-1    | INFO flwr 2025-03-08 02:23:22,351 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+edge1-1    | INFO flwr 2025-03-08 02:23:22,368 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)                                         
+edge1-1    | DEBUG flwr 2025-03-08 02:23:22,369 | connection.py:42 | ChannelConnectivity.IDLE                                                                       
+edge1-1    | WARNING: All log messages before absl::InitializeLog() is called are written to STDERR                                                                 
+edge1-1    | I0000 00:00:1741400602.370966      42 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                        
+edge1-1    | DEBUG flwr 2025-03-08 02:23:22,375 | connection.py:42 | ChannelConnectivity.READY                                                                      
+edge1-1    | DEBUG flwr 2025-03-08 02:23:22,377 | connection.py:42 | ChannelConnectivity.IDLE                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 02:23:22,380 | connection.py:42 | ChannelConnectivity.IDLE                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 02:23:22,377 | connection.py:42 | ChannelConnectivity.CONNECTING                                                                 
+cloud-1    | DEBUG flwr 2025-03-08 02:23:22,383 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)                                                
+edge0-1    | DEBUG flwr 2025-03-08 02:23:22,381 | connection.py:42 | ChannelConnectivity.CONNECTING                                                                 
+edge1-1    | DEBUG flwr 2025-03-08 02:23:22,377 | connection.py:42 | ChannelConnectivity.READY                                                                      
+cloud-1    | 2025-03-08 02:23:22 [DEBUG] Cloud - fit_round 1: strategy sampled 2 clients (out of 2)                                                                 
+edge0-1    | DEBUG flwr 2025-03-08 02:23:22,382 | connection.py:42 | ChannelConnectivity.READY                                                                      
+edge1-1    | 2025-03-08 02:23:22 [INFO] Edge 1 - Pre-Aggregation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+edge1-1    | INFO flwr 2025-03-08 02:23:22,489 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=30, round_timeout=None)                       
+edge0-1    | 2025-03-08 02:23:22 [INFO] Edge 0 - Pre-Aggregation - CPU: 9.9% | TX: 0.00 MB | Energy: 0.99 J/s                                                       
+edge0-1    | INFO flwr 2025-03-08 02:23:22,491 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=30, round_timeout=None)                       
+edge1-1    | INFO flwr 2025-03-08 02:23:22,494 | app.py:175 | Flower ECE: gRPC server running (30 rounds), SSL is disabled                                          
+edge0-1    | INFO flwr 2025-03-08 02:23:22,495 | app.py:175 | Flower ECE: gRPC server running (30 rounds), SSL is disabled                                          
+edge1-1    | INFO flwr 2025-03-08 02:23:22,494 | server.py:89 | Initializing global parameters                                                                      
+edge0-1    | INFO flwr 2025-03-08 02:23:22,495 | server.py:89 | Initializing global parameters                                                                      
+edge1-1    | INFO flwr 2025-03-08 02:23:22,494 | server.py:272 | Using initial parameters provided by strategy                                                      
+edge0-1    | INFO flwr 2025-03-08 02:23:22,495 | server.py:272 | Using initial parameters provided by strategy                                                      
+edge1-1    | INFO flwr 2025-03-08 02:23:22,494 | server.py:91 | Evaluating initial parameters                                                                       
+edge0-1    | INFO flwr 2025-03-08 02:23:22,495 | server.py:91 | Evaluating initial parameters                                                                       
+edge1-1    | INFO flwr 2025-03-08 02:23:22,494 | server.py:104 | FL starting
+edge0-1    | INFO flwr 2025-03-08 02:23:22,495 | server.py:104 | FL starting      
+edge1-1    | I0000 00:00:1741400604.625735      42 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers
+edge0-1    | WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+edge0-1    | I0000 00:00:1741400604.706120      42 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                        
+client2-1  | 2025-03-08 02:24:56 [INFO] Client 2 - Attempt 1/10 to connect to edge0:8080
+client2-1  | INFO flwr 2025-03-08 02:24:56,604 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+client2-1  | DEBUG flwr 2025-03-08 02:24:56,631 | connection.py:42 | ChannelConnectivity.IDLE
+client2-1  | DEBUG flwr 2025-03-08 02:24:56,632 | connection.py:42 | ChannelConnectivity.CONNECTING                                                                 
+client2-1  | WARNING: All log messages before absl::InitializeLog() is called are written to STDERR                                                                 
+client2-1  | I0000 00:00:1741400696.634543      48 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                        
+client2-1  | DEBUG flwr 2025-03-08 02:24:56,639 | connection.py:42 | ChannelConnectivity.READY                                                                      
+client0-1  | 2025-03-08 02:24:56 [INFO] Client 0 - Attempt 1/10 to connect to edge0:8080                                                                            
+client0-1  | INFO flwr 2025-03-08 02:24:56,707 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+client0-1  | DEBUG flwr 2025-03-08 02:24:56,715 | connection.py:42 | ChannelConnectivity.IDLE                                                                       
+client0-1  | DEBUG flwr 2025-03-08 02:24:56,716 | connection.py:42 | ChannelConnectivity.READY                                                                      
+edge0-1    | DEBUG flwr 2025-03-08 02:24:56,717 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)                                                
+client2-1  | 2025-03-08 02:24:56 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 02:24:56 [INFO] Client 0 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                       
+tivity.READY
+edge1-1    | DEBUG flwr 2025-03-08 02:24:57,155 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+client3-1  | DEBUG flwr 2025-03-08 02:24:57,156 | connection.py:42 | ChannelConnectivity.IDLE
+client3-1  | DEBUG flwr 2025-03-08 02:24:57,164 | connection.py:42 | ChannelConnectivity.READY
+client3-1  | 2025-03-08 02:24:57 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 02:24:57 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 02:29:14 [INFO] Client 0 - Post-Training (took 281.33s) - CPU: 89.3% | TX: 0.00 MB | Energy: 4.46 J/s
+client2-1  | 2025-03-08 02:29:16 [INFO] Client 2 - Post-Training (took 283.68s) - CPU: 114.1% | TX: 0.00 MB | Energy: 5.71 J/s
+edge0-1    | DEBUG flwr 2025-03-08 02:29:16,495 | server.py:236 | fit_round 1 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 02:29:16,497 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+client0-1  | 2025-03-08 02:29:16 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 02:29:16 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 02:29:16 [INFO] Client 3 - Post-Training (took 283.35s) - CPU: 109.0% | TX: 0.00 MB | Energy: 5.45 J/s
+client1-1  | 2025-03-08 02:29:16 [INFO] Client 1 - Post-Training (took 283.34s) - CPU: 119.1% | TX: 0.00 MB | Energy: 5.96 J/s
+edge1-1    | DEBUG flwr 2025-03-08 02:29:16,648 | server.py:236 | fit_round 1 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 02:29:16,654 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)                                                                             
+client1-1  | 2025-03-08 02:29:16 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 02:29:16 [INFO] Client 3 - Pre-Evaluation - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s
+client0-1  | 2025-03-08 02:31:00 [INFO] Client 0 - Evaluation - Loss: 157.1600, Accuracy: 0.8823
+client1-1  | 2025-03-08 02:31:00 [INFO] Client 1 - Evaluation - Loss: 161.4050, Accuracy: 0.8871
+client2-1  | 2025-03-08 02:31:00 [INFO] Client 2 - Evaluation - Loss: 155.9067, Accuracy: 0.8866
+edge0-1    | DEBUG flwr 2025-03-08 02:31:00,810 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 02:31:00,810 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)
+client3-1  | 2025-03-08 02:31:00 [INFO] Client 3 - Evaluation - Loss: 155.1343, Accuracy: 0.8875                                                                                                      
+edge1-1    | DEBUG flwr 2025-03-08 02:31:00,905 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 02:31:00,906 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)                                                                                  
+client2-1  | 2025-03-08 02:31:00 [INFO] Client 2 - Pre-Training - CPU: 79.6% | TX: 0.00 MB | Energy: 3.98 J/s                                                                                         
+client0-1  | 2025-03-08 02:31:00 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client3-1  | 2025-03-08 02:31:01 [INFO] Client 3 - Pre-Training - CPU: 99.8% | TX: 0.00 MB | Energy: 4.99 J/s                                                                                         
+client1-1  | 2025-03-08 02:31:01 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 02:35:37 [INFO] Client 1 - Post-Training (took 303.33s) - CPU: 117.8% | TX: 0.00 MB | Energy: 5.89 J/s                                                                        
+client2-1  | 2025-03-08 02:35:38 [INFO] Client 2 - Post-Training (took 304.21s) - CPU: 129.4% | TX: 0.00 MB | Energy: 6.47 J/s
+client0-1  | 2025-03-08 02:35:38 [INFO] Client 0 - Post-Training (took 304.29s) - CPU: 129.2% | TX: 0.00 MB | Energy: 6.46 J/s
+edge0-1    | DEBUG flwr 2025-03-08 02:35:38,234 | server.py:236 | fit_round 2 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 02:35:38,236 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)                                                                             
+client3-1  | 2025-03-08 02:35:38 [INFO] Client 3 - Post-Training (took 304.22s) - CPU: 128.4% | TX: 0.00 MB | Energy: 6.42 J/s                                                                        
+edge1-1    | DEBUG flwr 2025-03-08 02:35:38,255 | server.py:236 | fit_round 2 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 02:35:38,257 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)                                                                             
+client0-1  | 2025-03-08 02:35:38 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 02:35:38 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 02:35:38 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 02:35:38 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 02:37:21 [INFO] Client 3 - Evaluation - Loss: 89.0186, Accuracy: 0.9358                                                                                                       
+client1-1  | 2025-03-08 02:37:21 [INFO] Client 1 - Evaluation - Loss: 95.6495, Accuracy: 0.9324
+edge1-1    | DEBUG flwr 2025-03-08 02:37:21,782 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 02:37:21,782 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)                                                                                  
+client2-1  | 2025-03-08 02:37:21 [INFO] Client 2 - Evaluation - Loss: 87.4912, Accuracy: 0.9411                                                                                                       
+client3-1  | 2025-03-08 02:37:21 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 02:37:21 [INFO] Client 0 - Evaluation - Loss: 86.0013, Accuracy: 0.9383
+client1-1  | 2025-03-08 02:37:21 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+edge0-1    | DEBUG flwr 2025-03-08 02:37:21,890 | server.py:187 | evaluate_round 2 received 2 results and 0 failures                                                                                  
+edge0-1    | DEBUG flwr 2025-03-08 02:37:21,890 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)                                                                                  
+client2-1  | 2025-03-08 02:37:21 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 02:37:22 [INFO] Client 0 - Pre-Training - CPU: 45.6% | TX: 0.00 MB | Energy: 2.28 J/s
+client0-1  | 2025-03-08 02:41:56 [INFO] Client 0 - Post-Training (took 299.16s) - CPU: 49.7% | TX: 0.00 MB | Energy: 2.49 J/s                                                                         
+client1-1  | 2025-03-08 02:41:56 [INFO] Client 1 - Post-Training (took 299.54s) - CPU: 83.8% | TX: 0.00 MB | Energy: 4.19 J/s
+client2-1  | 2025-03-08 02:41:56 [INFO] Client 2 - Post-Training (took 299.58s) - CPU: 99.5% | TX: 0.00 MB | Energy: 4.98 J/s
+edge0-1    | DEBUG flwr 2025-03-08 02:41:56,738 | server.py:236 | fit_round 3 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 02:41:56,740 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)                                                                             
+client3-1  | 2025-03-08 02:41:56 [INFO] Client 3 - Post-Training (took 299.70s) - CPU: 79.6% | TX: 0.00 MB | Energy: 3.98 J/s                                                                         
+edge1-1    | DEBUG flwr 2025-03-08 02:41:56,746 | server.py:236 | fit_round 3 received 2 results and 0 failures                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 02:41:56,747 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)                                                                             
+client0-1  | 2025-03-08 02:41:56 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 02:41:56 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 02:41:56 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 02:41:56 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 02:43:38 [INFO] Client 0 - Evaluation - Loss: 62.5716, Accuracy: 0.9564                                                                                                       
+client3-1  | 2025-03-08 02:43:39 [INFO] Client 3 - Evaluation - Loss: 61.4622, Accuracy: 0.9571
+client2-1  | 2025-03-08 02:43:39 [INFO] Client 2 - Evaluation - Loss: 64.2095, Accuracy: 0.9558
+edge0-1    | DEBUG flwr 2025-03-08 02:43:39,175 | server.py:187 | evaluate_round 3 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 02:43:39,176 | server.py:222 | fit_round 4: strategy sampled 2 clients (out of 2)                                                                                  
+client1-1  | 2025-03-08 02:43:39 [INFO] Client 1 - Evaluation - Loss: 69.2121, Accuracy: 0.9522                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 02:43:39,199 | server.py:187 | evaluate_round 3 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 02:43:39,200 | server.py:222 | fit_round 4: strategy sampled 2 clients (out of 2)                                                                                  
+client0-1  | 2025-03-08 02:43:39 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client2-1  | 2025-03-08 02:43:39 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 02:43:39 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 02:43:39 [INFO] Client 1 - Pre-Training - CPU: 77.7% | TX: 0.00 MB | Energy: 3.88 J/s
+client2-1  | 2025-03-08 02:48:26 [INFO] Client 2 - Post-Training (took 311.90s) - CPU: 69.0% | TX: 0.00 MB | Energy: 3.45 J/s                                                                         
+client3-1  | 2025-03-08 02:48:26 [INFO] Client 3 - Post-Training (took 312.62s) - CPU: 99.3% | TX: 0.00 MB | Energy: 4.96 J/s
+client0-1  | 2025-03-08 02:48:26 [INFO] Client 0 - Post-Training (took 312.69s) - CPU: 109.3% | TX: 0.00 MB | Energy: 5.46 J/s
+edge0-1    | DEBUG flwr 2025-03-08 02:48:26,957 | server.py:236 | fit_round 4 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 02:48:26,959 | server.py:173 | evaluate_round 4: strategy sampled 2 clients (out of 2)                                                                             
+client1-1  | 2025-03-08 02:48:26 [INFO] Client 1 - Post-Training (took 312.68s) - CPU: 99.5% | TX: 0.00 MB | Energy: 4.98 J/s                                                                         
+edge1-1    | DEBUG flwr 2025-03-08 02:48:26,974 | server.py:236 | fit_round 4 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 02:48:26,975 | server.py:173 | evaluate_round 4: strategy sampled 2 clients (out of 2)                                                                             
+client0-1  | 2025-03-08 02:48:27 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 02:48:27 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 02:48:27 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 02:48:27 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 02:50:08 [INFO] Client 0 - Evaluation - Loss: 50.4685, Accuracy: 0.9634                                                                                                       
+client1-1  | 2025-03-08 02:50:08 [INFO] Client 1 - Evaluation - Loss: 57.7535, Accuracy: 0.9593
+client3-1  | 2025-03-08 02:50:08 [INFO] Client 3 - Evaluation - Loss: 51.5440, Accuracy: 0.9623
+edge1-1    | DEBUG flwr 2025-03-08 02:50:08,607 | server.py:187 | evaluate_round 4 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 02:50:08,608 | server.py:222 | fit_round 5: strategy sampled 2 clients (out of 2)                                                                                  
+client2-1  | 2025-03-08 02:50:08 [INFO] Client 2 - Evaluation - Loss: 53.5078, Accuracy: 0.9621                                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 02:50:08,650 | server.py:187 | evaluate_round 4 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 02:50:08,650 | server.py:222 | fit_round 5: strategy sampled 2 clients (out of 2)                                                                                  
+client3-1  | 2025-03-08 02:50:08 [INFO] Client 3 - Pre-Training - CPU: 69.5% | TX: 0.00 MB | Energy: 3.48 J/s                                                                                         
+client1-1  | 2025-03-08 02:50:08 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 02:50:08 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client2-1  | 2025-03-08 02:50:08 [INFO] Client 2 - Pre-Training - CPU: 79.3% | TX: 0.00 MB | Energy: 3.96 J/s
+client0-1  | 2025-03-08 02:54:49 [INFO] Client 0 - Post-Training (took 305.99s) - CPU: 54.8% | TX: 0.00 MB | Energy: 2.74 J/s                                                                         
+client2-1  | 2025-03-08 02:54:51 [INFO] Client 2 - Post-Training (took 308.13s) - CPU: 29.9% | TX: 0.00 MB | Energy: 1.50 J/s
+edge0-1    | DEBUG flwr 2025-03-08 02:54:51,839 | server.py:236 | fit_round 5 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 02:54:51,840 | server.py:173 | evaluate_round 5: strategy sampled 2 clients (out of 2)                                                                             
+client3-1  | 2025-03-08 02:54:51 [INFO] Client 3 - Post-Training (took 308.22s) - CPU: 89.5% | TX: 0.00 MB | Energy: 4.48 J/s                                                                         
+client1-1  | 2025-03-08 02:54:51 [INFO] Client 1 - Post-Training (took 308.24s) - CPU: 99.5% | TX: 0.00 MB | Energy: 4.98 J/s
+edge1-1    | DEBUG flwr 2025-03-08 02:54:51,913 | server.py:236 | fit_round 5 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 02:54:51,914 | server.py:173 | evaluate_round 5: strategy sampled 2 clients (out of 2)                                                                             
+client2-1  | 2025-03-08 02:54:51 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 02:54:51 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 02:54:52 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 02:54:52 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 02:56:34 [INFO] Client 0 - Evaluation - Loss: 44.2474, Accuracy: 0.9676                                                                                                       
+client3-1  | 2025-03-08 02:56:34 [INFO] Client 3 - Evaluation - Loss: 42.5495, Accuracy: 0.9694
+client2-1  | 2025-03-08 02:56:34 [INFO] Client 2 - Evaluation - Loss: 46.2372, Accuracy: 0.9693
+edge0-1    | DEBUG flwr 2025-03-08 02:56:34,959 | server.py:187 | evaluate_round 5 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 02:56:34,959 | server.py:222 | fit_round 6: strategy sampled 2 clients (out of 2)                                                                                  
+client1-1  | 2025-03-08 02:56:34 [INFO] Client 1 - Evaluation - Loss: 49.4896, Accuracy: 0.9649                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 02:56:34,973 | server.py:187 | evaluate_round 5 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 02:56:34,973 | server.py:222 | fit_round 6: strategy sampled 2 clients (out of 2)                                                                                  
+client0-1  | 2025-03-08 02:56:35 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client2-1  | 2025-03-08 02:56:35 [INFO] Client 2 - Pre-Training - CPU: 29.9% | TX: 0.00 MB | Energy: 1.50 J/s
+client3-1  | 2025-03-08 02:56:35 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 02:56:35 [INFO] Client 1 - Pre-Training - CPU: 54.3% | TX: 0.00 MB | Energy: 2.71 J/s
+client0-1  | 2025-03-08 03:01:17 [INFO] Client 0 - Post-Training (took 309.74s) - CPU: 67.2% | TX: 0.00 MB | Energy: 3.36 J/s                                                                         
+client1-1  | 2025-03-08 03:01:17 [INFO] Client 1 - Post-Training (took 310.32s) - CPU: 109.2% | TX: 0.00 MB | Energy: 5.46 J/s
+client2-1  | 2025-03-08 03:01:17 [INFO] Client 2 - Post-Training (took 310.39s) - CPU: 129.0% | TX: 0.00 MB | Energy: 6.45 J/s
+edge0-1    | DEBUG flwr 2025-03-08 03:01:17,732 | server.py:236 | fit_round 6 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:01:17,733 | server.py:173 | evaluate_round 6: strategy sampled 2 clients (out of 2)                                                                             
+client3-1  | 2025-03-08 03:01:17 [INFO] Client 3 - Post-Training (took 310.38s) - CPU: 99.8% | TX: 0.00 MB | Energy: 4.99 J/s                                                                         
+edge1-1    | DEBUG flwr 2025-03-08 03:01:17,738 | server.py:236 | fit_round 6 received 2 results and 0 failures                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 03:01:17,739 | server.py:173 | evaluate_round 6: strategy sampled 2 clients (out of 2)                                                                             
+client2-1  | 2025-03-08 03:01:17 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 03:01:17 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 03:01:17 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 03:01:17 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 03:03:01 [INFO] Client 1 - Evaluation - Loss: 47.3396, Accuracy: 0.9667                                                                                                       
+client3-1  | 2025-03-08 03:03:01 [INFO] Client 3 - Evaluation - Loss: 40.1252, Accuracy: 0.9713
+edge1-1    | DEBUG flwr 2025-03-08 03:03:01,746 | server.py:187 | evaluate_round 6 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:03:01,746 | server.py:222 | fit_round 7: strategy sampled 2 clients (out of 2)                                                                                  
+client2-1  | 2025-03-08 03:03:01 [INFO] Client 2 - Evaluation - Loss: 39.8701, Accuracy: 0.9727                                                                                                       
+client1-1  | 2025-03-08 03:03:01 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 03:03:01 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 03:03:01 [INFO] Client 0 - Evaluation - Loss: 37.8275, Accuracy: 0.9719                                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 03:03:01,866 | server.py:187 | evaluate_round 6 received 2 results and 0 failures                                                                                  
+edge0-1    | DEBUG flwr 2025-03-08 03:03:01,866 | server.py:222 | fit_round 7: strategy sampled 2 clients (out of 2)                                                                                  
+client2-1  | 2025-03-08 03:03:01 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 03:03:01 [INFO] Client 0 - Pre-Training - CPU: 69.7% | TX: 0.00 MB | Energy: 3.49 J/s
+client0-1  | 2025-03-08 03:07:39 [INFO] Client 0 - Post-Training (took 303.21s) - CPU: 79.3% | TX: 0.00 MB | Energy: 3.96 J/s                                                                         
+client1-1  | 2025-03-08 03:07:40 [INFO] Client 1 - Post-Training (took 303.72s) - CPU: 109.2% | TX: 0.00 MB | Energy: 5.46 J/s
+client3-1  | 2025-03-08 03:07:40 [INFO] Client 3 - Post-Training (took 303.80s) - CPU: 109.6% | TX: 0.00 MB | Energy: 5.48 J/s
+edge1-1    | DEBUG flwr 2025-03-08 03:07:40,330 | server.py:236 | fit_round 7 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:07:40,332 | server.py:173 | evaluate_round 7: strategy sampled 2 clients (out of 2)                                                                             
+client1-1  | 2025-03-08 03:07:40 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 03:07:40 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 03:07:40 [INFO] Client 2 - Post-Training (took 303.80s) - CPU: 89.7% | TX: 0.00 MB | Energy: 4.49 J/s                                                                         
+edge0-1    | DEBUG flwr 2025-03-08 03:07:40,442 | server.py:236 | fit_round 7 received 2 results and 0 failures                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 03:07:40,444 | server.py:173 | evaluate_round 7: strategy sampled 2 clients (out of 2)
+client0-1  | 2025-03-08 03:07:40 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 03:07:40 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 03:09:15 [INFO] Client 1 - Evaluation - Loss: 40.6876, Accuracy: 0.9716
+client2-1  | 2025-03-08 03:09:15 [INFO] Client 2 - Evaluation - Loss: 34.9786, Accuracy: 0.9767
+client0-1  | 2025-03-08 03:09:15 [INFO] Client 0 - Evaluation - Loss: 32.4086, Accuracy: 0.9771
+edge0-1    | DEBUG flwr 2025-03-08 03:09:15,940 | server.py:187 | evaluate_round 7 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:09:15,941 | server.py:222 | fit_round 8: strategy sampled 2 clients (out of 2)                                                                                  
+client3-1  | 2025-03-08 03:09:16 [INFO] Client 3 - Evaluation - Loss: 34.6602, Accuracy: 0.9747                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 03:09:16,025 | server.py:187 | evaluate_round 7 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:09:16,025 | server.py:222 | fit_round 8: strategy sampled 2 clients (out of 2)                                                                                  
+client2-1  | 2025-03-08 03:09:16 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 03:09:16 [INFO] Client 0 - Pre-Training - CPU: 19.9% | TX: 0.00 MB | Energy: 0.99 J/s
+client1-1  | 2025-03-08 03:09:16 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client3-1  | 2025-03-08 03:09:16 [INFO] Client 3 - Pre-Training - CPU: 98.4% | TX: 0.00 MB | Energy: 4.92 J/s
+client2-1  | 2025-03-08 03:13:49 [INFO] Client 2 - Post-Training (took 298.82s) - CPU: 89.9% | TX: 0.00 MB | Energy: 4.50 J/s                                                                         
+client0-1  | 2025-03-08 03:13:50 [INFO] Client 0 - Post-Training (took 299.23s) - CPU: 89.6% | TX: 0.00 MB | Energy: 4.48 J/s
+edge0-1    | DEBUG flwr 2025-03-08 03:13:50,378 | server.py:236 | fit_round 8 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:13:50,379 | server.py:173 | evaluate_round 8: strategy sampled 2 clients (out of 2)                                                                             
+client1-1  | 2025-03-08 03:13:50 [INFO] Client 1 - Post-Training (took 299.21s) - CPU: 109.0% | TX: 0.00 MB | Energy: 5.45 J/s                                                                        
+client3-1  | 2025-03-08 03:13:50 [INFO] Client 3 - Post-Training (took 299.23s) - CPU: 89.3% | TX: 0.00 MB | Energy: 4.46 J/s
+edge1-1    | DEBUG flwr 2025-03-08 03:13:50,458 | server.py:236 | fit_round 8 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:13:50,459 | server.py:173 | evaluate_round 8: strategy sampled 2 clients (out of 2)                                                                             
+client0-1  | 2025-03-08 03:13:50 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 03:13:50 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 03:13:50 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 03:13:50 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 03:15:29 [INFO] Client 2 - Evaluation - Loss: 32.8369, Accuracy: 0.9774                                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 03:15:30,054 | server.py:187 | evaluate_round 8 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:15:30,054 | server.py:222 | fit_round 9: strategy sampled 2 clients (out of 2)
+client0-1  | 2025-03-08 03:15:30 [INFO] Client 0 - Evaluation - Loss: 31.0706, Accuracy: 0.9756                                                                                                       
+client3-1  | 2025-03-08 03:15:30 [INFO] Client 3 - Evaluation - Loss: 30.9692, Accuracy: 0.9788                                                                                                       
+client2-1  | 2025-03-08 03:15:30 [INFO] Client 2 - Pre-Training - CPU: 9.9% | TX: 0.00 MB | Energy: 0.50 J/s
+client0-1  | 2025-03-08 03:15:30 [INFO] Client 0 - Pre-Training - CPU: 59.6% | TX: 0.00 MB | Energy: 2.98 J/s
+client1-1  | 2025-03-08 03:15:31 [INFO] Client 1 - Evaluation - Loss: 36.9402, Accuracy: 0.9733                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 03:15:31,214 | server.py:187 | evaluate_round 8 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:15:31,214 | server.py:222 | fit_round 9: strategy sampled 2 clients (out of 2)                                                                                  
+client3-1  | 2025-03-08 03:15:31 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 03:15:31 [INFO] Client 1 - Pre-Training - CPU: 29.7% | TX: 0.00 MB | Energy: 1.49 J/s
+client2-1  | 2025-03-08 03:19:49 [INFO] Client 2 - Post-Training (took 282.13s) - CPU: 49.1% | TX: 0.00 MB | Energy: 2.46 J/s                                                                         
+client0-1  | 2025-03-08 03:19:51 [INFO] Client 0 - Post-Training (took 284.68s) - CPU: 83.8% | TX: 0.00 MB | Energy: 4.19 J/s
+edge0-1    | DEBUG flwr 2025-03-08 03:19:51,968 | server.py:236 | fit_round 9 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:19:51,970 | server.py:173 | evaluate_round 9: strategy sampled 2 clients (out of 2)                                                                             
+client3-1  | 2025-03-08 03:19:52 [INFO] Client 3 - Post-Training (took 283.62s) - CPU: 148.8% | TX: 0.00 MB | Energy: 7.44 J/s                                                                        
+client2-1  | 2025-03-08 03:19:52 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 03:19:52 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 03:19:52 [INFO] Client 1 - Post-Training (took 283.93s) - CPU: 128.3% | TX: 0.00 MB | Energy: 6.42 J/s                                                                        
+edge1-1    | DEBUG flwr 2025-03-08 03:19:52,377 | server.py:236 | fit_round 9 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:19:52,380 | server.py:173 | evaluate_round 9: strategy sampled 2 clients (out of 2)                                                                             
+client3-1  | 2025-03-08 03:19:52 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 03:19:52 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 03:21:29 [INFO] Client 2 - Evaluation - Loss: 29.7557, Accuracy: 0.9793                                                                                                       
+client1-1  | 2025-03-08 03:21:30 [INFO] Client 1 - Evaluation - Loss: 33.6680, Accuracy: 0.9773
+client0-1  | 2025-03-08 03:21:30 [INFO] Client 0 - Evaluation - Loss: 27.4235, Accuracy: 0.9790
+edge0-1    | DEBUG flwr 2025-03-08 03:21:30,374 | server.py:187 | evaluate_round 9 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:21:30,375 | server.py:222 | fit_round 10: strategy sampled 2 clients (out of 2)                                                                                 
+client3-1  | 2025-03-08 03:21:30 [INFO] Client 3 - Evaluation - Loss: 27.9626, Accuracy: 0.9808                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 03:21:30,440 | server.py:187 | evaluate_round 9 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:21:30,440 | server.py:222 | fit_round 10: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 03:21:30 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 03:21:30 [INFO] Client 0 - Pre-Training - CPU: 49.9% | TX: 0.00 MB | Energy: 2.50 J/s
+client1-1  | 2025-03-08 03:21:30 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client3-1  | 2025-03-08 03:21:30 [INFO] Client 3 - Pre-Training - CPU: 55.2% | TX: 0.00 MB | Energy: 2.76 J/s
+client1-1  | 2025-03-08 03:26:03 [INFO] Client 1 - Post-Training (took 298.47s) - CPU: 69.8% | TX: 0.00 MB | Energy: 3.49 J/s                                                                         
+client2-1  | 2025-03-08 03:26:05 [INFO] Client 2 - Post-Training (took 300.83s) - CPU: 89.0% | TX: 0.00 MB | Energy: 4.45 J/s
+client3-1  | 2025-03-08 03:26:05 [INFO] Client 3 - Post-Training (took 300.79s) - CPU: 89.4% | TX: 0.00 MB | Energy: 4.47 J/s
+edge1-1    | DEBUG flwr 2025-03-08 03:26:05,866 | server.py:236 | fit_round 10 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:26:05,867 | server.py:173 | evaluate_round 10: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 03:26:05 [INFO] Client 0 - Post-Training (took 300.88s) - CPU: 89.6% | TX: 0.00 MB | Energy: 4.48 J/s                                                                         
+edge0-1    | DEBUG flwr 2025-03-08 03:26:05,885 | server.py:236 | fit_round 10 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:26:05,887 | server.py:173 | evaluate_round 10: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 03:26:05 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 03:26:05 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 03:26:05 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 03:26:06 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 03:27:48 [INFO] Client 1 - Evaluation - Loss: 29.7671, Accuracy: 0.9789
+client2-1  | 2025-03-08 03:27:48 [INFO] Client 2 - Evaluation - Loss: 28.6299, Accuracy: 0.9791
+client3-1  | 2025-03-08 03:27:48 [INFO] Client 3 - Evaluation - Loss: 25.8205, Accuracy: 0.9813
+edge1-1    | DEBUG flwr 2025-03-08 03:27:48,799 | server.py:187 | evaluate_round 10 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:27:48,799 | server.py:222 | fit_round 11: strategy sampled 2 clients (out of 2)                                                                                 
+client0-1  | 2025-03-08 03:27:48 [INFO] Client 0 - Evaluation - Loss: 25.7384, Accuracy: 0.9799
+edge0-1    | DEBUG flwr 2025-03-08 03:27:48,807 | server.py:187 | evaluate_round 10 received 2 results and 0 failures                                                                                 
+edge0-1    | DEBUG flwr 2025-03-08 03:27:48,807 | server.py:222 | fit_round 11: strategy sampled 2 clients (out of 2)                                                                                 
+client1-1  | 2025-03-08 03:27:48 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client2-1  | 2025-03-08 03:27:48 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 03:27:48 [INFO] Client 0 - Pre-Training - CPU: 59.5% | TX: 0.00 MB | Energy: 2.98 J/s                                                                                         
+client3-1  | 2025-03-08 03:27:48 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 03:32:22 [INFO] Client 0 - Post-Training (took 301.39s) - CPU: 99.2% | TX: 0.00 MB | Energy: 4.96 J/s                                                                         
+client2-1  | 2025-03-08 03:32:22 [INFO] Client 2 - Post-Training (took 302.14s) - CPU: 106.3% | TX: 0.00 MB | Energy: 5.32 J/s
+edge0-1    | DEBUG flwr 2025-03-08 03:32:22,985 | server.py:236 | fit_round 11 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:32:22,987 | server.py:173 | evaluate_round 11: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 03:32:23 [INFO] Client 3 - Post-Training (took 302.26s) - CPU: 148.7% | TX: 0.00 MB | Energy: 7.43 J/s                                                                        
+client0-1  | 2025-03-08 03:32:23 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 03:32:23 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 03:32:23 [INFO] Client 1 - Post-Training (took 302.31s) - CPU: 96.3% | TX: 0.00 MB | Energy: 4.82 J/s                                                                         
+edge1-1    | DEBUG flwr 2025-03-08 03:32:23,146 | server.py:236 | fit_round 11 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:32:23,148 | server.py:173 | evaluate_round 11: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 03:32:23 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 03:32:23 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 03:33:59 [INFO] Client 2 - Evaluation - Loss: 26.9436, Accuracy: 0.9801
+client0-1  | 2025-03-08 03:33:59 [INFO] Client 0 - Evaluation - Loss: 23.6588, Accuracy: 0.9824
+edge0-1    | DEBUG flwr 2025-03-08 03:33:59,751 | server.py:187 | evaluate_round 11 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:33:59,752 | server.py:222 | fit_round 12: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 03:33:59 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 03:33:59 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 03:34:01 [INFO] Client 3 - Evaluation - Loss: 24.5445, Accuracy: 0.9822
+client1-1  | 2025-03-08 03:34:01 [INFO] Client 1 - Evaluation - Loss: 28.8903, Accuracy: 0.9795
+edge1-1    | DEBUG flwr 2025-03-08 03:34:01,894 | server.py:187 | evaluate_round 11 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:34:01,895 | server.py:222 | fit_round 12: strategy sampled 2 clients (out of 2)                                                                                 
+client3-1  | 2025-03-08 03:34:01 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 03:34:02 [INFO] Client 1 - Pre-Training - CPU: 27.6% | TX: 0.00 MB | Energy: 1.38 J/s
+client0-1  | 2025-03-08 03:38:16 [INFO] Client 0 - Post-Training (took 279.24s) - CPU: 27.4% | TX: 0.00 MB | Energy: 1.37 J/s                                                                         
+client1-1  | 2025-03-08 03:38:20 [INFO] Client 1 - Post-Training (took 281.09s) - CPU: 106.0% | TX: 0.00 MB | Energy: 5.30 J/s
+client2-1  | 2025-03-08 03:38:20 [INFO] Client 2 - Post-Training (took 283.39s) - CPU: 119.4% | TX: 0.00 MB | Energy: 5.97 J/s
+edge0-1    | DEBUG flwr 2025-03-08 03:38:20,364 | server.py:236 | fit_round 12 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:38:20,366 | server.py:173 | evaluate_round 12: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 03:38:20 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 03:38:20 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 03:38:21 [INFO] Client 3 - Post-Training (took 282.08s) - CPU: 117.5% | TX: 0.00 MB | Energy: 5.88 J/s                                                                        
+edge1-1    | DEBUG flwr 2025-03-08 03:38:21,219 | server.py:236 | fit_round 12 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:38:21,226 | server.py:173 | evaluate_round 12: strategy sampled 2 clients (out of 2)
+client1-1  | 2025-03-08 03:38:20 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 03:38:20 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 03:39:54 [INFO] Client 0 - Evaluation - Loss: 23.4701, Accuracy: 0.9818                                                                                                       
+client3-1  | 2025-03-08 03:39:55 [INFO] Client 3 - Evaluation - Loss: 24.3158, Accuracy: 0.9819
+client2-1  | 2025-03-08 03:39:55 [INFO] Client 2 - Evaluation - Loss: 26.2883, Accuracy: 0.9803
+edge0-1    | DEBUG flwr 2025-03-08 03:39:55,608 | server.py:187 | evaluate_round 12 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:39:55,608 | server.py:222 | fit_round 13: strategy sampled 2 clients (out of 2)
+client1-1  | 2025-03-08 03:39:55 [INFO] Client 1 - Evaluation - Loss: 29.0076, Accuracy: 0.9786                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 03:39:55,661 | server.py:187 | evaluate_round 12 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:39:55,662 | server.py:222 | fit_round 13: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 03:39:55 [INFO] Client 2 - Pre-Training - CPU: 79.8% | TX: 0.00 MB | Energy: 3.99 J/s                                                                                         
+client0-1  | 2025-03-08 03:39:55 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 03:39:55 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 03:39:55 [INFO] Client 1 - Pre-Training - CPU: 88.3% | TX: 0.00 MB | Energy: 4.42 J/s
+client0-1  | 2025-03-08 03:44:40 [INFO] Client 0 - Post-Training (took 309.88s) - CPU: 129.4% | TX: 0.00 MB | Energy: 6.47 J/s                                                                        
+client3-1  | 2025-03-08 03:44:41 [INFO] Client 3 - Post-Training (took 310.89s) - CPU: 105.9% | TX: 0.00 MB | Energy: 5.30 J/s
+client1-1  | 2025-03-08 03:44:41 [INFO] Client 1 - Post-Training (took 311.06s) - CPU: 119.2% | TX: 0.00 MB | Energy: 5.96 J/s
+edge1-1    | DEBUG flwr 2025-03-08 03:44:41,267 | server.py:236 | fit_round 13 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:44:41,269 | server.py:173 | evaluate_round 13: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 03:44:41 [INFO] Client 2 - Post-Training (took 311.13s) - CPU: 119.7% | TX: 0.00 MB | Energy: 5.99 J/s                                                                        
+edge0-1    | DEBUG flwr 2025-03-08 03:44:41,286 | server.py:236 | fit_round 13 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:44:41,288 | server.py:173 | evaluate_round 13: strategy sampled 2 clients (out of 2)                                                                            
+client1-1  | 2025-03-08 03:44:41 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 03:44:41 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 03:44:41 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 03:44:41 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 03:46:19 [INFO] Client 1 - Evaluation - Loss: 24.1764, Accuracy: 0.9823                                                                                                       
+client2-1  | 2025-03-08 03:46:19 [INFO] Client 2 - Evaluation - Loss: 22.2562, Accuracy: 0.9843
+client3-1  | 2025-03-08 03:46:20 [INFO] Client 3 - Evaluation - Loss: 20.6631, Accuracy: 0.9853
+edge1-1    | DEBUG flwr 2025-03-08 03:46:20,035 | server.py:187 | evaluate_round 13 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:46:20,036 | server.py:222 | fit_round 14: strategy sampled 2 clients (out of 2)                                                                                 
+client0-1  | 2025-03-08 03:46:20 [INFO] Client 0 - Evaluation - Loss: 20.5539, Accuracy: 0.9856                                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 03:46:20,053 | server.py:187 | evaluate_round 13 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:46:20,053 | server.py:222 | fit_round 14: strategy sampled 2 clients (out of 2)                                                                                 
+client1-1  | 2025-03-08 03:46:20 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client3-1  | 2025-03-08 03:46:20 [INFO] Client 3 - Pre-Training - CPU: 9.8% | TX: 0.00 MB | Energy: 0.49 J/s
+client2-1  | 2025-03-08 03:46:20 [INFO] Client 2 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                                                         
+client0-1  | 2025-03-08 03:46:20 [INFO] Client 0 - Pre-Training - CPU: 46.4% | TX: 0.00 MB | Energy: 2.32 J/s                                                                                         
+client3-1  | 2025-03-08 03:50:47 [INFO] Client 3 - Post-Training (took 292.60s) - CPU: 84.2% | TX: 0.00 MB | Energy: 4.21 J/s                                                                         
+client0-1  | 2025-03-08 03:50:49 [INFO] Client 0 - Post-Training (took 294.57s) - CPU: 83.6% | TX: 0.00 MB | Energy: 4.18 J/s
+client2-1  | 2025-03-08 03:50:49 [INFO] Client 2 - Post-Training (took 294.77s) - CPU: 98.3% | TX: 0.00 MB | Energy: 4.92 J/s
+edge0-1    | DEBUG flwr 2025-03-08 03:50:49,403 | server.py:236 | fit_round 14 received 2 results and 0 failures
+client1-1  | 2025-03-08 03:50:49 [INFO] Client 1 - Post-Training (took 294.79s) - CPU: 99.2% | TX: 0.00 MB | Energy: 4.96 J/s                                                                         
+edge0-1    | DEBUG flwr 2025-03-08 03:50:49,404 | server.py:173 | evaluate_round 14: strategy sampled 2 clients (out of 2)                                                                            
+edge1-1    | DEBUG flwr 2025-03-08 03:50:49,406 | server.py:236 | fit_round 14 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:50:49,407 | server.py:173 | evaluate_round 14: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 03:50:49 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 03:50:49 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 03:50:49 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 03:50:49 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 03:52:29 [INFO] Client 2 - Evaluation - Loss: 21.6891, Accuracy: 0.9840                                                                                                       
+client1-1  | 2025-03-08 03:52:30 [INFO] Client 1 - Evaluation - Loss: 25.0222, Accuracy: 0.9827
+client3-1  | 2025-03-08 03:52:30 [INFO] Client 3 - Evaluation - Loss: 23.5991, Accuracy: 0.9820
+edge1-1    | DEBUG flwr 2025-03-08 03:52:30,698 | server.py:187 | evaluate_round 14 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:52:30,698 | server.py:222 | fit_round 15: strategy sampled 2 clients (out of 2)                                                                                 
+client0-1  | 2025-03-08 03:52:30 [INFO] Client 0 - Evaluation - Loss: 19.4848, Accuracy: 0.9851                                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 03:52:30,769 | server.py:187 | evaluate_round 14 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:52:30,769 | server.py:222 | fit_round 15: strategy sampled 2 clients (out of 2)                                                                                 
+client1-1  | 2025-03-08 03:52:30 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client3-1  | 2025-03-08 03:52:30 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 03:52:30 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 03:52:30 [INFO] Client 0 - Pre-Training - CPU: 69.7% | TX: 0.00 MB | Energy: 3.49 J/s
+client3-1  | 2025-03-08 03:57:09 [INFO] Client 3 - Post-Training (took 307.09s) - CPU: 79.7% | TX: 0.00 MB | Energy: 3.99 J/s                                                                         
+client2-1  | 2025-03-08 03:57:10 [INFO] Client 2 - Post-Training (took 307.42s) - CPU: 99.4% | TX: 0.00 MB | Energy: 4.97 J/s
+client1-1  | 2025-03-08 03:57:10 [INFO] Client 1 - Post-Training (took 307.55s) - CPU: 98.9% | TX: 0.00 MB | Energy: 4.95 J/s
+edge1-1    | DEBUG flwr 2025-03-08 03:57:10,290 | server.py:236 | fit_round 15 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:57:10,291 | server.py:173 | evaluate_round 15: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 03:57:10 [INFO] Client 0 - Post-Training (took 307.50s) - CPU: 99.3% | TX: 0.00 MB | Energy: 4.96 J/s                                                                         
+edge0-1    | DEBUG flwr 2025-03-08 03:57:10,300 | server.py:236 | fit_round 15 received 2 results and 0 failures                                                                                      
+edge0-1    | DEBUG flwr 2025-03-08 03:57:10,301 | server.py:173 | evaluate_round 15: strategy sampled 2 clients (out of 2)                                                                            
+client1-1  | 2025-03-08 03:57:10 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 03:57:10 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 03:57:10 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 03:57:10 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 03:58:51 [INFO] Client 2 - Evaluation - Loss: 23.2585, Accuracy: 0.9819                                                                                                       
+client3-1  | 2025-03-08 03:58:51 [INFO] Client 3 - Evaluation - Loss: 20.0229, Accuracy: 0.9847
+client0-1  | 2025-03-08 03:58:51 [INFO] Client 0 - Evaluation - Loss: 20.7434, Accuracy: 0.9843
+edge0-1    | DEBUG flwr 2025-03-08 03:58:51,397 | server.py:187 | evaluate_round 15 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 03:58:51,397 | server.py:222 | fit_round 16: strategy sampled 2 clients (out of 2)                                                                                 
+client1-1  | 2025-03-08 03:58:51 [INFO] Client 1 - Evaluation - Loss: 22.4435, Accuracy: 0.9851                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 03:58:51,436 | server.py:187 | evaluate_round 15 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 03:58:51,436 | server.py:222 | fit_round 16: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 03:58:51 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 03:58:51 [INFO] Client 0 - Pre-Training - CPU: 69.8% | TX: 0.00 MB | Energy: 3.49 J/s
+client1-1  | 2025-03-08 03:58:51 [INFO] Client 1 - Pre-Training - CPU: 99.0% | TX: 0.00 MB | Energy: 4.95 J/s                                                                                         
+client3-1  | 2025-03-08 03:58:51 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 04:03:28 [INFO] Client 0 - Post-Training (took 302.96s) - CPU: 86.0% | TX: 0.00 MB | Energy: 4.30 J/s                                                                         
+client1-1  | 2025-03-08 04:03:29 [INFO] Client 1 - Post-Training (took 304.82s) - CPU: 109.1% | TX: 0.00 MB | Energy: 5.46 J/s
+client3-1  | 2025-03-08 04:03:30 [INFO] Client 3 - Post-Training (took 304.85s) - CPU: 89.6% | TX: 0.00 MB | Energy: 4.48 J/s
+edge1-1    | DEBUG flwr 2025-03-08 04:03:30,034 | server.py:236 | fit_round 16 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:03:30,035 | server.py:173 | evaluate_round 16: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 04:03:30 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 04:03:30 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 04:03:30 [INFO] Client 2 - Post-Training (took 305.05s) - CPU: 138.5% | TX: 0.00 MB | Energy: 6.93 J/s                                                                        
+edge0-1    | DEBUG flwr 2025-03-08 04:03:30,193 | server.py:236 | fit_round 16 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:03:30,195 | server.py:173 | evaluate_round 16: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 04:03:30 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 04:03:30 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 04:05:05 [INFO] Client 3 - Evaluation - Loss: 19.3551, Accuracy: 0.9853                                                                                                       
+client0-1  | 2025-03-08 04:05:05 [INFO] Client 0 - Evaluation - Loss: 17.1961, Accuracy: 0.9864
+client1-1  | 2025-03-08 04:05:05 [INFO] Client 1 - Evaluation - Loss: 22.1484, Accuracy: 0.9839
+edge1-1    | DEBUG flwr 2025-03-08 04:05:05,528 | server.py:187 | evaluate_round 16 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:05:05,528 | server.py:222 | fit_round 17: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 04:05:05 [INFO] Client 2 - Evaluation - Loss: 19.0430, Accuracy: 0.9867                                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 04:05:05,594 | server.py:187 | evaluate_round 16 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:05:05,595 | server.py:222 | fit_round 17: strategy sampled 2 clients (out of 2)                                                                                 
+client1-1  | 2025-03-08 04:05:05 [INFO] Client 1 - Pre-Training - CPU: 58.9% | TX: 0.00 MB | Energy: 2.94 J/s                                                                                         
+client3-1  | 2025-03-08 04:05:05 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 04:05:05 [INFO] Client 0 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                                                         
+client2-1  | 2025-03-08 04:05:05 [INFO] Client 2 - Pre-Training - CPU: 105.3% | TX: 0.00 MB | Energy: 5.26 J/s
+client1-1  | 2025-03-08 04:09:54 [INFO] Client 1 - Post-Training (took 314.50s) - CPU: 28.7% | TX: 0.00 MB | Energy: 1.44 J/s                                                                         
+client3-1  | 2025-03-08 04:09:53 [INFO] Client 3 - Post-Training (took 314.65s) - CPU: 99.3% | TX: 0.00 MB | Energy: 4.96 J/s
+edge1-1    | DEBUG flwr 2025-03-08 04:09:53,897 | server.py:236 | fit_round 17 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:09:53,899 | server.py:173 | evaluate_round 17: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 04:09:52 [INFO] Client 2 - Post-Training (took 314.66s) - CPU: 119.6% | TX: 0.00 MB | Energy: 5.98 J/s                                                                        
+client3-1  | 2025-03-08 04:09:52 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:09:52 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 04:09:52 [INFO] Client 0 - Post-Training (took 314.75s) - CPU: 117.7% | TX: 0.00 MB | Energy: 5.89 J/s                                                                        
+edge0-1    | DEBUG flwr 2025-03-08 04:09:52,385 | server.py:236 | fit_round 17 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:09:52,386 | server.py:173 | evaluate_round 17: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 04:09:52 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 04:09:52 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:11:29 [INFO] Client 1 - Evaluation - Loss: 19.6902, Accuracy: 0.9862                                                                                                       
+client2-1  | 2025-03-08 04:11:30 [INFO] Client 2 - Evaluation - Loss: 18.2699, Accuracy: 0.9866
+client3-1  | 2025-03-08 04:11:30 [INFO] Client 3 - Evaluation - Loss: 16.6748, Accuracy: 0.9879
+edge1-1    | DEBUG flwr 2025-03-08 04:11:30,591 | server.py:187 | evaluate_round 17 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:11:30,592 | server.py:222 | fit_round 18: strategy sampled 2 clients (out of 2)                                                                                 
+client3-1  | 2025-03-08 04:11:30 [INFO] Client 3 - Pre-Training - CPU: 79.8% | TX: 0.00 MB | Energy: 3.99 J/s                                                                                         
+client1-1  | 2025-03-08 04:11:30 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 04:11:30 [INFO] Client 0 - Evaluation - Loss: 16.1604, Accuracy: 0.9880                                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 04:11:30,717 | server.py:187 | evaluate_round 17 received 2 results and 0 failures                                                                                 
+edge0-1    | DEBUG flwr 2025-03-08 04:11:30,717 | server.py:222 | fit_round 18: strategy sampled 2 clients (out of 2)
+client2-1  | 2025-03-08 04:11:30 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 04:11:30 [INFO] Client 0 - Pre-Training - CPU: 9.8% | TX: 0.00 MB | Energy: 0.49 J/s
+client3-1  | 2025-03-08 04:16:14 [INFO] Client 3 - Post-Training (took 308.91s) - CPU: 39.8% | TX: 0.00 MB | Energy: 1.99 J/s                                                                         
+client2-1  | 2025-03-08 04:16:14 [INFO] Client 2 - Post-Training (took 309.37s) - CPU: 117.2% | TX: 0.00 MB | Energy: 5.86 J/s
+client0-1  | 2025-03-08 04:16:14 [INFO] Client 0 - Post-Training (took 309.41s) - CPU: 129.6% | TX: 0.00 MB | Energy: 6.48 J/s
+edge0-1    | DEBUG flwr 2025-03-08 04:16:14,861 | server.py:236 | fit_round 18 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:16:14,863 | server.py:173 | evaluate_round 18: strategy sampled 2 clients (out of 2)                                                                            
+client1-1  | 2025-03-08 04:16:14 [INFO] Client 1 - Post-Training (took 309.61s) - CPU: 129.3% | TX: 0.00 MB | Energy: 6.47 J/s                                                                        
+edge1-1    | DEBUG flwr 2025-03-08 04:16:14,932 | server.py:236 | fit_round 18 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:16:14,934 | server.py:173 | evaluate_round 18: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 04:16:14 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 04:16:14 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 04:16:15 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 04:16:15 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 04:17:55 [INFO] Client 3 - Evaluation - Loss: 16.3307, Accuracy: 0.9881                                                                                                       
+client1-1  | 2025-03-08 04:17:55 [INFO] Client 1 - Evaluation - Loss: 19.4622, Accuracy: 0.9859
+edge1-1    | DEBUG flwr 2025-03-08 04:17:55,707 | server.py:187 | evaluate_round 18 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:17:55,707 | server.py:222 | fit_round 19: strategy sampled 2 clients (out of 2)
+client2-1  | 2025-03-08 04:17:55 [INFO] Client 2 - Evaluation - Loss: 16.1909, Accuracy: 0.9886                                                                                                       
+client0-1  | 2025-03-08 04:17:55 [INFO] Client 0 - Evaluation - Loss: 14.1281, Accuracy: 0.9904                                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 04:17:55,775 | server.py:187 | evaluate_round 18 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:17:55,775 | server.py:222 | fit_round 19: strategy sampled 2 clients (out of 2)                                                                                 
+client3-1  | 2025-03-08 04:17:55 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 04:17:55 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 04:17:55 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 04:17:55 [INFO] Client 0 - Pre-Training - CPU: 88.1% | TX: 0.00 MB | Energy: 4.41 J/s
+client2-1  | 2025-03-08 04:22:41 [INFO] Client 2 - Post-Training (took 313.62s) - CPU: 99.0% | TX: 0.00 MB | Energy: 4.95 J/s                                                                         
+client0-1  | 2025-03-08 04:22:42 [INFO] Client 0 - Post-Training (took 314.19s) - CPU: 87.4% | TX: 0.00 MB | Energy: 4.37 J/s
+edge0-1    | DEBUG flwr 2025-03-08 04:22:42,042 | server.py:236 | fit_round 19 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:22:42,043 | server.py:173 | evaluate_round 19: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 04:22:42 [INFO] Client 3 - Post-Training (took 314.29s) - CPU: 129.0% | TX: 0.00 MB | Energy: 6.45 J/s                                                                        
+client1-1  | 2025-03-08 04:22:42 [INFO] Client 1 - Post-Training (took 314.35s) - CPU: 119.1% | TX: 0.00 MB | Energy: 5.96 J/s
+edge1-1    | DEBUG flwr 2025-03-08 04:22:42,132 | server.py:236 | fit_round 19 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:22:42,134 | server.py:173 | evaluate_round 19: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 04:22:42 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 04:22:42 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 04:22:42 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 04:22:42 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 04:24:22 [INFO] Client 2 - Evaluation - Loss: 15.8889, Accuracy: 0.9881
+client3-1  | 2025-03-08 04:24:23 [INFO] Client 3 - Evaluation - Loss: 16.4964, Accuracy: 0.9878
+client0-1  | 2025-03-08 04:24:23 [INFO] Client 0 - Evaluation - Loss: 13.5046, Accuracy: 0.9893
+edge0-1    | DEBUG flwr 2025-03-08 04:24:23,072 | server.py:187 | evaluate_round 19 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:24:23,072 | server.py:222 | fit_round 20: strategy sampled 2 clients (out of 2)                                                                                 
+client1-1  | 2025-03-08 04:24:23 [INFO] Client 1 - Evaluation - Loss: 19.5330, Accuracy: 0.9860                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 04:24:23,091 | server.py:187 | evaluate_round 19 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:24:23,091 | server.py:222 | fit_round 20: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 04:24:23 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 04:24:23 [INFO] Client 0 - Pre-Training - CPU: 67.6% | TX: 0.00 MB | Energy: 3.38 J/s
+client3-1  | 2025-03-08 04:24:23 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 04:24:23 [INFO] Client 1 - Pre-Training - CPU: 59.5% | TX: 0.00 MB | Energy: 2.98 J/s
+client0-1  | 2025-03-08 04:29:05 [INFO] Client 0 - Post-Training (took 307.87s) - CPU: 76.2% | TX: 0.00 MB | Energy: 3.81 J/s                                                                         
+client3-1  | 2025-03-08 04:29:06 [INFO] Client 3 - Post-Training (took 308.47s) - CPU: 89.7% | TX: 0.00 MB | Energy: 4.49 J/s
+client2-1  | 2025-03-08 04:29:06 [INFO] Client 2 - Post-Training (took 308.52s) - CPU: 118.8% | TX: 0.00 MB | Energy: 5.94 J/s
+edge0-1    | DEBUG flwr 2025-03-08 04:29:06,108 | server.py:236 | fit_round 20 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:29:06,110 | server.py:173 | evaluate_round 20: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 04:29:06 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 04:29:06 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:29:06 [INFO] Client 1 - Post-Training (took 308.66s) - CPU: 124.3% | TX: 0.00 MB | Energy: 6.21 J/s                                                                        
+edge1-1    | DEBUG flwr 2025-03-08 04:29:06,290 | server.py:236 | fit_round 20 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:29:06,292 | server.py:173 | evaluate_round 20: strategy sampled 2 clients (out of 2)                                                                            
+client1-1  | 2025-03-08 04:29:06 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 04:29:06 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 04:30:42 [INFO] Client 2 - Evaluation - Loss: 15.2846, Accuracy: 0.9893                                                                                                       
+client3-1  | 2025-03-08 04:30:43 [INFO] Client 3 - Evaluation - Loss: 14.4334, Accuracy: 0.9896
+client0-1  | 2025-03-08 04:30:43 [INFO] Client 0 - Evaluation - Loss: 13.4730, Accuracy: 0.9900
+edge0-1    | DEBUG flwr 2025-03-08 04:30:43,247 | server.py:187 | evaluate_round 20 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:30:43,247 | server.py:222 | fit_round 21: strategy sampled 2 clients (out of 2)                                                                                 
+client1-1  | 2025-03-08 04:30:43 [INFO] Client 1 - Evaluation - Loss: 17.3975, Accuracy: 0.9884                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 04:30:43,327 | server.py:187 | evaluate_round 20 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:30:43,327 | server.py:222 | fit_round 21: strategy sampled 2 clients (out of 2)                                                                                 
+client0-1  | 2025-03-08 04:30:43 [INFO] Client 0 - Pre-Training - CPU: 19.9% | TX: 0.00 MB | Energy: 0.99 J/s                                                                                         
+client2-1  | 2025-03-08 04:30:43 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 04:30:43 [INFO] Client 3 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                                                         
+client1-1  | 2025-03-08 04:30:43 [INFO] Client 1 - Pre-Training - CPU: 86.2% | TX: 0.00 MB | Energy: 4.31 J/s
+client0-1  | 2025-03-08 04:35:24 [INFO] Client 0 - Post-Training (took 306.20s) - CPU: 59.6% | TX: 0.00 MB | Energy: 2.98 J/s                                                                         
+client1-1  | 2025-03-08 04:35:25 [INFO] Client 1 - Post-Training (took 307.42s) - CPU: 93.4% | TX: 0.00 MB | Energy: 4.67 J/s
+client2-1  | 2025-03-08 04:35:25 [INFO] Client 2 - Post-Training (took 307.67s) - CPU: 119.4% | TX: 0.00 MB | Energy: 5.97 J/s
+edge0-1    | DEBUG flwr 2025-03-08 04:35:25,547 | server.py:236 | fit_round 21 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:35:25,549 | server.py:173 | evaluate_round 21: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 04:35:25 [INFO] Client 3 - Post-Training (took 307.67s) - CPU: 109.2% | TX: 0.00 MB | Energy: 5.46 J/s                                                                        
+edge1-1    | DEBUG flwr 2025-03-08 04:35:25,619 | server.py:236 | fit_round 21 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:35:25,620 | server.py:173 | evaluate_round 21: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 04:35:25 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 04:35:25 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 04:35:25 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 04:35:25 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 04:36:59 [INFO] Client 0 - Evaluation - Loss: 12.8963, Accuracy: 0.9898                                                                                                       
+client2-1  | 2025-03-08 04:37:00 [INFO] Client 2 - Evaluation - Loss: 14.3690, Accuracy: 0.9890
+edge0-1    | DEBUG flwr 2025-03-08 04:37:00,509 | server.py:187 | evaluate_round 21 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:37:00,510 | server.py:222 | fit_round 22: strategy sampled 2 clients (out of 2)
+client3-1  | 2025-03-08 04:37:00 [INFO] Client 3 - Evaluation - Loss: 14.7578, Accuracy: 0.9891                                                                                                       
+client2-1  | 2025-03-08 04:37:00 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 04:37:00 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:37:00 [INFO] Client 1 - Evaluation - Loss: 17.2927, Accuracy: 0.9873                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 04:37:00,916 | server.py:187 | evaluate_round 21 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:37:00,916 | server.py:222 | fit_round 22: strategy sampled 2 clients (out of 2)                                                                                 
+client3-1  | 2025-03-08 04:37:01 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 04:37:01 [INFO] Client 1 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s
+client0-1  | 2025-03-08 04:41:42 [INFO] Client 0 - Post-Training (took 307.18s) - CPU: 79.2% | TX: 0.00 MB | Energy: 3.96 J/s                                                                         
+client3-1  | 2025-03-08 04:41:42 [INFO] Client 3 - Post-Training (took 306.83s) - CPU: 88.8% | TX: 0.00 MB | Energy: 4.44 J/s
+client2-1  | 2025-03-08 04:41:42 [INFO] Client 2 - Post-Training (took 307.25s) - CPU: 118.9% | TX: 0.00 MB | Energy: 5.95 J/s
+edge0-1    | DEBUG flwr 2025-03-08 04:41:42,786 | server.py:236 | fit_round 22 received 2 results and 0 failures                                                                                      
+edge0-1    | DEBUG flwr 2025-03-08 04:41:42,787 | server.py:173 | evaluate_round 22: strategy sampled 2 clients (out of 2)                                                                            
+client1-1  | 2025-03-08 04:41:42 [INFO] Client 1 - Post-Training (took 306.93s) - CPU: 99.5% | TX: 0.00 MB | Energy: 4.98 J/s                                                                         
+edge1-1    | DEBUG flwr 2025-03-08 04:41:42,878 | server.py:236 | fit_round 22 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:41:42,880 | server.py:173 | evaluate_round 22: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 04:41:42 [INFO] Client 2 - Pre-Evaluation - CPU: 9.9% | TX: 0.00 MB | Energy: 0.50 J/s                                                                                        
+client0-1  | 2025-03-08 04:41:42 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 04:41:42 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:41:42 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 04:43:22 [INFO] Client 0 - Evaluation - Loss: 11.9034, Accuracy: 0.9913                                                                                                       
+client3-1  | 2025-03-08 04:43:22 [INFO] Client 3 - Evaluation - Loss: 13.7767, Accuracy: 0.9901
+client2-1  | 2025-03-08 04:43:22 [INFO] Client 2 - Evaluation - Loss: 13.1537, Accuracy: 0.9911
+edge0-1    | DEBUG flwr 2025-03-08 04:43:22,476 | server.py:187 | evaluate_round 22 received 2 results and 0 failures                                                                                 
+edge0-1    | DEBUG flwr 2025-03-08 04:43:22,476 | server.py:222 | fit_round 23: strategy sampled 2 clients (out of 2)
+client2-1  | 2025-03-08 04:43:22 [INFO] Client 2 - Pre-Training - CPU: 59.3% | TX: 0.00 MB | Energy: 2.96 J/s                                                                                         
+client0-1  | 2025-03-08 04:43:22 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:43:22 [INFO] Client 1 - Evaluation - Loss: 15.9600, Accuracy: 0.9893
+edge1-1    | DEBUG flwr 2025-03-08 04:43:23,011 | server.py:187 | evaluate_round 22 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:43:23,011 | server.py:222 | fit_round 23: strategy sampled 2 clients (out of 2)
+client3-1  | 2025-03-08 04:43:23 [INFO] Client 3 - Pre-Training - CPU: 9.9% | TX: 0.00 MB | Energy: 0.50 J/s                                                                                          
+client1-1  | 2025-03-08 04:43:23 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 04:47:51 [INFO] Client 0 - Post-Training (took 294.05s) - CPU: 39.6% | TX: 0.00 MB | Energy: 1.98 J/s                                                                         
+client1-1  | 2025-03-08 04:47:52 [INFO] Client 1 - Post-Training (took 294.64s) - CPU: 119.1% | TX: 0.00 MB | Energy: 5.96 J/s
+client3-1  | 2025-03-08 04:47:52 [INFO] Client 3 - Post-Training (took 294.71s) - CPU: 89.7% | TX: 0.00 MB | Energy: 4.49 J/s
+edge1-1    | DEBUG flwr 2025-03-08 04:47:52,528 | server.py:236 | fit_round 23 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:47:52,530 | server.py:173 | evaluate_round 23: strategy sampled 2 clients (out of 2)                                                                            
+client1-1  | 2025-03-08 04:47:52 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 04:47:52 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 04:47:52 [INFO] Client 2 - Post-Training (took 295.35s) - CPU: 99.7% | TX: 0.00 MB | Energy: 4.99 J/s                                                                         
+edge0-1    | DEBUG flwr 2025-03-08 04:47:52,642 | server.py:236 | fit_round 23 received 2 results and 0 failures                                                                                      
+edge0-1    | DEBUG flwr 2025-03-08 04:47:52,644 | server.py:173 | evaluate_round 23: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 04:47:52 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 04:47:52 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:49:30 [INFO] Client 1 - Evaluation - Loss: 14.5892, Accuracy: 0.9907                                                                                                       
+client0-1  | 2025-03-08 04:49:30 [INFO] Client 0 - Evaluation - Loss: 11.1999, Accuracy: 0.9916
+edge1-1    | DEBUG flwr 2025-03-08 04:49:31,005 | server.py:187 | evaluate_round 23 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:49:31,005 | server.py:222 | fit_round 24: strategy sampled 2 clients (out of 2)
+client3-1  | 2025-03-08 04:49:31 [INFO] Client 3 - Evaluation - Loss: 12.8459, Accuracy: 0.9911                                                                                                       
+client1-1  | 2025-03-08 04:49:31 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client3-1  | 2025-03-08 04:49:31 [INFO] Client 3 - Pre-Training - CPU: 69.8% | TX: 0.00 MB | Energy: 3.49 J/s
+client2-1  | 2025-03-08 04:49:31 [INFO] Client 2 - Evaluation - Loss: 12.4482, Accuracy: 0.9911                                                                                                       
+edge0-1    | DEBUG flwr 2025-03-08 04:49:31,118 | server.py:187 | evaluate_round 23 received 2 results and 0 failures                                                                                 
+edge0-1    | DEBUG flwr 2025-03-08 04:49:31,119 | server.py:222 | fit_round 24: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 04:49:31 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 04:49:31 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:54:27 [INFO] Client 1 - Post-Training (took 324.38s) - CPU: 89.7% | TX: 0.00 MB | Energy: 4.49 J/s                                                                         
+client2-1  | 2025-03-08 04:54:28 [INFO] Client 2 - Post-Training (took 324.84s) - CPU: 106.4% | TX: 0.00 MB | Energy: 5.32 J/s
+client0-1  | 2025-03-08 04:54:28 [INFO] Client 0 - Post-Training (took 325.13s) - CPU: 98.8% | TX: 0.00 MB | Energy: 4.94 J/s
+edge0-1    | DEBUG flwr 2025-03-08 04:54:28,402 | server.py:236 | fit_round 24 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:54:28,405 | server.py:173 | evaluate_round 24: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 04:54:28 [INFO] Client 3 - Post-Training (took 325.29s) - CPU: 78.8% | TX: 0.00 MB | Energy: 3.94 J/s                                                                         
+edge1-1    | DEBUG flwr 2025-03-08 04:54:28,431 | server.py:236 | fit_round 24 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:54:28,433 | server.py:173 | evaluate_round 24: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 04:54:28 [INFO] Client 2 - Pre-Evaluation - CPU: 9.9% | TX: 0.00 MB | Energy: 0.50 J/s                                                                                        
+client0-1  | 2025-03-08 04:54:28 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:54:28 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 04:54:28 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 04:56:26 [INFO] Client 1 - Evaluation - Loss: 14.8486, Accuracy: 0.9899                                                                                                       
+client0-1  | 2025-03-08 04:56:26 [INFO] Client 0 - Evaluation - Loss: 10.3493, Accuracy: 0.9930
+client2-1  | 2025-03-08 04:56:27 [INFO] Client 2 - Evaluation - Loss: 12.0123, Accuracy: 0.9913
+edge0-1    | DEBUG flwr 2025-03-08 04:56:27,022 | server.py:187 | evaluate_round 24 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 04:56:27,022 | server.py:222 | fit_round 25: strategy sampled 2 clients (out of 2)                                                                                 
+client3-1  | 2025-03-08 04:56:27 [INFO] Client 3 - Evaluation - Loss: 12.1670, Accuracy: 0.9912                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 04:56:27,062 | server.py:187 | evaluate_round 24 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 04:56:27,063 | server.py:222 | fit_round 25: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 04:56:27 [INFO] Client 2 - Pre-Training - CPU: 19.6% | TX: 0.00 MB | Energy: 0.98 J/s                                                                                         
+client0-1  | 2025-03-08 04:56:27 [INFO] Client 0 - Pre-Training - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s
+client3-1  | 2025-03-08 04:56:27 [INFO] Client 3 - Pre-Training - CPU: 79.3% | TX: 0.00 MB | Energy: 3.96 J/s                                                                                         
+client1-1  | 2025-03-08 04:56:27 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 05:01:41 [INFO] Client 2 - Post-Training (took 345.49s) - CPU: 67.3% | TX: 0.00 MB | Energy: 3.37 J/s                                                                         
+client0-1  | 2025-03-08 05:01:45 [INFO] Client 0 - Post-Training (took 348.62s) - CPU: 106.2% | TX: 0.00 MB | Energy: 5.31 J/s
+edge0-1    | DEBUG flwr 2025-03-08 05:01:45,103 | server.py:236 | fit_round 25 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:01:45,106 | server.py:173 | evaluate_round 25: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 05:01:45 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 05:01:45 [INFO] Client 0 - Pre-Evaluation - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s
+client1-1  | 2025-03-08 05:01:47 [INFO] Client 1 - Post-Training (took 350.71s) - CPU: 99.6% | TX: 0.00 MB | Energy: 4.98 J/s                                                                         
+client3-1  | 2025-03-08 05:01:49 [INFO] Client 3 - Post-Training (took 352.98s) - CPU: 128.5% | TX: 0.00 MB | Energy: 6.43 J/s
+edge1-1    | DEBUG flwr 2025-03-08 05:01:49,498 | server.py:236 | fit_round 25 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:01:49,499 | server.py:173 | evaluate_round 25: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 05:01:49 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 05:01:49 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 05:03:41 [INFO] Client 2 - Evaluation - Loss: 11.1939, Accuracy: 0.9924                                                                                                       
+client0-1  | 2025-03-08 05:03:42 [INFO] Client 0 - Evaluation - Loss: 10.0238, Accuracy: 0.9931
+edge0-1    | DEBUG flwr 2025-03-08 05:03:42,838 | server.py:187 | evaluate_round 25 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:03:42,838 | server.py:222 | fit_round 26: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 05:03:42 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 05:03:42 [INFO] Client 0 - Pre-Training - CPU: 67.8% | TX: 0.00 MB | Energy: 3.39 J/s
+client3-1  | 2025-03-08 05:03:43 [INFO] Client 3 - Evaluation - Loss: 12.2056, Accuracy: 0.9907                                                                                                       
+client1-1  | 2025-03-08 05:03:45 [INFO] Client 1 - Evaluation - Loss: 13.4949, Accuracy: 0.9907
+edge1-1    | DEBUG flwr 2025-03-08 05:03:45,323 | server.py:187 | evaluate_round 25 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:03:45,323 | server.py:222 | fit_round 26: strategy sampled 2 clients (out of 2)
+client3-1  | 2025-03-08 05:03:45 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 05:03:45 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 05:09:12 [INFO] Client 2 - Post-Training (took 360.23s) - CPU: 108.1% | TX: 0.00 MB | Energy: 5.41 J/s
+client0-1  | 2025-03-08 05:09:12 [INFO] Client 0 - Post-Training (took 360.63s) - CPU: 88.0% | TX: 0.00 MB | Energy: 4.40 J/s
+edge0-1    | DEBUG flwr 2025-03-08 05:09:12,978 | server.py:236 | fit_round 26 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:09:12,982 | server.py:173 | evaluate_round 26: strategy sampled 2 clients (out of 2)                                                                            
+client2-1  | 2025-03-08 05:09:13 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 05:09:13 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 05:09:13 [INFO] Client 3 - Post-Training (took 358.31s) - CPU: 83.2% | TX: 0.00 MB | Energy: 4.16 J/s                                                                         
+client1-1  | 2025-03-08 05:09:13 [INFO] Client 1 - Post-Training (took 358.71s) - CPU: 119.7% | TX: 0.00 MB | Energy: 5.99 J/s
+edge1-1    | DEBUG flwr 2025-03-08 05:09:13,559 | server.py:236 | fit_round 26 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:09:13,560 | server.py:173 | evaluate_round 26: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 05:09:13 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 05:09:13 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 05:10:58 [INFO] Client 0 - Evaluation - Loss: 9.6287, Accuracy: 0.9932
+client2-1  | 2025-03-08 05:11:00 [INFO] Client 2 - Evaluation - Loss: 11.0436, Accuracy: 0.9915
+edge0-1    | DEBUG flwr 2025-03-08 05:11:00,156 | server.py:187 | evaluate_round 26 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:11:00,156 | server.py:222 | fit_round 27: strategy sampled 2 clients (out of 2)                                                                                 
+client0-1  | 2025-03-08 05:11:00 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client2-1  | 2025-03-08 05:11:00 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 05:11:01 [INFO] Client 1 - Evaluation - Loss: 13.8552, Accuracy: 0.9902                                                                                                       
+client3-1  | 2025-03-08 05:11:03 [INFO] Client 3 - Evaluation - Loss: 11.6111, Accuracy: 0.9919
+edge1-1    | DEBUG flwr 2025-03-08 05:11:03,334 | server.py:187 | evaluate_round 26 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:11:03,334 | server.py:222 | fit_round 27: strategy sampled 2 clients (out of 2)                                                                                 
+client1-1  | 2025-03-08 05:11:03 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client3-1  | 2025-03-08 05:11:03 [INFO] Client 3 - Pre-Training - CPU: 19.2% | TX: 0.00 MB | Energy: 0.96 J/s
+client0-1  | 2025-03-08 05:16:06 [INFO] Client 0 - Post-Training (took 334.24s) - CPU: 95.0% | TX: 0.00 MB | Energy: 4.75 J/s                                                                         
+client1-1  | 2025-03-08 05:16:10 [INFO] Client 1 - Post-Training (took 334.98s) - CPU: 106.4% | TX: 0.00 MB | Energy: 5.32 J/s
+client2-1  | 2025-03-08 05:16:10 [INFO] Client 2 - Post-Training (took 338.45s) - CPU: 128.8% | TX: 0.00 MB | Energy: 6.44 J/s
+edge0-1    | DEBUG flwr 2025-03-08 05:16:10,620 | server.py:236 | fit_round 27 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:16:10,622 | server.py:173 | evaluate_round 27: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 05:16:10 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 05:16:10 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 05:16:10 [INFO] Client 3 - Post-Training (took 335.45s) - CPU: 103.6% | TX: 0.00 MB | Energy: 5.18 J/s                                                                        
+edge1-1    | DEBUG flwr 2025-03-08 05:16:10,811 | server.py:236 | fit_round 27 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:16:10,813 | server.py:173 | evaluate_round 27: strategy sampled 2 clients (out of 2)
+client1-1  | 2025-03-08 05:16:10 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 05:16:10 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 05:17:55 [INFO] Client 2 - Evaluation - Loss: 10.8524, Accuracy: 0.9921                                                                                                       
+client3-1  | 2025-03-08 05:17:56 [INFO] Client 3 - Evaluation - Loss: 11.1717, Accuracy: 0.9924
+client1-1  | 2025-03-08 05:17:56 [INFO] Client 1 - Evaluation - Loss: 12.5764, Accuracy: 0.9919
+edge1-1    | DEBUG flwr 2025-03-08 05:17:56,954 | server.py:187 | evaluate_round 27 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:17:56,954 | server.py:222 | fit_round 28: strategy sampled 2 clients (out of 2)                                                                                 
+client0-1  | 2025-03-08 05:17:57 [INFO] Client 0 - Evaluation - Loss: 9.7700, Accuracy: 0.9932                                                                                                        
+edge0-1    | DEBUG flwr 2025-03-08 05:17:57,014 | server.py:187 | evaluate_round 27 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:17:57,014 | server.py:222 | fit_round 28: strategy sampled 2 clients (out of 2)                                                                                 
+client3-1  | 2025-03-08 05:17:57 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 05:17:57 [INFO] Client 1 - Pre-Training - CPU: 58.8% | TX: 0.00 MB | Energy: 2.94 J/s
+client2-1  | 2025-03-08 05:17:57 [INFO] Client 2 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client0-1  | 2025-03-08 05:17:57 [INFO] Client 0 - Pre-Training - CPU: 58.7% | TX: 0.00 MB | Energy: 2.94 J/s
+client1-1  | 2025-03-08 05:23:21 [INFO] Client 1 - Post-Training (took 355.29s) - CPU: 119.5% | TX: 0.00 MB | Energy: 5.97 J/s                                                                        
+client2-1  | 2025-03-08 05:23:22 [INFO] Client 2 - Post-Training (took 355.76s) - CPU: 110.5% | TX: 0.00 MB | Energy: 5.53 J/s
+client3-1  | 2025-03-08 05:23:22 [INFO] Client 3 - Post-Training (took 355.94s) - CPU: 135.7% | TX: 0.00 MB | Energy: 6.79 J/s
+edge1-1    | DEBUG flwr 2025-03-08 05:23:22,391 | server.py:236 | fit_round 28 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:23:22,392 | server.py:173 | evaluate_round 28: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 05:23:22 [INFO] Client 0 - Post-Training (took 355.95s) - CPU: 99.7% | TX: 0.00 MB | Energy: 4.99 J/s                                                                         
+edge0-1    | DEBUG flwr 2025-03-08 05:23:22,454 | server.py:236 | fit_round 28 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:23:22,455 | server.py:173 | evaluate_round 28: strategy sampled 2 clients (out of 2)                                                                            
+client1-1  | 2025-03-08 05:23:22 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 05:23:22 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 05:23:22 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client2-1  | 2025-03-08 05:23:22 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 05:25:18 [INFO] Client 0 - Evaluation - Loss: 8.4333, Accuracy: 0.9943                                                                                                        
+client1-1  | 2025-03-08 05:25:19 [INFO] Client 1 - Evaluation - Loss: 12.6753, Accuracy: 0.9911
+client2-1  | 2025-03-08 05:25:19 [INFO] Client 2 - Evaluation - Loss: 9.5591, Accuracy: 0.9936
+edge0-1    | DEBUG flwr 2025-03-08 05:25:19,088 | server.py:187 | evaluate_round 28 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:25:19,088 | server.py:222 | fit_round 29: strategy sampled 2 clients (out of 2)
+client3-1  | 2025-03-08 05:25:19 [INFO] Client 3 - Evaluation - Loss: 12.2085, Accuracy: 0.9904                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 05:25:19,161 | server.py:187 | evaluate_round 28 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:25:19,161 | server.py:222 | fit_round 29: strategy sampled 2 clients (out of 2)                                                                                 
+client0-1  | 2025-03-08 05:25:19 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client2-1  | 2025-03-08 05:25:19 [INFO] Client 2 - Pre-Training - CPU: 69.0% | TX: 0.00 MB | Energy: 3.45 J/s
+client3-1  | 2025-03-08 05:25:19 [INFO] Client 3 - Pre-Training - CPU: 99.6% | TX: 0.00 MB | Energy: 4.98 J/s                                                                                         
+client1-1  | 2025-03-08 05:25:19 [INFO] Client 1 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client0-1  | 2025-03-08 05:30:30 [INFO] Client 0 - Post-Training (took 342.24s) - CPU: 10.0% | TX: 0.00 MB | Energy: 0.50 J/s                                                                         
+client2-1  | 2025-03-08 05:30:31 [INFO] Client 2 - Post-Training (took 343.33s) - CPU: 129.2% | TX: 0.00 MB | Energy: 6.46 J/s
+edge0-1    | DEBUG flwr 2025-03-08 05:30:31,929 | server.py:236 | fit_round 29 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:30:31,931 | server.py:173 | evaluate_round 29: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 05:30:31 [INFO] Client 3 - Post-Training (took 343.31s) - CPU: 96.6% | TX: 0.00 MB | Energy: 4.83 J/s                                                                         
+client0-1  | 2025-03-08 05:30:32 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 05:30:32 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client1-1  | 2025-03-08 05:30:32 [INFO] Client 1 - Post-Training (took 343.41s) - CPU: 138.5% | TX: 0.00 MB | Energy: 6.93 J/s                                                                        
+edge1-1    | DEBUG flwr 2025-03-08 05:30:32,086 | server.py:236 | fit_round 29 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:30:32,088 | server.py:173 | evaluate_round 29: strategy sampled 2 clients (out of 2)                                                                            
+client3-1  | 2025-03-08 05:30:32 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client1-1  | 2025-03-08 05:30:32 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client3-1  | 2025-03-08 05:32:25 [INFO] Client 3 - Evaluation - Loss: 9.6242, Accuracy: 0.9933                                                                                                        
+client0-1  | 2025-03-08 05:32:25 [INFO] Client 0 - Evaluation - Loss: 7.9732, Accuracy: 0.9947
+client1-1  | 2025-03-08 05:32:25 [INFO] Client 1 - Evaluation - Loss: 11.1958, Accuracy: 0.9930
+edge1-1    | DEBUG flwr 2025-03-08 05:32:25,780 | server.py:187 | evaluate_round 29 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:32:25,780 | server.py:222 | fit_round 30: strategy sampled 2 clients (out of 2)                                                                                 
+client2-1  | 2025-03-08 05:32:25 [INFO] Client 2 - Evaluation - Loss: 9.3994, Accuracy: 0.9936                                                                                                        
+edge0-1    | DEBUG flwr 2025-03-08 05:32:25,816 | server.py:187 | evaluate_round 29 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:32:25,817 | server.py:222 | fit_round 30: strategy sampled 2 clients (out of 2)                                                                                 
+client3-1  | 2025-03-08 05:32:25 [INFO] Client 3 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                          
+client1-1  | 2025-03-08 05:32:25 [INFO] Client 1 - Pre-Training - CPU: 39.8% | TX: 0.00 MB | Energy: 1.99 J/s
+client2-1  | 2025-03-08 05:32:25 [INFO] Client 2 - Pre-Training - CPU: 49.8% | TX: 0.00 MB | Energy: 2.49 J/s                                                                                         
+client0-1  | 2025-03-08 05:32:25 [INFO] Client 0 - Pre-Training - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 05:37:43 [INFO] Client 2 - Post-Training (took 345.70s) - CPU: 97.2% | TX: 0.00 MB | Energy: 4.86 J/s
+client3-1  | 2025-03-08 05:37:41 [INFO] Client 3 - Post-Training (took 346.12s) - CPU: 107.1% | TX: 0.00 MB | Energy: 5.36 J/s
+client1-1  | 2025-03-08 05:37:41 [INFO] Client 1 - Post-Training (took 346.15s) - CPU: 99.4% | TX: 0.00 MB | Energy: 4.97 J/s
+edge1-1    | DEBUG flwr 2025-03-08 05:37:41,459 | server.py:236 | fit_round 30 received 2 results and 0 failures
+edge1-1    | DEBUG flwr 2025-03-08 05:37:41,465 | server.py:173 | evaluate_round 30: strategy sampled 2 clients (out of 2)                                                                            
+client0-1  | 2025-03-08 05:37:41 [INFO] Client 0 - Post-Training (took 346.18s) - CPU: 89.6% | TX: 0.00 MB | Energy: 4.48 J/s                                                                         
+edge0-1    | DEBUG flwr 2025-03-08 05:37:41,515 | server.py:236 | fit_round 30 received 2 results and 0 failures
+edge0-1    | DEBUG flwr 2025-03-08 05:37:41,516 | server.py:173 | evaluate_round 30: strategy sampled 2 clients (out of 2)                                                                            
+client1-1  | 2025-03-08 05:37:41 [INFO] Client 1 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client3-1  | 2025-03-08 05:37:41 [INFO] Client 3 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 05:37:41 [INFO] Client 2 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s                                                                                        
+client0-1  | 2025-03-08 05:37:41 [INFO] Client 0 - Pre-Evaluation - CPU: 0.0% | TX: 0.00 MB | Energy: 0.00 J/s
+client2-1  | 2025-03-08 05:39:25 [INFO] Client 2 - Evaluation - Loss: 9.7752, Accuracy: 0.9931                                                                                                        
+client0-1  | 2025-03-08 05:39:26 [INFO] Client 0 - Evaluation - Loss: 7.9319, Accuracy: 0.9952
+edge0-1    | DEBUG flwr 2025-03-08 05:39:26,320 | server.py:187 | evaluate_round 30 received 2 results and 0 failures
+edge0-1    | INFO flwr 2025-03-08 05:39:26,320 | server.py:153 | FL finished in 12851.885810129                                                                                                       
+edge0-1    | INFO flwr 2025-03-08 05:39:26,321 | app.py:225 | app_fit: losses_distributed [(1, 156.5333251953125), (2, 86.74626159667969), (3, 63.39055061340332), (4, 51.98816680908203), (5, 45.24233436584473), (6, 38.84880256652832), (7, 33.69358444213867), (8, 31.953737258911133), (9, 28.589576721191406), (10, 27.184127807617188), (11, 25.301237106323242), (12, 24.879230499267578), (13, 21.405037879943848), (14, 20.586983680725098), (15, 22.00092124938965), (16, 18.119583129882812), (17, 17.215164184570312), (18, 15.159490585327148), (19, 14.696746826171875), (20, 14.378803253173828), (21, 13.632671356201172), (22, 12.528570175170898), (23, 11.824031829833984), (24, 11.180808067321777), (25, 10.608832836151123), (26, 10.336145877838135), (27, 10.31124496459961), (28, 8.996196746826172), (29, 8.686278104782104), (30, 8.853523254394531)]
+edge0-1    | INFO flwr 2025-03-08 05:39:26,321 | app.py:226 | app_fit: metrics_distributed_fit {'loss': [(1, 1.1666415539433324), (2, 0.28449745536715637), (3, 0.19192685635530904), (4, 0.15036428024246407), (5, 0.12600964411896745), (6, 0.1107073961431602), (7, 0.09867058289612497), (8, 0.08895249559320023), (9, 0.08367096823673272), (10, 0.07672195340135969), (11, 0.07169026303234989), (12, 0.06672593844203187), (13, 0.06166702647576487), (14, 0.05820602720256583), (15, 0.05565117663471855), (16, 0.052946735497881876), (17, 0.04937824753552545), (18, 0.04714150233871482), (19, 0.04435116884445383), (20, 0.04231083847251163), (21, 0.041116308658899654), (22, 0.0380839059651847), (23, 0.03639823292571443), (24, 0.0349776110291438), (25, 0.03326407785115196), (26, 0.031310824209186815), (27, 0.03048252185994704), (28, 0.029467413970162365), (29, 0.02722095208641093), (30, 0.02601193248355881)], 'accuracy': [(1, 0.6395185185185185), (2, 0.9144444444444444), (3, 0.9418148148148148), (4, 0.9545185185185185), (5, 0.962), (6, 0.9658888888888889), (7, 0.9693703703703703), (8, 0.9730740740740741), (9, 0.9736666666666667), (10, 0.9762222222222222), (11, 0.9773333333333334), (12, 0.9792592592592593), (13, 0.9807407407407407), (14, 0.982), (15, 0.9825185185185186), (16, 0.9826296296296296), (17, 0.984), (18, 0.9846296296296296), (19, 0.9856666666666667), (20, 0.9865925925925926), (21, 0.9868888888888889), (22, 0.9874814814814815), (23, 0.9882592592592593), (24, 0.9887037037037038), (25, 0.9891111111111112), (26, 0.99), (27, 0.990037037037037), (28, 0.9904814814814815), (29, 0.9908518518518519), (30, 0.9919629629629629)]}
+edge0-1    | INFO flwr 2025-03-08 05:39:26,321 | app.py:227 | app_fit: metrics_distributed {'accuracy': [(1, 0.8844444444444445), (2, 0.9397037037037037), (3, 0.9561111111111111), (4, 0.9627777777777777), (5, 0.9684814814814815), (6, 0.9722962962962963), (7, 0.9768888888888889), (8, 0.9764814814814815), (9, 0.9791481481481481), (10, 0.9794814814814815), (11, 0.9812222222222222), (12, 0.981037037037037), (13, 0.9849629629629629), (14, 0.9845555555555555), (15, 0.9830740740740741), (16, 0.9865925925925926), (17, 0.9872962962962963), (18, 0.9894814814814815), (19, 0.9887407407407407), (20, 0.9896296296296296), (21, 0.9894074074074074), (22, 0.9911851851851852), (23, 0.9913703703703703), (24, 0.9921481481481481), (25, 0.9927407407407407), (26, 0.9923333333333333), (27, 0.9926666666666667), (28, 0.9939259259259259), (29, 0.9941481481481481), (30, 0.9941481481481481)]}
+edge0-1    | INFO flwr 2025-03-08 05:39:26,322 | app.py:228 | app_fit: losses_centralized []
+edge0-1    | INFO flwr 2025-03-08 05:39:26,322 | app.py:229 | app_fit: metrics_centralized {}
+client2-1  | DEBUG flwr 2025-03-08 05:39:26,356 | connection.py:139 | gRPC channel closed                                                                                                             
+client0-1  | DEBUG flwr 2025-03-08 05:39:26,356 | connection.py:139 | gRPC channel closed
+client2-1  | INFO flwr 2025-03-08 05:39:26,356 | app.py:215 | Disconnect and shut down                                                                                                                
+client0-1  | INFO flwr 2025-03-08 05:39:26,357 | app.py:215 | Disconnect and shut down                                                                                                                
+client3-1  | 2025-03-08 05:39:26 [INFO] Client 3 - Evaluation - Loss: 10.1633, Accuracy: 0.9932
+edge0-1    | I0000 00:00:1741412366.394955      42 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                                                          
+client0-1  | WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+client0-1  | F0000 00:00:1741412366.394924     117 thd.h:170] Check failed: state_ == FAILED 
+client0-1  | *** Check failure stack trace: ***                                                                                                                                                       
+client1-1  | 2025-03-08 05:39:26 [INFO] Client 1 - Evaluation - Loss: 11.8662, Accuracy: 0.9911                                                                                                       
+edge1-1    | DEBUG flwr 2025-03-08 05:39:26,449 | server.py:187 | evaluate_round 30 received 2 results and 0 failures
+edge1-1    | INFO flwr 2025-03-08 05:39:26,449 | server.py:153 | FL finished in 12852.016333928                                                                                                       
+edge1-1    | INFO flwr 2025-03-08 05:39:26,451 | app.py:225 | app_fit: losses_distributed [(1, 158.2696533203125), (2, 92.33404159545898), (3, 65.33716583251953), (4, 54.64874458312988), (5, 46.0195369720459), (6, 43.73236274719238), (7, 37.67386436462402), (8, 33.95469856262207), (9, 30.81530475616455), (10, 27.793806076049805), (11, 26.7174015045166), (12, 26.661709785461426), (13, 22.419753074645996), (14, 24.310630798339844), (15, 21.23318576812744), (16, 20.751741409301758), (17, 18.1825008392334), (18, 17.896410942077637), (19, 18.014738082885742), (20, 15.91547155380249), (21, 16.0252947807312), (22, 14.868355751037598), (23, 13.717573642730713), (24, 13.507791996002197), (25, 12.850247383117676), (26, 12.733159065246582), (27, 11.87405014038086), (28, 12.441901683807373), (29, 10.40998649597168), (30, 11.014735698699951)]
+edge1-1    | INFO flwr 2025-03-08 05:39:26,452 | app.py:226 | app_fit: metrics_distributed_fit {'loss': [(1, 1.1704197957476168), (2, 0.2987431051889302), (3, 0.20022613344210866), (4, 0.15607991363738455), (5, 0.13216687277868674), (6, 0.11569889486266378), (7, 0.10485216897583491), (8, 0.09605428971812544), (9, 0.08810574529550184), (10, 0.08078263266016485), (11, 0.07491402191019471), (12, 0.07134662163791454), (13, 0.06726131634124646), (14, 0.06285553981681902), (15, 0.06077839734543928), (16, 0.05630374236721479), (17, 0.05456119576803965), (18, 0.051223395295469834), (19, 0.04968057361266453), (20, 0.04739471368689721), (21, 0.04547286622989835), (22, 0.04388954912670127), (23, 0.041181711023705145), (24, 0.039774396208843765), (25, 0.03856592489408811), (26, 0.03619397286120449), (27, 0.03392350032639534), (28, 0.03333485407133529), (29, 0.03213384205742901), (30, 0.029840905666977537)], 'accuracy': [(1, 0.6434814814814814), (2, 0.9096296296296297), (3, 0.9382222222222222), (4, 0.9533333333333334), (5, 0.959962962962963), (6, 0.9653333333333334), (7, 0.9684074074074074), (8, 0.9711481481481481), (9, 0.972925925925926), (10, 0.9759629629629629), (11, 0.9768888888888889), (12, 0.9784814814814815), (13, 0.98), (14, 0.9805185185185186), (15, 0.9809629629629629), (16, 0.983), (17, 0.9828148148148148), (18, 0.984037037037037), (19, 0.9848518518518519), (20, 0.9853333333333333), (21, 0.9860740740740741), (22, 0.9865925925925926), (23, 0.9869259259259259), (24, 0.9877777777777778), (25, 0.988037037037037), (26, 0.9889259259259259), (27, 0.9897407407407407), (28, 0.9895925925925926), (29, 0.9898518518518519), (30, 0.9911111111111112)]}
+edge1-1    | INFO flwr 2025-03-08 05:39:26,452 | app.py:227 | app_fit: metrics_distributed {'accuracy': [(1, 0.8872962962962962), (2, 0.9340740740740741), (3, 0.9546666666666667), (4, 0.9607777777777777), (5, 0.9671481481481482), (6, 0.969), (7, 0.9731851851851852), (8, 0.9760740740740741), (9, 0.9790740740740741), (10, 0.9801111111111112), (11, 0.9808518518518519), (12, 0.9802222222222222), (13, 0.9837777777777778), (14, 0.9823703703703703), (15, 0.9849259259259259), (16, 0.9845555555555555), (17, 0.9870740740740741), (18, 0.987037037037037), (19, 0.9868888888888889), (20, 0.989037037037037), (21, 0.9881851851851852), (22, 0.9897037037037038), (23, 0.9908888888888889), (24, 0.9905555555555555), (25, 0.9907037037037038), (26, 0.991037037037037), (27, 0.9921481481481481), (28, 0.9907777777777778), (29, 0.9931481481481481), (30, 0.9921481481481481)]}
+client1-1  | DEBUG flwr 2025-03-08 05:39:26,460 | connection.py:139 | gRPC channel closed
+client3-1  | DEBUG flwr 2025-03-08 05:39:26,461 | connection.py:139 | gRPC channel closed
+edge1-1    | INFO flwr 2025-03-08 05:39:26,452 | app.py:228 | app_fit: losses_centralized []                                                                                                          
+client1-1  | INFO flwr 2025-03-08 05:39:26,461 | app.py:215 | Disconnect and shut down                                                                                                                
+client3-1  | INFO flwr 2025-03-08 05:39:26,462 | app.py:215 | Disconnect and shut down                                                                                                                
+edge1-1    | INFO flwr 2025-03-08 05:39:26,452 | app.py:229 | app_fit: metrics_centralized {}                                                                                                         
+edge1-1    | I0000 00:00:1741412366.466796      42 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers                                                          
+edge0-1    | 2025-03-08 05:39:26 [INFO] Edge 0 - Post-Aggregation (took 12851.93s) - CPU: 7.0% | TX: 10.85 MB | Energy: 0.70 J/s                                                                      
+edge1-1    | 2025-03-08 05:39:26 [INFO] Edge 1 - Post-Aggregation (took 12852.03s) - CPU: 17.0% | TX: 10.85 MB | Energy: 1.70 J/s
+cloud-1    | DEBUG flwr 2025-03-08 05:39:26,591 | server.py:236 | fit_round 1 received 2 results and 0 failures
+cloud-1    | 2025-03-08 05:39:26 [DEBUG] Cloud - fit_round 1 received 2 results and 0 failures                                                                                                        
+cloud-1    | 2025-03-08 05:39:26 [ERROR] Cloud - Cloud Server failed: 'loss'                                                                                                                          
+cloud-1    | Traceback (most recent call last):
+cloud-1    |   File "/app/cloud_server.py", line 82, in <module>                                                                                                                                      
+cloud-1    |     fl.server.start_server(                                                                                                                                                              
+cloud-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/app.py", line 183, in start_server                                                                                            
+cloud-1    |     hist = run_fl(                                                                                                                                                                       
+cloud-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/app.py", line 224, in run_fl                                                                                                  
+cloud-1    |     hist = server.fit(num_rounds=config.num_rounds, timeout=config.round_timeout)
+cloud-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/server.py", line 109, in fit                                                                                                  
+cloud-1    |     res_fit = self.fit_round(                                                                                                                                                            
+cloud-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/server.py", line 248, in fit_round                                                                                            
+cloud-1    |     ] = self.strategy.aggregate_fit(server_round, results, failures)                                                                                                                     
+cloud-1    |   File "/usr/local/lib/python3.9/dist-packages/flwr/server/strategy/fedavg.py", line 240, in aggregate_fit                                                                               
+cloud-1    |     metrics_aggregated = self.fit_metrics_aggregation_fn(fit_metrics)                                                                                                                    
+cloud-1    |   File "/app/cloud_server.py", line 44, in fit_metrics_aggregation_fn                                                                                                                    
+cloud-1    |     avg_loss = sum([m["loss"] * n for n, m in fit_metrics]) / total_examples
+cloud-1    |   File "/app/cloud_server.py", line 44, in <listcomp>                                                                                                                                    
+cloud-1    |     avg_loss = sum([m["loss"] * n for n, m in fit_metrics]) / total_examples                                                                                                             
+cloud-1    | KeyError: 'loss'                                                                                                                                                                         
+client1-1 exited with code 0
+client3-1 exited with code 0
+client2-1 exited with code 0
+client0-1 exited with code 139

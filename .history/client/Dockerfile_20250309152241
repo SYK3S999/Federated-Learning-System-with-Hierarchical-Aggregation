@@ -1,0 +1,5 @@
+FROM fl_base:latest
+WORKDIR /app
+COPY edge/ .
+COPY data/mnist/raw /app/data 
+CMD ["python3.9", "edge_node.py"]

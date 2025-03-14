@@ -1,0 +1,6 @@
+flwr==1.5.0
+torch==2.4.1  # CPU-only, no CUDA
+torchvision==0.19.1  # Matches torch 2.4.1
+psutil
+pynvml==11.5.0  # GPU monitoring
+prometheus-client==0.17.1  # Metrics export (optional for RL)

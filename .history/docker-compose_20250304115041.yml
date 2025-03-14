@@ -1,0 +1,72 @@
+version: '3.8'
+services:
+  cloud:
+    build: ./cloud
+    ports:
+      - "8080:8080"
+    environment:
+      - CLOUD_ID=1
+    networks:
+      - fl_network
+
+  edge0:
+    build: ./edge
+    ports:
+      - "8081:8080"  # Map host 8081 to container 8080
+    environment:
+      - EDGE_ID=0
+    networks:
+      - fl_network
+    depends_on:
+      - cloud
+
+  edge1:
+    build: ./edge
+    ports:
+      - "8082:8080"  # Map host 8082 to container 8080
+    environment:
+      - EDGE_ID=1
+    networks:
+      - fl_network
+    depends_on:
+      - cloud
+
+  client0:
+    build: ./client
+    environment:
+      - CLIENT_ID=0
+    networks:
+      - fl_network
+    depends_on:
+      - edge0
+
+  client1:
+    build: ./client
+    environment:
+      - CLIENT_ID=1
+    networks:
+      - fl_network
+    depends_on:
+      - edge0
+
+  client2:
+    build: ./client
+    environment:
+      - CLIENT_ID=2
+    networks:
+      - fl_network
+    depends_on:
+      - edge1
+
+  client3:
+    build: ./client
+    environment:
+      - CLIENT_ID=3
+    networks:
+      - fl_network
+    depends_on:
+      - edge1
+
+networks:
+  fl_network:
+    driver: bridge

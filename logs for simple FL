@@ -1,0 +1,702 @@
+2025-03-04 00:08:25 client1-1  | 
+2025-03-04 00:08:25 server-1   | 
+2025-03-04 00:08:25 client1-1  | ==========
+2025-03-04 00:08:25 client1-1  | == CUDA ==
+2025-03-04 00:08:25 server-1   | ==========
+2025-03-04 00:08:25 client2-1  | 
+2025-03-04 00:08:25 server-1   | == CUDA ==
+2025-03-04 00:08:25 client1-1  | ==========
+2025-03-04 00:08:25 server-1   | ==========
+2025-03-04 00:08:25 client2-1  | ==========
+2025-03-04 00:08:25 server-1   | 
+2025-03-04 00:08:25 client2-1  | == CUDA ==
+2025-03-04 00:08:25 client1-1  | 
+2025-03-04 00:08:25 server-1   | CUDA Version 12.4.1
+2025-03-04 00:08:25 client1-1  | CUDA Version 12.4.1
+2025-03-04 00:08:25 client1-1  | 
+2025-03-04 00:08:25 client1-1  | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+2025-03-04 00:08:25 client1-1  | 
+2025-03-04 00:08:25 client1-1  | This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+2025-03-04 00:08:25 server-1   | 
+2025-03-04 00:08:25 server-1   | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+2025-03-04 00:08:25 server-1   | 
+2025-03-04 00:08:25 server-1   | This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+2025-03-04 00:08:25 server-1   | By pulling and using the container, you accept the terms and conditions of this license:
+2025-03-04 00:08:25 server-1   | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+2025-03-04 00:08:25 server-1   | 
+2025-03-04 00:08:25 server-1   | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+2025-03-04 00:08:25 server-1   | 
+2025-03-04 00:08:25 client2-1  | ==========
+2025-03-04 00:08:25 client2-1  | 
+2025-03-04 00:08:25 client2-1  | CUDA Version 12.4.1
+2025-03-04 00:08:25 client2-1  | 
+2025-03-04 00:08:25 client2-1  | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+2025-03-04 00:08:25 client2-1  | 
+2025-03-04 00:08:25 client2-1  | This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+2025-03-04 00:08:25 client2-1  | By pulling and using the container, you accept the terms and conditions of this license:
+2025-03-04 00:08:25 client2-1  | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+2025-03-04 00:08:25 client2-1  | 
+2025-03-04 00:08:25 client2-1  | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+2025-03-04 00:08:25 client2-1  | 
+2025-03-04 00:08:25 client1-1  | By pulling and using the container, you accept the terms and conditions of this license:
+2025-03-04 00:08:25 client1-1  | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+2025-03-04 00:08:25 client1-1  | 
+2025-03-04 00:08:25 client1-1  | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+2025-03-04 00:08:25 client1-1  | 
+2025-03-04 00:08:28 server-1   | 2025-03-03 23:08:28,738 - INFO - Starting FL Server...
+2025-03-04 00:08:28 server-1   | INFO flwr 2025-03-03 23:08:28,740 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=30, round_timeout=None)
+2025-03-04 00:08:28 server-1   | 2025-03-03 23:08:28,740 - INFO - Starting Flower server, config: ServerConfig(num_rounds=30, round_timeout=None)
+2025-03-04 00:08:28 server-1   | INFO flwr 2025-03-03 23:08:28,763 | app.py:175 | Flower ECE: gRPC server running (30 rounds), SSL is disabled
+2025-03-04 00:08:28 server-1   | 2025-03-03 23:08:28,763 - INFO - Flower ECE: gRPC server running (30 rounds), SSL is disabled
+2025-03-04 00:08:28 server-1   | INFO flwr 2025-03-03 23:08:28,763 | server.py:89 | Initializing global parameters
+2025-03-04 00:08:28 server-1   | 2025-03-03 23:08:28,763 - INFO - Initializing global parameters
+2025-03-04 00:08:28 server-1   | INFO flwr 2025-03-03 23:08:28,764 | server.py:272 | Using initial parameters provided by strategy
+2025-03-04 00:08:28 server-1   | 2025-03-03 23:08:28,764 - INFO - Using initial parameters provided by strategy
+2025-03-04 00:08:28 server-1   | INFO flwr 2025-03-03 23:08:28,764 | server.py:91 | Evaluating initial parameters
+2025-03-04 00:08:28 server-1   | 2025-03-03 23:08:28,764 - INFO - Evaluating initial parameters
+2025-03-04 00:08:28 server-1   | 2025-03-03 23:08:28,765 - INFO - Server Round 0 Pre-Eval - CPU: 8.8% | Freq: 2304.008999999999 MHz | TX Power: 0.00 MB | Energy: 0.88 J/s
+2025-03-04 00:08:30 server-1   | 2025-03-03 23:08:30,220 - INFO - Server Round 0 Post-Eval (took 1.45s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 0.00 MB | Energy: 0.63 J/s
+2025-03-04 00:08:30 server-1   | INFO flwr 2025-03-03 23:08:30,221 | server.py:94 | initial parameters (loss, other metrics): 181.8919665813446, {'accuracy': 0.0821}
+2025-03-04 00:08:30 server-1   | 2025-03-03 23:08:30,221 - INFO - initial parameters (loss, other metrics): 181.8919665813446, {'accuracy': 0.0821}
+2025-03-04 00:08:30 server-1   | INFO flwr 2025-03-03 23:08:30,221 | server.py:104 | FL starting
+2025-03-04 00:08:30 server-1   | 2025-03-03 23:08:30,221 - INFO - FL starting
+2025-03-04 00:08:38 client2-1  | 2025-03-03 23:08:38,839 - INFO - Client 1 starting...
+2025-03-04 00:08:38 client1-1  | 2025-03-03 23:08:38,839 - INFO - Client 0 starting...
+2025-03-04 00:08:38 client1-1  | INFO flwr 2025-03-03 23:08:38,859 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+2025-03-04 00:08:38 client1-1  | 2025-03-03 23:08:38,859 - INFO - Opened insecure gRPC connection (no certificates were passed)
+2025-03-04 00:08:38 client2-1  | INFO flwr 2025-03-03 23:08:38,859 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+2025-03-04 00:08:38 client2-1  | 2025-03-03 23:08:38,859 - INFO - Opened insecure gRPC connection (no certificates were passed)
+2025-03-04 00:08:38 client1-1  | DEBUG flwr 2025-03-03 23:08:38,861 | connection.py:42 | ChannelConnectivity.IDLE
+2025-03-04 00:08:38 client1-1  | 2025-03-03 23:08:38,861 - DEBUG - ChannelConnectivity.IDLE
+2025-03-04 00:08:38 client2-1  | DEBUG flwr 2025-03-03 23:08:38,863 | connection.py:42 | ChannelConnectivity.IDLE
+2025-03-04 00:08:38 client2-1  | 2025-03-03 23:08:38,863 - DEBUG - ChannelConnectivity.IDLE
+2025-03-04 00:08:38 client1-1  | DEBUG flwr 2025-03-03 23:08:38,863 | connection.py:42 | ChannelConnectivity.READY
+2025-03-04 00:08:38 client1-1  | 2025-03-03 23:08:38,863 - DEBUG - ChannelConnectivity.READY
+2025-03-04 00:08:38 client2-1  | DEBUG flwr 2025-03-03 23:08:38,865 | connection.py:42 | ChannelConnectivity.READY
+2025-03-04 00:08:38 client2-1  | 2025-03-03 23:08:38,865 - DEBUG - ChannelConnectivity.READY
+2025-03-04 00:08:38 server-1   | DEBUG flwr 2025-03-03 23:08:38,866 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:38 server-1   | 2025-03-03 23:08:38,866 - DEBUG - fit_round 1: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:38 client1-1  | 2025-03-03 23:08:38,872 - INFO - Client 0 Pre-Training - CPU: 2.5% | Freq: 2304.008999999999 MHz | TX Power: 0.00 MB | Energy: 0.25 J/s
+2025-03-04 00:08:38 client2-1  | 2025-03-03 23:08:38,872 - INFO - Client 1 Pre-Training - CPU: 2.5% | Freq: 2304.008999999999 MHz | TX Power: 0.00 MB | Energy: 0.25 J/s
+2025-03-04 00:08:46 client1-1  | 2025-03-03 23:08:46,136 - INFO - Client 0 Post-Training (took 6.70s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 0.00 MB | Energy: 1.16 J/s
+2025-03-04 00:08:46 client2-1  | 2025-03-03 23:08:46,231 - INFO - Client 1 Post-Training (took 6.80s) - CPU: 11.5% | Freq: 2304.008999999999 MHz | TX Power: 0.00 MB | Energy: 1.15 J/s
+2025-03-04 00:08:46 server-1   | DEBUG flwr 2025-03-03 23:08:46,235 | server.py:236 | fit_round 1 received 2 results and 0 failures
+2025-03-04 00:08:46 server-1   | 2025-03-03 23:08:46,235 - DEBUG - fit_round 1 received 2 results and 0 failures
+2025-03-04 00:08:46 server-1   | 2025-03-03 23:08:46,238 - INFO - Server Round 1 Pre-Eval - CPU: 5.5% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 0.55 J/s
+2025-03-04 00:08:47 server-1   | 2025-03-03 23:08:47,357 - INFO - Server Round 1 Post-Eval (took 1.12s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 0.63 J/s
+2025-03-04 00:08:47 server-1   | INFO flwr 2025-03-03 23:08:47,358 | server.py:125 | fit progress: (1, 7.625237619969994, {'accuracy': 0.9702}, 17.13667084700137)
+2025-03-04 00:08:47 server-1   | 2025-03-03 23:08:47,358 - INFO - fit progress: (1, 7.625237619969994, {'accuracy': 0.9702}, 17.13667084700137)
+2025-03-04 00:08:47 server-1   | DEBUG flwr 2025-03-03 23:08:47,358 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:47 server-1   | 2025-03-03 23:08:47,358 - DEBUG - evaluate_round 1: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:47 client1-1  | 2025-03-03 23:08:47,366 - INFO - Client 0 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 0.19 MB | Energy: 0.64 J/s
+2025-03-04 00:08:47 client2-1  | 2025-03-03 23:08:47,366 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 0.19 MB | Energy: 0.63 J/s
+2025-03-04 00:08:48 client2-1  | 2025-03-03 23:08:48,113 - INFO - Client 1 Post-Evaluation (took 0.75s) - CPU: 13.0% | Freq: 2304.008999999999 MHz | TX Power: 0.19 MB | Energy: 1.30 J/s
+2025-03-04 00:08:48 client1-1  | 2025-03-03 23:08:48,119 - INFO - Client 0 Post-Evaluation (took 0.75s) - CPU: 13.0% | Freq: 2304.008999999999 MHz | TX Power: 0.19 MB | Energy: 1.30 J/s
+2025-03-04 00:08:48 server-1   | DEBUG flwr 2025-03-03 23:08:48,121 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+2025-03-04 00:08:48 server-1   | 2025-03-03 23:08:48,121 - DEBUG - evaluate_round 1 received 2 results and 0 failures
+2025-03-04 00:08:48 server-1   | DEBUG flwr 2025-03-03 23:08:48,121 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:48 server-1   | 2025-03-03 23:08:48,121 - DEBUG - fit_round 2: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:48 client1-1  | 2025-03-03 23:08:48,128 - INFO - Client 0 Pre-Training - CPU: 0.0% | Freq: 2304.008999999999 MHz | TX Power: 0.19 MB | Energy: 0.00 J/s
+2025-03-04 00:08:48 client2-1  | 2025-03-03 23:08:48,128 - INFO - Client 1 Pre-Training - CPU: 4.8% | Freq: 2304.008999999999 MHz | TX Power: 0.19 MB | Energy: 0.48 J/s
+2025-03-04 00:08:52 client1-1  | 2025-03-03 23:08:52,747 - INFO - Client 0 Post-Training (took 6.32s) - CPU: 11.9% | Freq: 2304.008999999999 MHz | TX Power: 0.19 MB | Energy: 1.19 J/s
+2025-03-04 00:08:52 client2-1  | 2025-03-03 23:08:52,849 - INFO - Client 1 Post-Training (took 6.44s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 0.19 MB | Energy: 1.18 J/s
+2025-03-04 00:08:52 server-1   | DEBUG flwr 2025-03-03 23:08:52,852 | server.py:236 | fit_round 2 received 2 results and 0 failures
+2025-03-04 00:08:52 server-1   | 2025-03-03 23:08:52,852 - DEBUG - fit_round 2 received 2 results and 0 failures
+2025-03-04 00:08:52 server-1   | 2025-03-03 23:08:52,854 - INFO - Server Round 2 Pre-Eval - CPU: 11.9% | Freq: 2304.008999999999 MHz | TX Power: 1.09 MB | Energy: 1.19 J/s
+2025-03-04 00:08:53 server-1   | 2025-03-03 23:08:53,993 - INFO - Server Round 2 Post-Eval (took 1.14s) - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 1.09 MB | Energy: 0.64 J/s
+2025-03-04 00:08:53 server-1   | INFO flwr 2025-03-03 23:08:53,993 | server.py:125 | fit progress: (2, 3.8258060819935054, {'accuracy': 0.9838}, 26.08291802200256)
+2025-03-04 00:08:53 server-1   | 2025-03-03 23:08:53,993 - INFO - fit progress: (2, 3.8258060819935054, {'accuracy': 0.9838}, 26.08291802200256)
+2025-03-04 00:08:53 server-1   | DEBUG flwr 2025-03-03 23:08:53,993 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:53 server-1   | 2025-03-03 23:08:53,993 - DEBUG - evaluate_round 2: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:54 client2-1  | 2025-03-03 23:08:54,001 - INFO - Client 1 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 0.64 J/s
+2025-03-04 00:08:54 client1-1  | 2025-03-03 23:08:54,001 - INFO - Client 0 Pre-Evaluation - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 0.65 J/s
+2025-03-04 00:08:54 client1-1  | 2025-03-03 23:08:54,666 - INFO - Client 0 Post-Evaluation (took 0.66s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 1.25 J/s
+2025-03-04 00:08:54 client2-1  | 2025-03-03 23:08:54,672 - INFO - Client 1 Post-Evaluation (took 0.67s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 1.25 J/s
+2025-03-04 00:08:54 server-1   | DEBUG flwr 2025-03-03 23:08:54,673 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+2025-03-04 00:08:54 server-1   | 2025-03-03 23:08:54,673 - DEBUG - evaluate_round 2 received 2 results and 0 failures
+2025-03-04 00:08:54 server-1   | DEBUG flwr 2025-03-03 23:08:54,674 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:54 server-1   | 2025-03-03 23:08:54,674 - DEBUG - fit_round 3: strategy sampled 2 clients (out of 2)
+2025-03-04 00:08:54 client2-1  | 2025-03-03 23:08:54,680 - INFO - Client 1 Pre-Training - CPU: 15.4% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 1.54 J/s
+2025-03-04 00:08:54 client1-1  | 2025-03-03 23:08:54,680 - INFO - Client 0 Pre-Training - CPU: 13.0% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 1.30 J/s
+2025-03-04 00:09:01 client1-1  | 2025-03-03 23:09:01,548 - INFO - Client 0 Post-Training (took 6.29s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 1.18 J/s
+2025-03-04 00:09:01 client2-1  | 2025-03-03 23:09:01,580 - INFO - Client 1 Post-Training (took 6.32s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 0.37 MB | Energy: 1.18 J/s
+2025-03-04 00:09:01 server-1   | DEBUG flwr 2025-03-03 23:09:01,583 | server.py:236 | fit_round 3 received 2 results and 0 failures
+2025-03-04 00:09:01 server-1   | 2025-03-03 23:09:01,583 - DEBUG - fit_round 3 received 2 results and 0 failures
+2025-03-04 00:09:01 server-1   | 2025-03-03 23:09:01,585 - INFO - Server Round 3 Pre-Eval - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 1.81 MB | Energy: 1.18 J/s
+2025-03-04 00:09:02 server-1   | 2025-03-03 23:09:02,821 - INFO - Server Round 3 Post-Eval (took 1.24s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 1.81 MB | Energy: 0.63 J/s
+2025-03-04 00:09:02 server-1   | INFO flwr 2025-03-03 23:09:02,822 | server.py:125 | fit progress: (3, 3.6220274044317193, {'accuracy': 0.9849}, 34.911723224002344)
+2025-03-04 00:09:02 server-1   | 2025-03-03 23:09:02,822 - INFO - fit progress: (3, 3.6220274044317193, {'accuracy': 0.9849}, 34.911723224002344)
+2025-03-04 00:09:02 server-1   | DEBUG flwr 2025-03-03 23:09:02,822 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:02 server-1   | 2025-03-03 23:09:02,822 - DEBUG - evaluate_round 3: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:02 client1-1  | 2025-03-03 23:09:02,830 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 0.55 MB | Energy: 0.63 J/s
+2025-03-04 00:09:02 client2-1  | 2025-03-03 23:09:02,830 - INFO - Client 1 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 0.55 MB | Energy: 0.64 J/s
+2025-03-04 00:09:03 client1-1  | 2025-03-03 23:09:03,511 - INFO - Client 0 Post-Evaluation (took 0.68s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 0.55 MB | Energy: 1.26 J/s
+2025-03-04 00:09:03 client2-1  | 2025-03-03 23:09:03,514 - INFO - Client 1 Post-Evaluation (took 0.68s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 0.55 MB | Energy: 1.25 J/s
+2025-03-04 00:09:03 server-1   | DEBUG flwr 2025-03-03 23:09:03,515 | server.py:187 | evaluate_round 3 received 2 results and 0 failures
+2025-03-04 00:09:03 server-1   | 2025-03-03 23:09:03,515 - DEBUG - evaluate_round 3 received 2 results and 0 failures
+2025-03-04 00:09:03 server-1   | DEBUG flwr 2025-03-03 23:09:03,516 | server.py:222 | fit_round 4: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:03 server-1   | 2025-03-03 23:09:03,516 - DEBUG - fit_round 4: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:03 client1-1  | 2025-03-03 23:09:03,522 - INFO - Client 0 Pre-Training - CPU: 26.3% | Freq: 2304.008999999999 MHz | TX Power: 0.55 MB | Energy: 2.63 J/s
+2025-03-04 00:09:03 client2-1  | 2025-03-03 23:09:03,522 - INFO - Client 1 Pre-Training - CPU: 33.3% | Freq: 2304.008999999999 MHz | TX Power: 0.55 MB | Energy: 3.33 J/s
+2025-03-04 00:09:10 client1-1  | 2025-03-03 23:09:10,329 - INFO - Client 0 Post-Training (took 6.25s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 0.55 MB | Energy: 1.16 J/s
+2025-03-04 00:09:10 client2-1  | 2025-03-03 23:09:10,968 - INFO - Client 1 Post-Training (took 6.97s) - CPU: 11.1% | Freq: 2304.008999999999 MHz | TX Power: 0.55 MB | Energy: 1.11 J/s
+2025-03-04 00:09:10 server-1   | DEBUG flwr 2025-03-03 23:09:10,971 | server.py:236 | fit_round 4 received 2 results and 0 failures
+2025-03-04 00:09:10 server-1   | 2025-03-03 23:09:10,971 - DEBUG - fit_round 4 received 2 results and 0 failures
+2025-03-04 00:09:10 server-1   | 2025-03-03 23:09:10,974 - INFO - Server Round 4 Pre-Eval - CPU: 11.3% | Freq: 2304.008999999999 MHz | TX Power: 2.53 MB | Energy: 1.13 J/s
+2025-03-04 00:09:12 server-1   | 2025-03-03 23:09:12,098 - INFO - Server Round 4 Post-Eval (took 1.12s) - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 2.53 MB | Energy: 0.64 J/s
+2025-03-04 00:09:12 server-1   | INFO flwr 2025-03-03 23:09:12,099 | server.py:125 | fit progress: (4, 3.087817683825051, {'accuracy': 0.9876}, 44.18876954099687)
+2025-03-04 00:09:12 server-1   | 2025-03-03 23:09:12,099 - INFO - fit progress: (4, 3.087817683825051, {'accuracy': 0.9876}, 44.18876954099687)
+2025-03-04 00:09:12 server-1   | DEBUG flwr 2025-03-03 23:09:12,099 | server.py:173 | evaluate_round 4: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:12 server-1   | 2025-03-03 23:09:12,099 - DEBUG - evaluate_round 4: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:12 client1-1  | 2025-03-03 23:09:12,105 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 0.73 MB | Energy: 0.63 J/s
+2025-03-04 00:09:12 client2-1  | 2025-03-03 23:09:12,105 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 0.73 MB | Energy: 0.63 J/s
+2025-03-04 00:09:12 client1-1  | 2025-03-03 23:09:12,804 - INFO - Client 0 Post-Evaluation (took 0.70s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 0.73 MB | Energy: 1.26 J/s
+2025-03-04 00:09:12 client2-1  | 2025-03-03 23:09:12,806 - INFO - Client 1 Post-Evaluation (took 0.70s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 0.73 MB | Energy: 1.26 J/s
+2025-03-04 00:09:12 server-1   | DEBUG flwr 2025-03-03 23:09:12,808 | server.py:187 | evaluate_round 4 received 2 results and 0 failures
+2025-03-04 00:09:12 server-1   | 2025-03-03 23:09:12,808 - DEBUG - evaluate_round 4 received 2 results and 0 failures
+2025-03-04 00:09:12 server-1   | DEBUG flwr 2025-03-03 23:09:12,808 | server.py:222 | fit_round 5: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:12 server-1   | 2025-03-03 23:09:12,808 - DEBUG - fit_round 5: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:12 client2-1  | 2025-03-03 23:09:12,812 - INFO - Client 1 Pre-Training - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 0.73 MB | Energy: 1.25 J/s
+2025-03-04 00:09:12 client1-1  | 2025-03-03 23:09:12,812 - INFO - Client 0 Pre-Training - CPU: 8.3% | Freq: 2304.008999999999 MHz | TX Power: 0.73 MB | Energy: 0.83 J/s
+2025-03-04 00:09:19 client1-1  | 2025-03-03 23:09:19,827 - INFO - Client 0 Post-Training (took 6.47s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 0.73 MB | Energy: 1.17 J/s
+2025-03-04 00:09:18 client2-1  | 2025-03-03 23:09:18,590 - INFO - Client 1 Post-Training (took 7.57s) - CPU: 11.0% | Freq: 2304.008999999999 MHz | TX Power: 0.73 MB | Energy: 1.10 J/s
+2025-03-04 00:09:18 server-1   | DEBUG flwr 2025-03-03 23:09:18,594 | server.py:236 | fit_round 5 received 2 results and 0 failures
+2025-03-04 00:09:18 server-1   | 2025-03-03 23:09:18,594 - DEBUG - fit_round 5 received 2 results and 0 failures
+2025-03-04 00:09:18 server-1   | 2025-03-03 23:09:18,596 - INFO - Server Round 5 Pre-Eval - CPU: 11.1% | Freq: 2304.008999999999 MHz | TX Power: 3.26 MB | Energy: 1.11 J/s
+2025-03-04 00:09:19 server-1   | 2025-03-03 23:09:19,741 - INFO - Server Round 5 Post-Eval (took 1.14s) - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 3.26 MB | Energy: 0.64 J/s
+2025-03-04 00:09:19 server-1   | INFO flwr 2025-03-03 23:09:19,741 | server.py:125 | fit progress: (5, 3.0842632010171656, {'accuracy': 0.9875}, 54.10017532399797)
+2025-03-04 00:09:19 server-1   | 2025-03-03 23:09:19,741 - INFO - fit progress: (5, 3.0842632010171656, {'accuracy': 0.9875}, 54.10017532399797)
+2025-03-04 00:09:19 server-1   | DEBUG flwr 2025-03-03 23:09:19,741 | server.py:173 | evaluate_round 5: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:19 server-1   | 2025-03-03 23:09:19,741 - DEBUG - evaluate_round 5: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:19 client1-1  | 2025-03-03 23:09:19,749 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 0.91 MB | Energy: 0.63 J/s
+2025-03-04 00:09:19 client2-1  | 2025-03-03 23:09:19,749 - INFO - Client 1 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 0.91 MB | Energy: 0.64 J/s
+2025-03-04 00:09:20 client2-1  | 2025-03-03 23:09:20,449 - INFO - Client 1 Post-Evaluation (took 0.70s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 0.91 MB | Energy: 1.25 J/s
+2025-03-04 00:09:20 client1-1  | 2025-03-03 23:09:20,458 - INFO - Client 0 Post-Evaluation (took 0.71s) - CPU: 12.4% | Freq: 2304.008999999999 MHz | TX Power: 0.91 MB | Energy: 1.24 J/s
+2025-03-04 00:09:20 server-1   | DEBUG flwr 2025-03-03 23:09:20,459 | server.py:187 | evaluate_round 5 received 2 results and 0 failures
+2025-03-04 00:09:20 server-1   | 2025-03-03 23:09:20,459 - DEBUG - evaluate_round 5 received 2 results and 0 failures
+2025-03-04 00:09:20 server-1   | DEBUG flwr 2025-03-03 23:09:20,459 | server.py:222 | fit_round 6: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:20 server-1   | 2025-03-03 23:09:20,459 - DEBUG - fit_round 6: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:20 client1-1  | 2025-03-03 23:09:20,465 - INFO - Client 0 Pre-Training - CPU: 9.1% | Freq: 2304.008999999999 MHz | TX Power: 0.91 MB | Energy: 0.91 J/s
+2025-03-04 00:09:20 client2-1  | 2025-03-03 23:09:20,465 - INFO - Client 1 Pre-Training - CPU: 4.3% | Freq: 2304.008999999999 MHz | TX Power: 0.91 MB | Energy: 0.43 J/s
+2025-03-04 00:09:27 client1-1  | 2025-03-03 23:09:27,438 - INFO - Client 0 Post-Training (took 6.44s) - CPU: 11.5% | Freq: 2304.008999999999 MHz | TX Power: 0.91 MB | Energy: 1.15 J/s
+2025-03-04 00:09:28 client2-1  | 2025-03-03 23:09:28,390 - INFO - Client 1 Post-Training (took 7.45s) - CPU: 10.9% | Freq: 2304.008999999999 MHz | TX Power: 0.91 MB | Energy: 1.09 J/s
+2025-03-04 00:09:28 server-1   | DEBUG flwr 2025-03-03 23:09:28,394 | server.py:236 | fit_round 6 received 2 results and 0 failures
+2025-03-04 00:09:28 server-1   | 2025-03-03 23:09:28,394 - DEBUG - fit_round 6 received 2 results and 0 failures
+2025-03-04 00:09:28 server-1   | 2025-03-03 23:09:28,396 - INFO - Server Round 6 Pre-Eval - CPU: 11.0% | Freq: 2304.008999999999 MHz | TX Power: 3.98 MB | Energy: 1.10 J/s
+2025-03-04 00:09:29 server-1   | 2025-03-03 23:09:29,547 - INFO - Server Round 6 Post-Eval (took 1.15s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 3.98 MB | Energy: 0.63 J/s
+2025-03-04 00:09:29 server-1   | INFO flwr 2025-03-03 23:09:29,547 | server.py:125 | fit progress: (6, 2.8997093635916826, {'accuracy': 0.9889}, 63.905495307997626)
+2025-03-04 00:09:29 server-1   | 2025-03-03 23:09:29,547 - INFO - fit progress: (6, 2.8997093635916826, {'accuracy': 0.9889}, 63.905495307997626)
+2025-03-04 00:09:29 server-1   | DEBUG flwr 2025-03-03 23:09:29,547 | server.py:173 | evaluate_round 6: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:29 server-1   | 2025-03-03 23:09:29,547 - DEBUG - evaluate_round 6: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:29 client2-1  | 2025-03-03 23:09:29,553 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 1.09 MB | Energy: 0.63 J/s
+2025-03-04 00:09:29 client1-1  | 2025-03-03 23:09:29,554 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 1.09 MB | Energy: 0.63 J/s
+2025-03-04 00:09:30 client1-1  | 2025-03-03 23:09:30,190 - INFO - Client 0 Post-Evaluation (took 0.64s) - CPU: 12.8% | Freq: 2304.008999999999 MHz | TX Power: 1.09 MB | Energy: 1.28 J/s
+2025-03-04 00:09:30 client2-1  | 2025-03-03 23:09:30,190 - INFO - Client 1 Post-Evaluation (took 0.64s) - CPU: 12.7% | Freq: 2304.008999999999 MHz | TX Power: 1.09 MB | Energy: 1.27 J/s
+2025-03-04 00:09:30 server-1   | DEBUG flwr 2025-03-03 23:09:30,193 | server.py:187 | evaluate_round 6 received 2 results and 0 failures
+2025-03-04 00:09:30 server-1   | 2025-03-03 23:09:30,193 - DEBUG - evaluate_round 6 received 2 results and 0 failures
+2025-03-04 00:09:30 server-1   | DEBUG flwr 2025-03-03 23:09:30,193 | server.py:222 | fit_round 7: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:30 server-1   | 2025-03-03 23:09:30,193 - DEBUG - fit_round 7: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:30 client2-1  | 2025-03-03 23:09:30,199 - INFO - Client 1 Pre-Training - CPU: 14.3% | Freq: 2304.008999999999 MHz | TX Power: 1.10 MB | Energy: 1.43 J/s
+2025-03-04 00:09:30 client1-1  | 2025-03-03 23:09:30,200 - INFO - Client 0 Pre-Training - CPU: 13.3% | Freq: 2304.008999999999 MHz | TX Power: 1.09 MB | Energy: 1.33 J/s
+2025-03-04 00:09:37 client1-1  | 2025-03-03 23:09:37,187 - INFO - Client 0 Post-Training (took 6.44s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 1.10 MB | Energy: 1.16 J/s
+2025-03-04 00:09:38 client2-1  | 2025-03-03 23:09:38,116 - INFO - Client 1 Post-Training (took 7.43s) - CPU: 11.0% | Freq: 2304.008999999999 MHz | TX Power: 1.10 MB | Energy: 1.10 J/s
+2025-03-04 00:09:38 server-1   | DEBUG flwr 2025-03-03 23:09:38,119 | server.py:236 | fit_round 7 received 2 results and 0 failures
+2025-03-04 00:09:38 server-1   | 2025-03-03 23:09:38,119 - DEBUG - fit_round 7 received 2 results and 0 failures
+2025-03-04 00:09:38 server-1   | 2025-03-03 23:09:38,122 - INFO - Server Round 7 Pre-Eval - CPU: 11.1% | Freq: 2304.008999999999 MHz | TX Power: 4.70 MB | Energy: 1.11 J/s
+2025-03-04 00:09:39 server-1   | 2025-03-03 23:09:39,250 - INFO - Server Round 7 Post-Eval (took 1.13s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 4.70 MB | Energy: 0.63 J/s
+2025-03-04 00:09:39 server-1   | INFO flwr 2025-03-03 23:09:39,250 | server.py:125 | fit progress: (7, 2.747006026282179, {'accuracy': 0.9895}, 73.6090010869957)
+2025-03-04 00:09:39 server-1   | 2025-03-03 23:09:39,250 - INFO - fit progress: (7, 2.747006026282179, {'accuracy': 0.9895}, 73.6090010869957)
+2025-03-04 00:09:39 server-1   | DEBUG flwr 2025-03-03 23:09:39,250 | server.py:173 | evaluate_round 7: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:39 server-1   | 2025-03-03 23:09:39,250 - DEBUG - evaluate_round 7: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:39 client1-1  | 2025-03-03 23:09:39,259 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 1.28 MB | Energy: 0.63 J/s
+2025-03-04 00:09:39 client2-1  | 2025-03-03 23:09:39,259 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 1.28 MB | Energy: 0.63 J/s
+2025-03-04 00:09:39 client2-1  | 2025-03-03 23:09:39,971 - INFO - Client 1 Post-Evaluation (took 0.71s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 1.28 MB | Energy: 1.26 J/s
+2025-03-04 00:09:39 client1-1  | 2025-03-03 23:09:39,980 - INFO - Client 0 Post-Evaluation (took 0.72s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 1.28 MB | Energy: 1.25 J/s
+2025-03-04 00:09:39 server-1   | DEBUG flwr 2025-03-03 23:09:39,981 | server.py:187 | evaluate_round 7 received 2 results and 0 failures
+2025-03-04 00:09:39 server-1   | 2025-03-03 23:09:39,981 - DEBUG - evaluate_round 7 received 2 results and 0 failures
+2025-03-04 00:09:39 server-1   | DEBUG flwr 2025-03-03 23:09:39,981 | server.py:222 | fit_round 8: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:39 server-1   | 2025-03-03 23:09:39,981 - DEBUG - fit_round 8: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:39 client1-1  | 2025-03-03 23:09:39,988 - INFO - Client 0 Pre-Training - CPU: 0.0% | Freq: 2304.008999999999 MHz | TX Power: 1.28 MB | Energy: 0.00 J/s
+2025-03-04 00:09:39 client2-1  | 2025-03-03 23:09:39,988 - INFO - Client 1 Pre-Training - CPU: 4.0% | Freq: 2304.008999999999 MHz | TX Power: 1.28 MB | Energy: 0.40 J/s
+2025-03-04 00:09:46 client1-1  | 2025-03-03 23:09:46,882 - INFO - Client 0 Post-Training (took 6.33s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 1.28 MB | Energy: 1.17 J/s
+2025-03-04 00:09:47 client2-1  | 2025-03-03 23:09:47,890 - INFO - Client 1 Post-Training (took 7.43s) - CPU: 11.0% | Freq: 2304.008999999999 MHz | TX Power: 1.28 MB | Energy: 1.10 J/s
+2025-03-04 00:09:47 server-1   | DEBUG flwr 2025-03-03 23:09:47,894 | server.py:236 | fit_round 8 received 2 results and 0 failures
+2025-03-04 00:09:47 server-1   | 2025-03-03 23:09:47,894 - DEBUG - fit_round 8 received 2 results and 0 failures
+2025-03-04 00:09:47 server-1   | 2025-03-03 23:09:47,897 - INFO - Server Round 8 Pre-Eval - CPU: 11.1% | Freq: 2304.008999999999 MHz | TX Power: 5.42 MB | Energy: 1.11 J/s
+2025-03-04 00:09:46 server-1   | 2025-03-03 23:09:46,712 - INFO - Server Round 8 Post-Eval (took 1.15s) - CPU: 6.9% | Freq: 2304.008999999999 MHz | TX Power: 5.42 MB | Energy: 0.69 J/s
+2025-03-04 00:09:46 server-1   | INFO flwr 2025-03-03 23:09:46,712 | server.py:125 | fit progress: (8, 2.64303325524088, {'accuracy': 0.9894}, 83.40849496299779)
+2025-03-04 00:09:46 server-1   | 2025-03-03 23:09:46,712 - INFO - fit progress: (8, 2.64303325524088, {'accuracy': 0.9894}, 83.40849496299779)
+2025-03-04 00:09:46 server-1   | DEBUG flwr 2025-03-03 23:09:46,713 | server.py:173 | evaluate_round 8: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:46 server-1   | 2025-03-03 23:09:46,713 - DEBUG - evaluate_round 8: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:46 client2-1  | 2025-03-03 23:09:46,721 - INFO - Client 1 Pre-Evaluation - CPU: 6.8% | Freq: 2304.008999999999 MHz | TX Power: 1.46 MB | Energy: 0.68 J/s
+2025-03-04 00:09:46 client1-1  | 2025-03-03 23:09:46,721 - INFO - Client 0 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 1.46 MB | Energy: 0.64 J/s
+2025-03-04 00:09:47 client2-1  | 2025-03-03 23:09:47,428 - INFO - Client 1 Post-Evaluation (took 0.71s) - CPU: 12.8% | Freq: 2304.008999999999 MHz | TX Power: 1.46 MB | Energy: 1.28 J/s
+2025-03-04 00:09:47 client1-1  | 2025-03-03 23:09:47,434 - INFO - Client 0 Post-Evaluation (took 0.71s) - CPU: 12.7% | Freq: 2304.008999999999 MHz | TX Power: 1.46 MB | Energy: 1.27 J/s
+2025-03-04 00:09:47 server-1   | DEBUG flwr 2025-03-03 23:09:47,435 | server.py:187 | evaluate_round 8 received 2 results and 0 failures
+2025-03-04 00:09:47 server-1   | 2025-03-03 23:09:47,435 - DEBUG - evaluate_round 8 received 2 results and 0 failures
+2025-03-04 00:09:47 server-1   | DEBUG flwr 2025-03-03 23:09:47,436 | server.py:222 | fit_round 9: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:47 server-1   | 2025-03-03 23:09:47,436 - DEBUG - fit_round 9: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:47 client1-1  | 2025-03-03 23:09:47,439 - INFO - Client 0 Pre-Training - CPU: 0.0% | Freq: 2304.008999999999 MHz | TX Power: 1.46 MB | Energy: 0.00 J/s
+2025-03-04 00:09:47 client2-1  | 2025-03-03 23:09:47,440 - INFO - Client 1 Pre-Training - CPU: 5.9% | Freq: 2304.008999999999 MHz | TX Power: 1.46 MB | Energy: 0.59 J/s
+2025-03-04 00:09:54 client1-1  | 2025-03-03 23:09:54,265 - INFO - Client 0 Post-Training (took 6.28s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 1.46 MB | Energy: 1.17 J/s
+2025-03-04 00:09:55 client2-1  | 2025-03-03 23:09:55,386 - INFO - Client 1 Post-Training (took 7.47s) - CPU: 10.9% | Freq: 2304.008999999999 MHz | TX Power: 1.46 MB | Energy: 1.09 J/s
+2025-03-04 00:09:55 server-1   | DEBUG flwr 2025-03-03 23:09:55,390 | server.py:236 | fit_round 9 received 2 results and 0 failures
+2025-03-04 00:09:55 server-1   | 2025-03-03 23:09:55,390 - DEBUG - fit_round 9 received 2 results and 0 failures
+2025-03-04 00:09:55 server-1   | 2025-03-03 23:09:55,392 - INFO - Server Round 9 Pre-Eval - CPU: 11.1% | Freq: 2304.008999999999 MHz | TX Power: 6.15 MB | Energy: 1.11 J/s
+2025-03-04 00:09:56 server-1   | 2025-03-03 23:09:56,533 - INFO - Server Round 9 Post-Eval (took 1.14s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 6.15 MB | Energy: 0.63 J/s
+2025-03-04 00:09:56 server-1   | INFO flwr 2025-03-03 23:09:56,533 | server.py:125 | fit progress: (9, 2.735495765795349, {'accuracy': 0.9894}, 93.22869362799975)
+2025-03-04 00:09:56 server-1   | 2025-03-03 23:09:56,533 - INFO - fit progress: (9, 2.735495765795349, {'accuracy': 0.9894}, 93.22869362799975)
+2025-03-04 00:09:56 server-1   | DEBUG flwr 2025-03-03 23:09:56,533 | server.py:173 | evaluate_round 9: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:56 server-1   | 2025-03-03 23:09:56,533 - DEBUG - evaluate_round 9: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:56 client1-1  | 2025-03-03 23:09:56,540 - INFO - Client 0 Pre-Evaluation - CPU: 6.1% | Freq: 2304.008999999999 MHz | TX Power: 1.64 MB | Energy: 0.61 J/s
+2025-03-04 00:09:56 client2-1  | 2025-03-03 23:09:56,540 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 1.64 MB | Energy: 0.63 J/s
+2025-03-04 00:09:57 client2-1  | 2025-03-03 23:09:57,260 - INFO - Client 1 Post-Evaluation (took 0.72s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 1.64 MB | Energy: 1.26 J/s
+2025-03-04 00:09:57 client1-1  | 2025-03-03 23:09:57,289 - INFO - Client 0 Post-Evaluation (took 0.75s) - CPU: 12.3% | Freq: 2304.008999999999 MHz | TX Power: 1.64 MB | Energy: 1.23 J/s
+2025-03-04 00:09:57 server-1   | DEBUG flwr 2025-03-03 23:09:57,291 | server.py:187 | evaluate_round 9 received 2 results and 0 failures
+2025-03-04 00:09:57 server-1   | 2025-03-03 23:09:57,291 - DEBUG - evaluate_round 9 received 2 results and 0 failures
+2025-03-04 00:09:57 server-1   | DEBUG flwr 2025-03-03 23:09:57,291 | server.py:222 | fit_round 10: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:57 server-1   | 2025-03-03 23:09:57,291 - DEBUG - fit_round 10: strategy sampled 2 clients (out of 2)
+2025-03-04 00:09:57 client1-1  | 2025-03-03 23:09:57,298 - INFO - Client 0 Pre-Training - CPU: 0.0% | Freq: 2304.008999999999 MHz | TX Power: 1.64 MB | Energy: 0.00 J/s
+2025-03-04 00:09:57 client2-1  | 2025-03-03 23:09:57,298 - INFO - Client 1 Pre-Training - CPU: 5.2% | Freq: 2304.008999999999 MHz | TX Power: 1.64 MB | Energy: 0.52 J/s
+2025-03-04 00:10:04 client1-1  | 2025-03-03 23:10:04,362 - INFO - Client 0 Post-Training (took 6.53s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 1.64 MB | Energy: 1.16 J/s
+2025-03-04 00:10:04 client2-1  | 2025-03-03 23:10:04,984 - INFO - Client 1 Post-Training (took 7.22s) - CPU: 11.2% | Freq: 2304.008999999999 MHz | TX Power: 1.64 MB | Energy: 1.12 J/s
+2025-03-04 00:10:04 server-1   | DEBUG flwr 2025-03-03 23:10:04,988 | server.py:236 | fit_round 10 received 2 results and 0 failures
+2025-03-04 00:10:04 server-1   | 2025-03-03 23:10:04,988 - DEBUG - fit_round 10 received 2 results and 0 failures
+2025-03-04 00:10:04 server-1   | 2025-03-03 23:10:04,991 - INFO - Server Round 10 Pre-Eval - CPU: 11.3% | Freq: 2304.008999999999 MHz | TX Power: 6.87 MB | Energy: 1.13 J/s
+2025-03-04 00:10:06 server-1   | 2025-03-03 23:10:06,119 - INFO - Server Round 10 Post-Eval (took 1.13s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 6.87 MB | Energy: 0.63 J/s
+2025-03-04 00:10:06 server-1   | INFO flwr 2025-03-03 23:10:06,119 | server.py:125 | fit progress: (10, 3.360348530192823, {'accuracy': 0.9886}, 102.81498424200254)
+2025-03-04 00:10:06 server-1   | 2025-03-03 23:10:06,119 - INFO - fit progress: (10, 3.360348530192823, {'accuracy': 0.9886}, 102.81498424200254)
+2025-03-04 00:10:06 server-1   | DEBUG flwr 2025-03-03 23:10:06,119 | server.py:173 | evaluate_round 10: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:06 server-1   | 2025-03-03 23:10:06,119 - DEBUG - evaluate_round 10: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:06 client2-1  | 2025-03-03 23:10:06,127 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 1.82 MB | Energy: 0.63 J/s
+2025-03-04 00:10:06 client1-1  | 2025-03-03 23:10:06,127 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 1.82 MB | Energy: 0.63 J/s
+2025-03-04 00:10:06 client1-1  | 2025-03-03 23:10:06,770 - INFO - Client 0 Post-Evaluation (took 0.64s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 1.82 MB | Energy: 1.26 J/s
+2025-03-04 00:10:06 client2-1  | 2025-03-03 23:10:06,775 - INFO - Client 1 Post-Evaluation (took 0.65s) - CPU: 12.8% | Freq: 2304.008999999999 MHz | TX Power: 1.82 MB | Energy: 1.28 J/s
+2025-03-04 00:10:06 server-1   | DEBUG flwr 2025-03-03 23:10:06,776 | server.py:187 | evaluate_round 10 received 2 results and 0 failures
+2025-03-04 00:10:06 server-1   | 2025-03-03 23:10:06,776 - DEBUG - evaluate_round 10 received 2 results and 0 failures
+2025-03-04 00:10:06 server-1   | DEBUG flwr 2025-03-03 23:10:06,777 | server.py:222 | fit_round 11: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:06 server-1   | 2025-03-03 23:10:06,777 - DEBUG - fit_round 11: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:06 client1-1  | 2025-03-03 23:10:06,783 - INFO - Client 0 Pre-Training - CPU: 20.8% | Freq: 2304.008999999999 MHz | TX Power: 1.82 MB | Energy: 2.08 J/s
+2025-03-04 00:10:06 client2-1  | 2025-03-03 23:10:06,783 - INFO - Client 1 Pre-Training - CPU: 15.4% | Freq: 2304.008999999999 MHz | TX Power: 1.82 MB | Energy: 1.54 J/s
+2025-03-04 00:10:13 client1-1  | 2025-03-03 23:10:13,739 - INFO - Client 0 Post-Training (took 6.41s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 1.82 MB | Energy: 1.18 J/s
+2025-03-04 00:10:14 client2-1  | 2025-03-03 23:10:14,559 - INFO - Client 1 Post-Training (took 7.28s) - CPU: 11.2% | Freq: 2304.008999999999 MHz | TX Power: 1.82 MB | Energy: 1.12 J/s
+2025-03-04 00:10:14 server-1   | DEBUG flwr 2025-03-03 23:10:14,562 | server.py:236 | fit_round 11 received 2 results and 0 failures
+2025-03-04 00:10:14 server-1   | 2025-03-03 23:10:14,562 - DEBUG - fit_round 11 received 2 results and 0 failures
+2025-03-04 00:10:14 server-1   | 2025-03-03 23:10:14,565 - INFO - Server Round 11 Pre-Eval - CPU: 11.3% | Freq: 2304.008999999999 MHz | TX Power: 7.59 MB | Energy: 1.13 J/s
+2025-03-04 00:10:15 server-1   | 2025-03-03 23:10:15,703 - INFO - Server Round 11 Post-Eval (took 1.14s) - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 7.59 MB | Energy: 0.64 J/s
+2025-03-04 00:10:15 server-1   | INFO flwr 2025-03-03 23:10:15,703 | server.py:125 | fit progress: (11, 2.9723018664217307, {'accuracy': 0.9883}, 112.39893064899661)
+2025-03-04 00:10:15 server-1   | 2025-03-03 23:10:15,703 - INFO - fit progress: (11, 2.9723018664217307, {'accuracy': 0.9883}, 112.39893064899661)
+2025-03-04 00:10:15 server-1   | DEBUG flwr 2025-03-03 23:10:15,703 | server.py:173 | evaluate_round 11: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:15 server-1   | 2025-03-03 23:10:15,703 - DEBUG - evaluate_round 11: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:15 client1-1  | 2025-03-03 23:10:15,709 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 2.00 MB | Energy: 0.63 J/s
+2025-03-04 00:10:15 client2-1  | 2025-03-03 23:10:15,710 - INFO - Client 1 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 2.00 MB | Energy: 0.64 J/s
+2025-03-04 00:10:14 client2-1  | 2025-03-03 23:10:14,105 - INFO - Client 1 Post-Evaluation (took 0.70s) - CPU: 13.6% | Freq: 2304.008999999999 MHz | TX Power: 2.00 MB | Energy: 1.36 J/s
+2025-03-04 00:10:14 client1-1  | 2025-03-03 23:10:14,124 - INFO - Client 0 Post-Evaluation (took 0.72s) - CPU: 13.4% | Freq: 2304.008999999999 MHz | TX Power: 2.00 MB | Energy: 1.34 J/s
+2025-03-04 00:10:14 server-1   | DEBUG flwr 2025-03-03 23:10:14,126 | server.py:187 | evaluate_round 11 received 2 results and 0 failures
+2025-03-04 00:10:14 server-1   | 2025-03-03 23:10:14,126 - DEBUG - evaluate_round 11 received 2 results and 0 failures
+2025-03-04 00:10:14 server-1   | DEBUG flwr 2025-03-03 23:10:14,127 | server.py:222 | fit_round 12: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:14 server-1   | 2025-03-03 23:10:14,127 - DEBUG - fit_round 12: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:14 client2-1  | 2025-03-03 23:10:14,132 - INFO - Client 1 Pre-Training - CPU: 9.1% | Freq: 2304.008999999999 MHz | TX Power: 2.00 MB | Energy: 0.91 J/s
+2025-03-04 00:10:14 client1-1  | 2025-03-03 23:10:14,132 - INFO - Client 0 Pre-Training - CPU: 15.4% | Freq: 2304.008999999999 MHz | TX Power: 2.00 MB | Energy: 1.54 J/s
+2025-03-04 00:10:21 client1-1  | 2025-03-03 23:10:21,004 - INFO - Client 0 Post-Training (took 6.31s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 2.00 MB | Energy: 1.18 J/s
+2025-03-04 00:10:22 client2-1  | 2025-03-03 23:10:22,078 - INFO - Client 1 Post-Training (took 7.45s) - CPU: 11.0% | Freq: 2304.008999999999 MHz | TX Power: 2.00 MB | Energy: 1.10 J/s
+2025-03-04 00:10:22 server-1   | DEBUG flwr 2025-03-03 23:10:22,082 | server.py:236 | fit_round 12 received 2 results and 0 failures
+2025-03-04 00:10:22 server-1   | 2025-03-03 23:10:22,082 - DEBUG - fit_round 12 received 2 results and 0 failures
+2025-03-04 00:10:22 server-1   | 2025-03-03 23:10:22,085 - INFO - Server Round 12 Pre-Eval - CPU: 11.2% | Freq: 2304.008999999999 MHz | TX Power: 8.31 MB | Energy: 1.12 J/s
+2025-03-04 00:10:23 server-1   | 2025-03-03 23:10:23,226 - INFO - Server Round 12 Post-Eval (took 1.14s) - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 8.31 MB | Energy: 0.65 J/s
+2025-03-04 00:10:23 server-1   | INFO flwr 2025-03-03 23:10:23,226 | server.py:125 | fit progress: (12, 3.315786227299782, {'accuracy': 0.9891}, 122.22485192999739)
+2025-03-04 00:10:23 server-1   | 2025-03-03 23:10:23,226 - INFO - fit progress: (12, 3.315786227299782, {'accuracy': 0.9891}, 122.22485192999739)
+2025-03-04 00:10:23 server-1   | DEBUG flwr 2025-03-03 23:10:23,226 | server.py:173 | evaluate_round 12: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:23 server-1   | 2025-03-03 23:10:23,226 - DEBUG - evaluate_round 12: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:23 client2-1  | 2025-03-03 23:10:23,235 - INFO - Client 1 Pre-Evaluation - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 2.18 MB | Energy: 0.65 J/s
+2025-03-04 00:10:23 client1-1  | 2025-03-03 23:10:23,235 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 2.18 MB | Energy: 0.63 J/s
+2025-03-04 00:10:23 client2-1  | 2025-03-03 23:10:23,943 - INFO - Client 1 Post-Evaluation (took 0.71s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 2.18 MB | Energy: 1.26 J/s
+2025-03-04 00:10:23 client1-1  | 2025-03-03 23:10:23,957 - INFO - Client 0 Post-Evaluation (took 0.72s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 2.18 MB | Energy: 1.25 J/s
+2025-03-04 00:10:23 server-1   | DEBUG flwr 2025-03-03 23:10:23,958 | server.py:187 | evaluate_round 12 received 2 results and 0 failures
+2025-03-04 00:10:23 server-1   | 2025-03-03 23:10:23,958 - DEBUG - evaluate_round 12 received 2 results and 0 failures
+2025-03-04 00:10:23 server-1   | DEBUG flwr 2025-03-03 23:10:23,958 | server.py:222 | fit_round 13: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:23 server-1   | 2025-03-03 23:10:23,958 - DEBUG - fit_round 13: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:23 client2-1  | 2025-03-03 23:10:23,964 - INFO - Client 1 Pre-Training - CPU: 11.4% | Freq: 2304.008999999999 MHz | TX Power: 2.18 MB | Energy: 1.14 J/s
+2025-03-04 00:10:23 client1-1  | 2025-03-03 23:10:23,964 - INFO - Client 0 Pre-Training - CPU: 23.1% | Freq: 2304.008999999999 MHz | TX Power: 2.18 MB | Energy: 2.31 J/s
+2025-03-04 00:10:30 client1-1  | 2025-03-03 23:10:30,727 - INFO - Client 0 Post-Training (took 6.22s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 2.18 MB | Energy: 1.18 J/s
+2025-03-04 00:10:31 client2-1  | 2025-03-03 23:10:31,716 - INFO - Client 1 Post-Training (took 7.28s) - CPU: 11.1% | Freq: 2304.008999999999 MHz | TX Power: 2.18 MB | Energy: 1.11 J/s
+2025-03-04 00:10:31 server-1   | DEBUG flwr 2025-03-03 23:10:31,719 | server.py:236 | fit_round 13 received 2 results and 0 failures
+2025-03-04 00:10:31 server-1   | 2025-03-03 23:10:31,719 - DEBUG - fit_round 13 received 2 results and 0 failures
+2025-03-04 00:10:31 server-1   | 2025-03-03 23:10:31,722 - INFO - Server Round 13 Pre-Eval - CPU: 11.2% | Freq: 2304.008999999999 MHz | TX Power: 9.03 MB | Energy: 1.12 J/s
+2025-03-04 00:10:32 server-1   | 2025-03-03 23:10:32,842 - INFO - Server Round 13 Post-Eval (took 1.12s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 9.04 MB | Energy: 0.63 J/s
+2025-03-04 00:10:32 server-1   | INFO flwr 2025-03-03 23:10:32,842 | server.py:125 | fit progress: (13, 2.90266741767482, {'accuracy': 0.9892}, 131.84075465399656)
+2025-03-04 00:10:32 server-1   | 2025-03-03 23:10:32,842 - INFO - fit progress: (13, 2.90266741767482, {'accuracy': 0.9892}, 131.84075465399656)
+2025-03-04 00:10:32 server-1   | DEBUG flwr 2025-03-03 23:10:32,842 | server.py:173 | evaluate_round 13: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:32 server-1   | 2025-03-03 23:10:32,842 - DEBUG - evaluate_round 13: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:32 client2-1  | 2025-03-03 23:10:32,847 - INFO - Client 1 Pre-Evaluation - CPU: 6.2% | Freq: 2304.008999999999 MHz | TX Power: 2.36 MB | Energy: 0.62 J/s
+2025-03-04 00:10:32 client1-1  | 2025-03-03 23:10:32,849 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 2.36 MB | Energy: 0.63 J/s
+2025-03-04 00:10:33 client2-1  | 2025-03-03 23:10:33,569 - INFO - Client 1 Post-Evaluation (took 0.72s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 2.36 MB | Energy: 1.26 J/s
+2025-03-04 00:10:33 client1-1  | 2025-03-03 23:10:33,569 - INFO - Client 0 Post-Evaluation (took 0.72s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 2.36 MB | Energy: 1.26 J/s
+2025-03-04 00:10:33 server-1   | DEBUG flwr 2025-03-03 23:10:33,571 | server.py:187 | evaluate_round 13 received 2 results and 0 failures
+2025-03-04 00:10:33 server-1   | 2025-03-03 23:10:33,571 - DEBUG - evaluate_round 13 received 2 results and 0 failures
+2025-03-04 00:10:33 server-1   | DEBUG flwr 2025-03-03 23:10:33,571 | server.py:222 | fit_round 14: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:33 server-1   | 2025-03-03 23:10:33,571 - DEBUG - fit_round 14: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:33 client2-1  | 2025-03-03 23:10:33,577 - INFO - Client 1 Pre-Training - CPU: 15.4% | Freq: 2304.008999999999 MHz | TX Power: 2.37 MB | Energy: 1.54 J/s
+2025-03-04 00:10:33 client1-1  | 2025-03-03 23:10:33,577 - INFO - Client 0 Pre-Training - CPU: 0.0% | Freq: 2304.008999999999 MHz | TX Power: 2.36 MB | Energy: 0.00 J/s
+2025-03-04 00:10:40 client1-1  | 2025-03-03 23:10:40,826 - INFO - Client 0 Post-Training (took 6.66s) - CPU: 11.9% | Freq: 2304.008999999999 MHz | TX Power: 2.36 MB | Energy: 1.19 J/s
+2025-03-04 00:10:41 client2-1  | 2025-03-03 23:10:41,263 - INFO - Client 1 Post-Training (took 7.20s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 2.37 MB | Energy: 1.16 J/s
+2025-03-04 00:10:41 server-1   | DEBUG flwr 2025-03-03 23:10:41,266 | server.py:236 | fit_round 14 received 2 results and 0 failures
+2025-03-04 00:10:41 server-1   | 2025-03-03 23:10:41,266 - DEBUG - fit_round 14 received 2 results and 0 failures
+2025-03-04 00:10:41 server-1   | 2025-03-03 23:10:41,269 - INFO - Server Round 14 Pre-Eval - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 9.76 MB | Energy: 1.17 J/s
+2025-03-04 00:10:42 server-1   | 2025-03-03 23:10:42,389 - INFO - Server Round 14 Post-Eval (took 1.12s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 9.76 MB | Energy: 0.63 J/s
+2025-03-04 00:10:42 server-1   | INFO flwr 2025-03-03 23:10:42,390 | server.py:125 | fit progress: (14, 3.211104342553881, {'accuracy': 0.9875}, 141.38833682899713)
+2025-03-04 00:10:42 server-1   | 2025-03-03 23:10:42,390 - INFO - fit progress: (14, 3.211104342553881, {'accuracy': 0.9875}, 141.38833682899713)
+2025-03-04 00:10:42 server-1   | DEBUG flwr 2025-03-03 23:10:42,390 | server.py:173 | evaluate_round 14: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:42 server-1   | 2025-03-03 23:10:42,390 - DEBUG - evaluate_round 14: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:42 client2-1  | 2025-03-03 23:10:42,396 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 2.55 MB | Energy: 0.63 J/s
+2025-03-04 00:10:42 client1-1  | 2025-03-03 23:10:42,397 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 2.54 MB | Energy: 0.63 J/s
+2025-03-04 00:10:43 client2-1  | 2025-03-03 23:10:43,041 - INFO - Client 1 Post-Evaluation (took 0.64s) - CPU: 12.9% | Freq: 2304.008999999999 MHz | TX Power: 2.55 MB | Energy: 1.29 J/s
+2025-03-04 00:10:43 client1-1  | 2025-03-03 23:10:43,055 - INFO - Client 0 Post-Evaluation (took 0.66s) - CPU: 12.7% | Freq: 2304.008999999999 MHz | TX Power: 2.55 MB | Energy: 1.27 J/s
+2025-03-04 00:10:43 server-1   | DEBUG flwr 2025-03-03 23:10:43,056 | server.py:187 | evaluate_round 14 received 2 results and 0 failures
+2025-03-04 00:10:43 server-1   | 2025-03-03 23:10:43,056 - DEBUG - evaluate_round 14 received 2 results and 0 failures
+2025-03-04 00:10:43 server-1   | DEBUG flwr 2025-03-03 23:10:43,056 | server.py:222 | fit_round 15: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:43 server-1   | 2025-03-03 23:10:43,056 - DEBUG - fit_round 15: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:43 client2-1  | 2025-03-03 23:10:43,063 - INFO - Client 1 Pre-Training - CPU: 11.1% | Freq: 2304.008999999999 MHz | TX Power: 2.55 MB | Energy: 1.11 J/s
+2025-03-04 00:10:43 client1-1  | 2025-03-03 23:10:43,063 - INFO - Client 0 Pre-Training - CPU: 18.7% | Freq: 2304.008999999999 MHz | TX Power: 2.55 MB | Energy: 1.87 J/s
+2025-03-04 00:10:48 client1-1  | 2025-03-03 23:10:48,062 - INFO - Client 0 Post-Training (took 6.74s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 2.55 MB | Energy: 1.18 J/s
+2025-03-04 00:10:48 client2-1  | 2025-03-03 23:10:48,517 - INFO - Client 1 Post-Training (took 7.27s) - CPU: 11.5% | Freq: 2304.008999999999 MHz | TX Power: 2.55 MB | Energy: 1.15 J/s
+2025-03-04 00:10:48 server-1   | DEBUG flwr 2025-03-03 23:10:48,520 | server.py:236 | fit_round 15 received 2 results and 0 failures
+2025-03-04 00:10:48 server-1   | 2025-03-03 23:10:48,520 - DEBUG - fit_round 15 received 2 results and 0 failures
+2025-03-04 00:10:48 server-1   | 2025-03-03 23:10:48,523 - INFO - Server Round 15 Pre-Eval - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 10.48 MB | Energy: 1.16 J/s
+2025-03-04 00:10:49 server-1   | 2025-03-03 23:10:49,634 - INFO - Server Round 15 Post-Eval (took 1.11s) - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 10.48 MB | Energy: 0.64 J/s
+2025-03-04 00:10:49 server-1   | INFO flwr 2025-03-03 23:10:49,634 | server.py:125 | fit progress: (15, 3.442780854017201, {'accuracy': 0.9884}, 150.9313899129993)
+2025-03-04 00:10:49 server-1   | 2025-03-03 23:10:49,634 - INFO - fit progress: (15, 3.442780854017201, {'accuracy': 0.9884}, 150.9313899129993)
+2025-03-04 00:10:49 server-1   | DEBUG flwr 2025-03-03 23:10:49,634 | server.py:173 | evaluate_round 15: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:49 server-1   | 2025-03-03 23:10:49,634 - DEBUG - evaluate_round 15: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:49 client1-1  | 2025-03-03 23:10:49,641 - INFO - Client 0 Pre-Evaluation - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 2.73 MB | Energy: 0.65 J/s
+2025-03-04 00:10:49 client2-1  | 2025-03-03 23:10:49,641 - INFO - Client 1 Pre-Evaluation - CPU: 6.6% | Freq: 2304.008999999999 MHz | TX Power: 2.73 MB | Energy: 0.66 J/s
+2025-03-04 00:10:50 client1-1  | 2025-03-03 23:10:50,268 - INFO - Client 0 Post-Evaluation (took 0.63s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 2.73 MB | Energy: 1.25 J/s
+2025-03-04 00:10:50 client2-1  | 2025-03-03 23:10:50,273 - INFO - Client 1 Post-Evaluation (took 0.63s) - CPU: 12.9% | Freq: 2304.008999999999 MHz | TX Power: 2.73 MB | Energy: 1.29 J/s
+2025-03-04 00:10:50 server-1   | DEBUG flwr 2025-03-03 23:10:50,275 | server.py:187 | evaluate_round 15 received 2 results and 0 failures
+2025-03-04 00:10:50 server-1   | 2025-03-03 23:10:50,275 - DEBUG - evaluate_round 15 received 2 results and 0 failures
+2025-03-04 00:10:50 server-1   | DEBUG flwr 2025-03-03 23:10:50,275 | server.py:222 | fit_round 16: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:50 server-1   | 2025-03-03 23:10:50,275 - DEBUG - fit_round 16: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:50 client2-1  | 2025-03-03 23:10:50,281 - INFO - Client 1 Pre-Training - CPU: 15.4% | Freq: 2304.008999999999 MHz | TX Power: 2.73 MB | Energy: 1.54 J/s
+2025-03-04 00:10:50 client1-1  | 2025-03-03 23:10:50,281 - INFO - Client 0 Pre-Training - CPU: 29.6% | Freq: 2304.008999999999 MHz | TX Power: 2.73 MB | Energy: 2.96 J/s
+2025-03-04 00:10:57 client1-1  | 2025-03-03 23:10:57,539 - INFO - Client 0 Post-Training (took 6.67s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 2.73 MB | Energy: 1.16 J/s
+2025-03-04 00:10:58 client2-1  | 2025-03-03 23:10:58,016 - INFO - Client 1 Post-Training (took 7.26s) - CPU: 11.3% | Freq: 2304.008999999999 MHz | TX Power: 2.73 MB | Energy: 1.13 J/s
+2025-03-04 00:10:58 server-1   | DEBUG flwr 2025-03-03 23:10:58,019 | server.py:236 | fit_round 16 received 2 results and 0 failures
+2025-03-04 00:10:58 server-1   | 2025-03-03 23:10:58,019 - DEBUG - fit_round 16 received 2 results and 0 failures
+2025-03-04 00:10:58 server-1   | 2025-03-03 23:10:58,022 - INFO - Server Round 16 Pre-Eval - CPU: 11.5% | Freq: 2304.008999999999 MHz | TX Power: 11.20 MB | Energy: 1.15 J/s
+2025-03-04 00:10:59 server-1   | 2025-03-03 23:10:59,159 - INFO - Server Round 16 Post-Eval (took 1.14s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 11.20 MB | Energy: 0.63 J/s
+2025-03-04 00:10:59 server-1   | INFO flwr 2025-03-03 23:10:59,159 | server.py:125 | fit progress: (16, 2.9838150070213487, {'accuracy': 0.9907}, 160.45702418199653)
+2025-03-04 00:10:59 server-1   | 2025-03-03 23:10:59,159 - INFO - fit progress: (16, 2.9838150070213487, {'accuracy': 0.9907}, 160.45702418199653)
+2025-03-04 00:10:59 server-1   | DEBUG flwr 2025-03-03 23:10:59,159 | server.py:173 | evaluate_round 16: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:59 server-1   | 2025-03-03 23:10:59,159 - DEBUG - evaluate_round 16: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:59 client2-1  | 2025-03-03 23:10:59,165 - INFO - Client 1 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 2.91 MB | Energy: 0.64 J/s
+2025-03-04 00:10:59 client1-1  | 2025-03-03 23:10:59,166 - INFO - Client 0 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 2.91 MB | Energy: 0.64 J/s
+2025-03-04 00:10:59 client2-1  | 2025-03-03 23:10:59,813 - INFO - Client 1 Post-Evaluation (took 0.65s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 2.91 MB | Energy: 1.25 J/s
+2025-03-04 00:10:59 client1-1  | 2025-03-03 23:10:59,826 - INFO - Client 0 Post-Evaluation (took 0.66s) - CPU: 12.4% | Freq: 2304.008999999999 MHz | TX Power: 2.91 MB | Energy: 1.24 J/s
+2025-03-04 00:10:59 server-1   | DEBUG flwr 2025-03-03 23:10:59,827 | server.py:187 | evaluate_round 16 received 2 results and 0 failures
+2025-03-04 00:10:59 server-1   | 2025-03-03 23:10:59,827 - DEBUG - evaluate_round 16 received 2 results and 0 failures
+2025-03-04 00:10:59 server-1   | DEBUG flwr 2025-03-03 23:10:59,828 | server.py:222 | fit_round 17: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:59 server-1   | 2025-03-03 23:10:59,828 - DEBUG - fit_round 17: strategy sampled 2 clients (out of 2)
+2025-03-04 00:10:59 client1-1  | 2025-03-03 23:10:59,833 - INFO - Client 0 Pre-Training - CPU: 25.0% | Freq: 2304.008999999999 MHz | TX Power: 2.91 MB | Energy: 2.50 J/s
+2025-03-04 00:10:59 client2-1  | 2025-03-03 23:10:59,833 - INFO - Client 1 Pre-Training - CPU: 12.1% | Freq: 2304.008999999999 MHz | TX Power: 2.91 MB | Energy: 1.21 J/s
+2025-03-04 00:11:07 client1-1  | 2025-03-03 23:11:07,127 - INFO - Client 0 Post-Training (took 6.76s) - CPU: 11.9% | Freq: 2304.008999999999 MHz | TX Power: 2.91 MB | Energy: 1.19 J/s
+2025-03-04 00:11:07 client2-1  | 2025-03-03 23:11:07,570 - INFO - Client 1 Post-Training (took 7.25s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 2.91 MB | Energy: 1.16 J/s
+2025-03-04 00:11:07 server-1   | DEBUG flwr 2025-03-03 23:11:07,573 | server.py:236 | fit_round 17 received 2 results and 0 failures
+2025-03-04 00:11:07 server-1   | 2025-03-03 23:11:07,573 - DEBUG - fit_round 17 received 2 results and 0 failures
+2025-03-04 00:11:07 server-1   | 2025-03-03 23:11:07,576 - INFO - Server Round 17 Pre-Eval - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 11.92 MB | Energy: 1.16 J/s
+2025-03-04 00:11:08 server-1   | 2025-03-03 23:11:08,700 - INFO - Server Round 17 Post-Eval (took 1.12s) - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 11.92 MB | Energy: 0.65 J/s
+2025-03-04 00:11:08 server-1   | INFO flwr 2025-03-03 23:11:08,701 | server.py:125 | fit progress: (17, 3.3870940420949864, {'accuracy': 0.99}, 169.99829512200085)
+2025-03-04 00:11:08 server-1   | 2025-03-03 23:11:08,701 - INFO - fit progress: (17, 3.3870940420949864, {'accuracy': 0.99}, 169.99829512200085)
+2025-03-04 00:11:08 server-1   | DEBUG flwr 2025-03-03 23:11:08,701 | server.py:173 | evaluate_round 17: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:08 server-1   | 2025-03-03 23:11:08,701 - DEBUG - evaluate_round 17: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:08 client2-1  | 2025-03-03 23:11:08,708 - INFO - Client 1 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 3.09 MB | Energy: 0.64 J/s
+2025-03-04 00:11:08 client1-1  | 2025-03-03 23:11:08,708 - INFO - Client 0 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 3.09 MB | Energy: 0.64 J/s
+2025-03-04 00:11:09 client1-1  | 2025-03-03 23:11:09,355 - INFO - Client 0 Post-Evaluation (took 0.65s) - CPU: 12.7% | Freq: 2304.008999999999 MHz | TX Power: 3.09 MB | Energy: 1.27 J/s
+2025-03-04 00:11:09 client2-1  | 2025-03-03 23:11:09,388 - INFO - Client 1 Post-Evaluation (took 0.68s) - CPU: 12.4% | Freq: 2304.008999999999 MHz | TX Power: 3.09 MB | Energy: 1.24 J/s
+2025-03-04 00:11:09 server-1   | DEBUG flwr 2025-03-03 23:11:09,390 | server.py:187 | evaluate_round 17 received 2 results and 0 failures
+2025-03-04 00:11:09 server-1   | 2025-03-03 23:11:09,390 - DEBUG - evaluate_round 17 received 2 results and 0 failures
+2025-03-04 00:11:09 server-1   | DEBUG flwr 2025-03-03 23:11:09,390 | server.py:222 | fit_round 18: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:09 server-1   | 2025-03-03 23:11:09,390 - DEBUG - fit_round 18: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:09 client2-1  | 2025-03-03 23:11:09,397 - INFO - Client 1 Pre-Training - CPU: 0.0% | Freq: 2304.008999999999 MHz | TX Power: 3.09 MB | Energy: 0.00 J/s
+2025-03-04 00:11:09 client1-1  | 2025-03-03 23:11:09,397 - INFO - Client 0 Pre-Training - CPU: 4.7% | Freq: 2304.008999999999 MHz | TX Power: 3.09 MB | Energy: 0.47 J/s
+2025-03-04 00:11:14 client1-1  | 2025-03-03 23:11:14,252 - INFO - Client 0 Post-Training (took 6.61s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 3.09 MB | Energy: 1.18 J/s
+2025-03-04 00:11:14 client2-1  | 2025-03-03 23:11:14,530 - INFO - Client 1 Post-Training (took 6.93s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 3.09 MB | Energy: 1.16 J/s
+2025-03-04 00:11:14 server-1   | DEBUG flwr 2025-03-03 23:11:14,533 | server.py:236 | fit_round 18 received 2 results and 0 failures
+2025-03-04 00:11:14 server-1   | 2025-03-03 23:11:14,533 - DEBUG - fit_round 18 received 2 results and 0 failures
+2025-03-04 00:11:14 server-1   | 2025-03-03 23:11:14,536 - INFO - Server Round 18 Pre-Eval - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 12.65 MB | Energy: 1.17 J/s
+2025-03-04 00:11:15 server-1   | 2025-03-03 23:11:15,656 - INFO - Server Round 18 Post-Eval (took 1.12s) - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 12.65 MB | Energy: 0.64 J/s
+2025-03-04 00:11:15 server-1   | INFO flwr 2025-03-03 23:11:15,656 | server.py:125 | fit progress: (18, 3.7750967718675383, {'accuracy': 0.9881}, 179.2604580039988)
+2025-03-04 00:11:15 server-1   | 2025-03-03 23:11:15,656 - INFO - fit progress: (18, 3.7750967718675383, {'accuracy': 0.9881}, 179.2604580039988)
+2025-03-04 00:11:15 server-1   | DEBUG flwr 2025-03-03 23:11:15,656 | server.py:173 | evaluate_round 18: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:15 server-1   | 2025-03-03 23:11:15,656 - DEBUG - evaluate_round 18: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:15 client1-1  | 2025-03-03 23:11:15,663 - INFO - Client 0 Pre-Evaluation - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 3.27 MB | Energy: 0.65 J/s
+2025-03-04 00:11:15 client2-1  | 2025-03-03 23:11:15,663 - INFO - Client 1 Pre-Evaluation - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 3.27 MB | Energy: 0.65 J/s
+2025-03-04 00:11:16 client2-1  | 2025-03-03 23:11:16,269 - INFO - Client 1 Post-Evaluation (took 0.61s) - CPU: 12.3% | Freq: 2304.008999999999 MHz | TX Power: 3.27 MB | Energy: 1.23 J/s
+2025-03-04 00:11:16 client1-1  | 2025-03-03 23:11:16,287 - INFO - Client 0 Post-Evaluation (took 0.62s) - CPU: 12.2% | Freq: 2304.008999999999 MHz | TX Power: 3.27 MB | Energy: 1.22 J/s
+2025-03-04 00:11:16 server-1   | DEBUG flwr 2025-03-03 23:11:16,288 | server.py:187 | evaluate_round 18 received 2 results and 0 failures
+2025-03-04 00:11:16 server-1   | 2025-03-03 23:11:16,288 - DEBUG - evaluate_round 18 received 2 results and 0 failures
+2025-03-04 00:11:16 server-1   | DEBUG flwr 2025-03-03 23:11:16,288 | server.py:222 | fit_round 19: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:16 server-1   | 2025-03-03 23:11:16,288 - DEBUG - fit_round 19: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:16 client1-1  | 2025-03-03 23:11:16,295 - INFO - Client 0 Pre-Training - CPU: 15.4% | Freq: 2304.008999999999 MHz | TX Power: 3.27 MB | Energy: 1.54 J/s
+2025-03-04 00:11:16 client2-1  | 2025-03-03 23:11:16,295 - INFO - Client 1 Pre-Training - CPU: 9.8% | Freq: 2304.008999999999 MHz | TX Power: 3.27 MB | Energy: 0.98 J/s
+2025-03-04 00:11:23 client2-1  | 2025-03-03 23:11:23,500 - INFO - Client 1 Post-Training (took 6.66s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 3.27 MB | Energy: 1.18 J/s
+2025-03-04 00:11:23 client1-1  | 2025-03-03 23:11:23,555 - INFO - Client 0 Post-Training (took 6.71s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 3.27 MB | Energy: 1.17 J/s
+2025-03-04 00:11:23 server-1   | DEBUG flwr 2025-03-03 23:11:23,558 | server.py:236 | fit_round 19 received 2 results and 0 failures
+2025-03-04 00:11:23 server-1   | 2025-03-03 23:11:23,558 - DEBUG - fit_round 19 received 2 results and 0 failures
+2025-03-04 00:11:23 server-1   | 2025-03-03 23:11:23,561 - INFO - Server Round 19 Pre-Eval - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 13.37 MB | Energy: 1.18 J/s
+2025-03-04 00:11:24 server-1   | 2025-03-03 23:11:24,660 - INFO - Server Round 19 Post-Eval (took 1.10s) - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 13.37 MB | Energy: 0.64 J/s
+2025-03-04 00:11:24 server-1   | INFO flwr 2025-03-03 23:11:24,660 | server.py:125 | fit progress: (19, 2.8811550563750643, {'accuracy': 0.9904}, 188.26403970600222)
+2025-03-04 00:11:24 server-1   | 2025-03-03 23:11:24,660 - INFO - fit progress: (19, 2.8811550563750643, {'accuracy': 0.9904}, 188.26403970600222)
+2025-03-04 00:11:24 server-1   | DEBUG flwr 2025-03-03 23:11:24,660 | server.py:173 | evaluate_round 19: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:24 server-1   | 2025-03-03 23:11:24,660 - DEBUG - evaluate_round 19: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:24 client2-1  | 2025-03-03 23:11:24,666 - INFO - Client 1 Pre-Evaluation - CPU: 6.7% | Freq: 2304.008999999999 MHz | TX Power: 3.45 MB | Energy: 0.67 J/s
+2025-03-04 00:11:24 client1-1  | 2025-03-03 23:11:24,666 - INFO - Client 0 Pre-Evaluation - CPU: 6.6% | Freq: 2304.008999999999 MHz | TX Power: 3.45 MB | Energy: 0.66 J/s
+2025-03-04 00:11:25 client2-1  | 2025-03-03 23:11:25,276 - INFO - Client 1 Post-Evaluation (took 0.61s) - CPU: 12.7% | Freq: 2304.008999999999 MHz | TX Power: 3.45 MB | Energy: 1.27 J/s
+2025-03-04 00:11:25 client1-1  | 2025-03-03 23:11:25,278 - INFO - Client 0 Post-Evaluation (took 0.61s) - CPU: 12.7% | Freq: 2304.008999999999 MHz | TX Power: 3.45 MB | Energy: 1.27 J/s
+2025-03-04 00:11:25 server-1   | DEBUG flwr 2025-03-03 23:11:25,280 | server.py:187 | evaluate_round 19 received 2 results and 0 failures
+2025-03-04 00:11:25 server-1   | 2025-03-03 23:11:25,280 - DEBUG - evaluate_round 19 received 2 results and 0 failures
+2025-03-04 00:11:25 server-1   | DEBUG flwr 2025-03-03 23:11:25,280 | server.py:222 | fit_round 20: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:25 server-1   | 2025-03-03 23:11:25,280 - DEBUG - fit_round 20: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:25 client1-1  | 2025-03-03 23:11:25,283 - INFO - Client 0 Pre-Training - CPU: 38.5% | Freq: 2304.008999999999 MHz | TX Power: 3.45 MB | Energy: 3.85 J/s
+2025-03-04 00:11:25 client2-1  | 2025-03-03 23:11:25,284 - INFO - Client 1 Pre-Training - CPU: 29.4% | Freq: 2304.008999999999 MHz | TX Power: 3.46 MB | Energy: 2.94 J/s
+2025-03-04 00:11:32 client1-1  | 2025-03-03 23:11:32,553 - INFO - Client 0 Post-Training (took 6.71s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 3.45 MB | Energy: 1.17 J/s
+2025-03-04 00:11:32 client2-1  | 2025-03-03 23:11:32,837 - INFO - Client 1 Post-Training (took 7.05s) - CPU: 11.5% | Freq: 2304.008999999999 MHz | TX Power: 3.46 MB | Energy: 1.15 J/s
+2025-03-04 00:11:32 server-1   | DEBUG flwr 2025-03-03 23:11:32,841 | server.py:236 | fit_round 20 received 2 results and 0 failures
+2025-03-04 00:11:32 server-1   | 2025-03-03 23:11:32,841 - DEBUG - fit_round 20 received 2 results and 0 failures
+2025-03-04 00:11:32 server-1   | 2025-03-03 23:11:32,844 - INFO - Server Round 20 Pre-Eval - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 14.09 MB | Energy: 1.17 J/s
+2025-03-04 00:11:33 server-1   | 2025-03-03 23:11:33,947 - INFO - Server Round 20 Post-Eval (took 1.10s) - CPU: 6.2% | Freq: 2304.008999999999 MHz | TX Power: 14.09 MB | Energy: 0.62 J/s
+2025-03-04 00:11:33 server-1   | INFO flwr 2025-03-03 23:11:33,947 | server.py:125 | fit progress: (20, 4.094407012299598, {'accuracy': 0.9871}, 197.5511042809958)
+2025-03-04 00:11:33 server-1   | 2025-03-03 23:11:33,947 - INFO - fit progress: (20, 4.094407012299598, {'accuracy': 0.9871}, 197.5511042809958)
+2025-03-04 00:11:33 server-1   | DEBUG flwr 2025-03-03 23:11:33,947 | server.py:173 | evaluate_round 20: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:33 server-1   | 2025-03-03 23:11:33,947 - DEBUG - evaluate_round 20: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:33 client2-1  | 2025-03-03 23:11:33,955 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 3.64 MB | Energy: 0.63 J/s
+2025-03-04 00:11:33 client1-1  | 2025-03-03 23:11:33,955 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 3.63 MB | Energy: 0.63 J/s
+2025-03-04 00:11:34 client2-1  | 2025-03-03 23:11:34,593 - INFO - Client 1 Post-Evaluation (took 0.64s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 3.64 MB | Energy: 1.25 J/s
+2025-03-04 00:11:34 client1-1  | 2025-03-03 23:11:34,596 - INFO - Client 0 Post-Evaluation (took 0.64s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 3.63 MB | Energy: 1.25 J/s
+2025-03-04 00:11:34 server-1   | DEBUG flwr 2025-03-03 23:11:34,597 | server.py:187 | evaluate_round 20 received 2 results and 0 failures
+2025-03-04 00:11:34 server-1   | 2025-03-03 23:11:34,597 - DEBUG - evaluate_round 20 received 2 results and 0 failures
+2025-03-04 00:11:34 server-1   | DEBUG flwr 2025-03-03 23:11:34,597 | server.py:222 | fit_round 21: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:34 server-1   | 2025-03-03 23:11:34,597 - DEBUG - fit_round 21: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:34 client1-1  | 2025-03-03 23:11:34,604 - INFO - Client 0 Pre-Training - CPU: 15.4% | Freq: 2304.008999999999 MHz | TX Power: 3.64 MB | Energy: 1.54 J/s
+2025-03-04 00:11:34 client2-1  | 2025-03-03 23:11:34,604 - INFO - Client 1 Pre-Training - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 3.64 MB | Energy: 1.25 J/s
+2025-03-04 00:11:39 client1-1  | 2025-03-03 23:11:39,546 - INFO - Client 0 Post-Training (took 6.68s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 3.64 MB | Energy: 1.17 J/s
+2025-03-04 00:11:39 client2-1  | 2025-03-03 23:11:39,998 - INFO - Client 1 Post-Training (took 7.22s) - CPU: 11.3% | Freq: 2304.008999999999 MHz | TX Power: 3.64 MB | Energy: 1.13 J/s
+2025-03-04 00:11:40 server-1   | DEBUG flwr 2025-03-03 23:11:40,001 | server.py:236 | fit_round 21 received 2 results and 0 failures
+2025-03-04 00:11:40 server-1   | 2025-03-03 23:11:40,001 - DEBUG - fit_round 21 received 2 results and 0 failures
+2025-03-04 00:11:40 server-1   | 2025-03-03 23:11:40,005 - INFO - Server Round 21 Pre-Eval - CPU: 11.4% | Freq: 2304.008999999999 MHz | TX Power: 14.81 MB | Energy: 1.14 J/s
+2025-03-04 00:11:41 server-1   | 2025-03-03 23:11:41,101 - INFO - Server Round 21 Post-Eval (took 1.09s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 14.81 MB | Energy: 0.63 J/s
+2025-03-04 00:11:41 server-1   | INFO flwr 2025-03-03 23:11:41,101 | server.py:125 | fit progress: (21, 3.508410271802404, {'accuracy': 0.9885}, 207.00741674399615)
+2025-03-04 00:11:41 server-1   | 2025-03-03 23:11:41,101 - INFO - fit progress: (21, 3.508410271802404, {'accuracy': 0.9885}, 207.00741674399615)
+2025-03-04 00:11:41 server-1   | DEBUG flwr 2025-03-03 23:11:41,101 | server.py:173 | evaluate_round 21: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:41 server-1   | 2025-03-03 23:11:41,101 - DEBUG - evaluate_round 21: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:41 client1-1  | 2025-03-03 23:11:41,108 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 3.82 MB | Energy: 0.63 J/s
+2025-03-04 00:11:41 client2-1  | 2025-03-03 23:11:41,108 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 3.82 MB | Energy: 0.63 J/s
+2025-03-04 00:11:41 client1-1  | 2025-03-03 23:11:41,769 - INFO - Client 0 Post-Evaluation (took 0.66s) - CPU: 12.7% | Freq: 2304.008999999999 MHz | TX Power: 3.82 MB | Energy: 1.27 J/s
+2025-03-04 00:11:41 client2-1  | 2025-03-03 23:11:41,791 - INFO - Client 1 Post-Evaluation (took 0.68s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 3.82 MB | Energy: 1.25 J/s
+2025-03-04 00:11:41 server-1   | DEBUG flwr 2025-03-03 23:11:41,792 | server.py:187 | evaluate_round 21 received 2 results and 0 failures
+2025-03-04 00:11:41 server-1   | 2025-03-03 23:11:41,792 - DEBUG - evaluate_round 21 received 2 results and 0 failures
+2025-03-04 00:11:41 server-1   | DEBUG flwr 2025-03-03 23:11:41,792 | server.py:222 | fit_round 22: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:41 server-1   | 2025-03-03 23:11:41,792 - DEBUG - fit_round 22: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:41 client1-1  | 2025-03-03 23:11:41,798 - INFO - Client 0 Pre-Training - CPU: 6.7% | Freq: 2304.008999999999 MHz | TX Power: 3.82 MB | Energy: 0.67 J/s
+2025-03-04 00:11:41 client2-1  | 2025-03-03 23:11:41,798 - INFO - Client 1 Pre-Training - CPU: 8.3% | Freq: 2304.008999999999 MHz | TX Power: 3.82 MB | Energy: 0.83 J/s
+2025-03-04 00:11:49 client1-1  | 2025-03-03 23:11:49,001 - INFO - Client 0 Post-Training (took 6.67s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 3.82 MB | Energy: 1.16 J/s
+2025-03-04 00:11:49 client2-1  | 2025-03-03 23:11:49,491 - INFO - Client 1 Post-Training (took 7.20s) - CPU: 11.3% | Freq: 2304.008999999999 MHz | TX Power: 3.82 MB | Energy: 1.13 J/s
+2025-03-04 00:11:49 server-1   | DEBUG flwr 2025-03-03 23:11:49,495 | server.py:236 | fit_round 22 received 2 results and 0 failures
+2025-03-04 00:11:49 server-1   | 2025-03-03 23:11:49,495 - DEBUG - fit_round 22 received 2 results and 0 failures
+2025-03-04 00:11:49 server-1   | 2025-03-03 23:11:49,497 - INFO - Server Round 22 Pre-Eval - CPU: 11.4% | Freq: 2304.008999999999 MHz | TX Power: 15.53 MB | Energy: 1.14 J/s
+2025-03-04 00:11:50 server-1   | 2025-03-03 23:11:50,612 - INFO - Server Round 22 Post-Eval (took 1.11s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 15.53 MB | Energy: 0.63 J/s
+2025-03-04 00:11:50 server-1   | INFO flwr 2025-03-03 23:11:50,612 | server.py:125 | fit progress: (22, 4.378648220013247, {'accuracy': 0.9883}, 216.51889245100028)
+2025-03-04 00:11:50 server-1   | 2025-03-03 23:11:50,612 - INFO - fit progress: (22, 4.378648220013247, {'accuracy': 0.9883}, 216.51889245100028)
+2025-03-04 00:11:50 server-1   | DEBUG flwr 2025-03-03 23:11:50,612 | server.py:173 | evaluate_round 22: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:50 server-1   | 2025-03-03 23:11:50,612 - DEBUG - evaluate_round 22: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:50 client2-1  | 2025-03-03 23:11:50,620 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 4.00 MB | Energy: 0.63 J/s
+2025-03-04 00:11:50 client1-1  | 2025-03-03 23:11:50,620 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 4.00 MB | Energy: 0.63 J/s
+2025-03-04 00:11:51 client1-1  | 2025-03-03 23:11:51,298 - INFO - Client 0 Post-Evaluation (took 0.68s) - CPU: 12.4% | Freq: 2304.008999999999 MHz | TX Power: 4.00 MB | Energy: 1.24 J/s
+2025-03-04 00:11:51 client2-1  | 2025-03-03 23:11:51,332 - INFO - Client 1 Post-Evaluation (took 0.71s) - CPU: 12.4% | Freq: 2304.008999999999 MHz | TX Power: 4.00 MB | Energy: 1.24 J/s
+2025-03-04 00:11:51 server-1   | DEBUG flwr 2025-03-03 23:11:51,333 | server.py:187 | evaluate_round 22 received 2 results and 0 failures
+2025-03-04 00:11:51 server-1   | 2025-03-03 23:11:51,333 - DEBUG - evaluate_round 22 received 2 results and 0 failures
+2025-03-04 00:11:51 server-1   | DEBUG flwr 2025-03-03 23:11:51,334 | server.py:222 | fit_round 23: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:51 server-1   | 2025-03-03 23:11:51,334 - DEBUG - fit_round 23: strategy sampled 2 clients (out of 2)
+2025-03-04 00:11:51 client1-1  | 2025-03-03 23:11:51,339 - INFO - Client 0 Pre-Training - CPU: 7.6% | Freq: 2304.008999999999 MHz | TX Power: 4.00 MB | Energy: 0.76 J/s
+2025-03-04 00:11:51 client2-1  | 2025-03-03 23:11:51,340 - INFO - Client 1 Pre-Training - CPU: 0.0% | Freq: 2304.008999999999 MHz | TX Power: 4.00 MB | Energy: 0.00 J/s
+2025-03-04 00:11:58 client1-1  | 2025-03-03 23:11:58,612 - INFO - Client 0 Post-Training (took 6.73s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 4.00 MB | Energy: 1.17 J/s
+2025-03-04 00:11:59 client2-1  | 2025-03-03 23:11:59,094 - INFO - Client 1 Post-Training (took 7.25s) - CPU: 11.4% | Freq: 2304.008999999999 MHz | TX Power: 4.00 MB | Energy: 1.14 J/s
+2025-03-04 00:11:59 server-1   | DEBUG flwr 2025-03-03 23:11:59,097 | server.py:236 | fit_round 23 received 2 results and 0 failures
+2025-03-04 00:11:59 server-1   | 2025-03-03 23:11:59,097 - DEBUG - fit_round 23 received 2 results and 0 failures
+2025-03-04 00:11:59 server-1   | 2025-03-03 23:11:59,100 - INFO - Server Round 23 Pre-Eval - CPU: 11.4% | Freq: 2304.008999999999 MHz | TX Power: 16.25 MB | Energy: 1.14 J/s
+2025-03-04 00:12:00 server-1   | 2025-03-03 23:12:00,204 - INFO - Server Round 23 Post-Eval (took 1.10s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 16.25 MB | Energy: 0.63 J/s
+2025-03-04 00:12:00 server-1   | INFO flwr 2025-03-03 23:12:00,205 | server.py:125 | fit progress: (23, 3.7603713880498617, {'accuracy': 0.9874}, 226.11135083800036)
+2025-03-04 00:12:00 server-1   | 2025-03-03 23:12:00,205 - INFO - fit progress: (23, 3.7603713880498617, {'accuracy': 0.9874}, 226.11135083800036)
+2025-03-04 00:12:00 server-1   | DEBUG flwr 2025-03-03 23:12:00,205 | server.py:173 | evaluate_round 23: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:00 server-1   | 2025-03-03 23:12:00,205 - DEBUG - evaluate_round 23: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:00 client2-1  | 2025-03-03 23:12:00,210 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 4.18 MB | Energy: 0.63 J/s
+2025-03-04 00:12:00 client1-1  | 2025-03-03 23:12:00,211 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 4.18 MB | Energy: 0.63 J/s
+2025-03-04 00:12:00 client2-1  | 2025-03-03 23:12:00,868 - INFO - Client 1 Post-Evaluation (took 0.66s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 4.18 MB | Energy: 1.26 J/s
+2025-03-04 00:12:00 client1-1  | 2025-03-03 23:12:00,876 - INFO - Client 0 Post-Evaluation (took 0.66s) - CPU: 12.4% | Freq: 2304.008999999999 MHz | TX Power: 4.18 MB | Energy: 1.24 J/s
+2025-03-04 00:12:00 server-1   | DEBUG flwr 2025-03-03 23:12:00,877 | server.py:187 | evaluate_round 23 received 2 results and 0 failures
+2025-03-04 00:12:00 server-1   | 2025-03-03 23:12:00,877 - DEBUG - evaluate_round 23 received 2 results and 0 failures
+2025-03-04 00:12:00 server-1   | DEBUG flwr 2025-03-03 23:12:00,878 | server.py:222 | fit_round 24: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:00 server-1   | 2025-03-03 23:12:00,878 - DEBUG - fit_round 24: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:00 client1-1  | 2025-03-03 23:12:00,881 - INFO - Client 0 Pre-Training - CPU: 33.3% | Freq: 2304.008999999999 MHz | TX Power: 4.18 MB | Energy: 3.33 J/s
+2025-03-04 00:12:00 client2-1  | 2025-03-03 23:12:00,882 - INFO - Client 1 Pre-Training - CPU: 19.2% | Freq: 2304.008999999999 MHz | TX Power: 4.18 MB | Energy: 1.92 J/s
+2025-03-04 00:12:05 client1-1  | 2025-03-03 23:12:05,762 - INFO - Client 0 Post-Training (took 6.69s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 4.18 MB | Energy: 1.17 J/s
+2025-03-04 00:12:06 client2-1  | 2025-03-03 23:12:06,304 - INFO - Client 1 Post-Training (took 7.24s) - CPU: 11.3% | Freq: 2304.008999999999 MHz | TX Power: 4.18 MB | Energy: 1.13 J/s
+2025-03-04 00:12:06 server-1   | DEBUG flwr 2025-03-03 23:12:06,307 | server.py:236 | fit_round 24 received 2 results and 0 failures
+2025-03-04 00:12:06 server-1   | 2025-03-03 23:12:06,307 - DEBUG - fit_round 24 received 2 results and 0 failures
+2025-03-04 00:12:06 server-1   | 2025-03-03 23:12:06,310 - INFO - Server Round 24 Pre-Eval - CPU: 11.4% | Freq: 2304.008999999999 MHz | TX Power: 16.98 MB | Energy: 1.14 J/s
+2025-03-04 00:12:07 server-1   | 2025-03-03 23:12:07,410 - INFO - Server Round 24 Post-Eval (took 1.10s) - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 16.98 MB | Energy: 0.65 J/s
+2025-03-04 00:12:07 server-1   | INFO flwr 2025-03-03 23:12:07,410 | server.py:125 | fit progress: (24, 3.738696495748023, {'accuracy': 0.9895}, 235.66565292800078)
+2025-03-04 00:12:07 server-1   | 2025-03-03 23:12:07,410 - INFO - fit progress: (24, 3.738696495748023, {'accuracy': 0.9895}, 235.66565292800078)
+2025-03-04 00:12:07 server-1   | DEBUG flwr 2025-03-03 23:12:07,410 | server.py:173 | evaluate_round 24: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:07 server-1   | 2025-03-03 23:12:07,410 - DEBUG - evaluate_round 24: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:07 client1-1  | 2025-03-03 23:12:07,418 - INFO - Client 0 Pre-Evaluation - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 4.36 MB | Energy: 0.65 J/s
+2025-03-04 00:12:07 client2-1  | 2025-03-03 23:12:07,418 - INFO - Client 1 Pre-Evaluation - CPU: 6.6% | Freq: 2304.008999999999 MHz | TX Power: 4.36 MB | Energy: 0.66 J/s
+2025-03-04 00:12:08 client1-1  | 2025-03-03 23:12:08,022 - INFO - Client 0 Post-Evaluation (took 0.60s) - CPU: 12.7% | Freq: 2304.008999999999 MHz | TX Power: 4.36 MB | Energy: 1.27 J/s
+2025-03-04 00:12:08 client2-1  | 2025-03-03 23:12:08,026 - INFO - Client 1 Post-Evaluation (took 0.61s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 4.36 MB | Energy: 1.26 J/s
+2025-03-04 00:12:08 server-1   | DEBUG flwr 2025-03-03 23:12:08,028 | server.py:187 | evaluate_round 24 received 2 results and 0 failures
+2025-03-04 00:12:08 server-1   | 2025-03-03 23:12:08,028 - DEBUG - evaluate_round 24 received 2 results and 0 failures
+2025-03-04 00:12:08 server-1   | DEBUG flwr 2025-03-03 23:12:08,028 | server.py:222 | fit_round 25: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:08 server-1   | 2025-03-03 23:12:08,028 - DEBUG - fit_round 25: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:08 client1-1  | 2025-03-03 23:12:08,033 - INFO - Client 0 Pre-Training - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 4.36 MB | Energy: 1.18 J/s
+2025-03-04 00:12:08 client2-1  | 2025-03-03 23:12:08,033 - INFO - Client 1 Pre-Training - CPU: 16.7% | Freq: 2304.008999999999 MHz | TX Power: 4.37 MB | Energy: 1.67 J/s
+2025-03-04 00:12:15 client1-1  | 2025-03-03 23:12:15,031 - INFO - Client 0 Post-Training (took 6.44s) - CPU: 11.9% | Freq: 2304.008999999999 MHz | TX Power: 4.36 MB | Energy: 1.19 J/s
+2025-03-04 00:12:16 client2-1  | 2025-03-03 23:12:16,009 - INFO - Client 1 Post-Training (took 7.43s) - CPU: 11.2% | Freq: 2304.008999999999 MHz | TX Power: 4.37 MB | Energy: 1.12 J/s
+2025-03-04 00:12:16 server-1   | DEBUG flwr 2025-03-03 23:12:16,012 | server.py:236 | fit_round 25 received 2 results and 0 failures
+2025-03-04 00:12:16 server-1   | 2025-03-03 23:12:16,012 - DEBUG - fit_round 25 received 2 results and 0 failures
+2025-03-04 00:12:16 server-1   | 2025-03-03 23:12:16,015 - INFO - Server Round 25 Pre-Eval - CPU: 11.3% | Freq: 2304.008999999999 MHz | TX Power: 17.70 MB | Energy: 1.13 J/s
+2025-03-04 00:12:17 server-1   | 2025-03-03 23:12:17,156 - INFO - Server Round 25 Post-Eval (took 1.14s) - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 17.70 MB | Energy: 0.65 J/s
+2025-03-04 00:12:17 server-1   | INFO flwr 2025-03-03 23:12:17,156 | server.py:125 | fit progress: (25, 3.441351286459607, {'accuracy': 0.9902}, 245.41183923099743)
+2025-03-04 00:12:17 server-1   | 2025-03-03 23:12:17,156 - INFO - fit progress: (25, 3.441351286459607, {'accuracy': 0.9902}, 245.41183923099743)
+2025-03-04 00:12:17 server-1   | DEBUG flwr 2025-03-03 23:12:17,156 | server.py:173 | evaluate_round 25: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:17 server-1   | 2025-03-03 23:12:17,156 - DEBUG - evaluate_round 25: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:17 client1-1  | 2025-03-03 23:12:17,166 - INFO - Client 0 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 4.55 MB | Energy: 0.64 J/s
+2025-03-04 00:12:17 client2-1  | 2025-03-03 23:12:17,166 - INFO - Client 1 Pre-Evaluation - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 4.55 MB | Energy: 0.65 J/s
+2025-03-04 00:12:17 client1-1  | 2025-03-03 23:12:17,880 - INFO - Client 0 Post-Evaluation (took 0.71s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 4.55 MB | Energy: 1.25 J/s
+2025-03-04 00:12:17 client2-1  | 2025-03-03 23:12:17,938 - INFO - Client 1 Post-Evaluation (took 0.77s) - CPU: 12.2% | Freq: 2304.008999999999 MHz | TX Power: 4.55 MB | Energy: 1.22 J/s
+2025-03-04 00:12:17 server-1   | DEBUG flwr 2025-03-03 23:12:17,940 | server.py:187 | evaluate_round 25 received 2 results and 0 failures
+2025-03-04 00:12:17 server-1   | 2025-03-03 23:12:17,940 - DEBUG - evaluate_round 25 received 2 results and 0 failures
+2025-03-04 00:12:17 server-1   | DEBUG flwr 2025-03-03 23:12:17,940 | server.py:222 | fit_round 26: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:17 server-1   | 2025-03-03 23:12:17,940 - DEBUG - fit_round 26: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:17 client1-1  | 2025-03-03 23:12:17,946 - INFO - Client 0 Pre-Training - CPU: 8.5% | Freq: 2304.008999999999 MHz | TX Power: 4.55 MB | Energy: 0.85 J/s
+2025-03-04 00:12:17 client2-1  | 2025-03-03 23:12:17,946 - INFO - Client 1 Pre-Training - CPU: 7.7% | Freq: 2304.008999999999 MHz | TX Power: 4.55 MB | Energy: 0.77 J/s
+2025-03-04 00:12:25 client1-1  | 2025-03-03 23:12:25,060 - INFO - Client 0 Post-Training (took 6.56s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 4.55 MB | Energy: 1.17 J/s
+2025-03-04 00:12:25 client2-1  | 2025-03-03 23:12:25,702 - INFO - Client 1 Post-Training (took 7.23s) - CPU: 11.2% | Freq: 2304.008999999999 MHz | TX Power: 4.55 MB | Energy: 1.12 J/s
+2025-03-04 00:12:25 server-1   | DEBUG flwr 2025-03-03 23:12:25,705 | server.py:236 | fit_round 26 received 2 results and 0 failures
+2025-03-04 00:12:25 server-1   | 2025-03-03 23:12:25,705 - DEBUG - fit_round 26 received 2 results and 0 failures
+2025-03-04 00:12:25 server-1   | 2025-03-03 23:12:25,708 - INFO - Server Round 26 Pre-Eval - CPU: 11.3% | Freq: 2304.008999999999 MHz | TX Power: 18.42 MB | Energy: 1.13 J/s
+2025-03-04 00:12:26 server-1   | 2025-03-03 23:12:26,845 - INFO - Server Round 26 Post-Eval (took 1.14s) - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 18.42 MB | Energy: 0.63 J/s
+2025-03-04 00:12:26 server-1   | INFO flwr 2025-03-03 23:12:26,845 | server.py:125 | fit progress: (26, 2.923599591477114, {'accuracy': 0.9913}, 255.10094184699847)
+2025-03-04 00:12:26 server-1   | 2025-03-03 23:12:26,845 - INFO - fit progress: (26, 2.923599591477114, {'accuracy': 0.9913}, 255.10094184699847)
+2025-03-04 00:12:26 server-1   | DEBUG flwr 2025-03-03 23:12:26,845 | server.py:173 | evaluate_round 26: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:26 server-1   | 2025-03-03 23:12:26,845 - DEBUG - evaluate_round 26: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:26 client2-1  | 2025-03-03 23:12:26,850 - INFO - Client 1 Pre-Evaluation - CPU: 6.2% | Freq: 2304.008999999999 MHz | TX Power: 4.73 MB | Energy: 0.62 J/s
+2025-03-04 00:12:26 client1-1  | 2025-03-03 23:12:26,852 - INFO - Client 0 Pre-Evaluation - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 4.73 MB | Energy: 0.64 J/s
+2025-03-04 00:12:27 client2-1  | 2025-03-03 23:12:27,500 - INFO - Client 1 Post-Evaluation (took 0.65s) - CPU: 12.9% | Freq: 2304.008999999999 MHz | TX Power: 4.73 MB | Energy: 1.29 J/s
+2025-03-04 00:12:27 client1-1  | 2025-03-03 23:12:27,508 - INFO - Client 0 Post-Evaluation (took 0.66s) - CPU: 12.7% | Freq: 2304.008999999999 MHz | TX Power: 4.73 MB | Energy: 1.27 J/s
+2025-03-04 00:12:27 server-1   | DEBUG flwr 2025-03-03 23:12:27,510 | server.py:187 | evaluate_round 26 received 2 results and 0 failures
+2025-03-04 00:12:27 server-1   | 2025-03-03 23:12:27,510 - DEBUG - evaluate_round 26 received 2 results and 0 failures
+2025-03-04 00:12:27 server-1   | DEBUG flwr 2025-03-03 23:12:27,510 | server.py:222 | fit_round 27: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:27 server-1   | 2025-03-03 23:12:27,510 - DEBUG - fit_round 27: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:27 client2-1  | 2025-03-03 23:12:27,516 - INFO - Client 1 Pre-Training - CPU: 14.3% | Freq: 2304.008999999999 MHz | TX Power: 4.73 MB | Energy: 1.43 J/s
+2025-03-04 00:12:27 client1-1  | 2025-03-03 23:12:27,516 - INFO - Client 0 Pre-Training - CPU: 21.4% | Freq: 2304.008999999999 MHz | TX Power: 4.73 MB | Energy: 2.14 J/s
+2025-03-04 00:12:32 client1-1  | 2025-03-03 23:12:32,383 - INFO - Client 0 Post-Training (took 6.58s) - CPU: 12.0% | Freq: 2304.008999999999 MHz | TX Power: 4.73 MB | Energy: 1.20 J/s
+2025-03-04 00:12:32 client2-1  | 2025-03-03 23:12:32,948 - INFO - Client 1 Post-Training (took 7.16s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 4.73 MB | Energy: 1.16 J/s
+2025-03-04 00:12:32 server-1   | DEBUG flwr 2025-03-03 23:12:32,952 | server.py:236 | fit_round 27 received 2 results and 0 failures
+2025-03-04 00:12:32 server-1   | 2025-03-03 23:12:32,952 - DEBUG - fit_round 27 received 2 results and 0 failures
+2025-03-04 00:12:32 server-1   | 2025-03-03 23:12:32,955 - INFO - Server Round 27 Pre-Eval - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 19.14 MB | Energy: 1.17 J/s
+2025-03-04 00:12:34 server-1   | 2025-03-03 23:12:34,063 - INFO - Server Round 27 Post-Eval (took 1.11s) - CPU: 6.7% | Freq: 2304.008999999999 MHz | TX Power: 19.14 MB | Energy: 0.67 J/s
+2025-03-04 00:12:34 server-1   | INFO flwr 2025-03-03 23:12:34,063 | server.py:125 | fit progress: (27, 3.641124373192099, {'accuracy': 0.99}, 264.5804100469977)
+2025-03-04 00:12:34 server-1   | 2025-03-03 23:12:34,063 - INFO - fit progress: (27, 3.641124373192099, {'accuracy': 0.99}, 264.5804100469977)
+2025-03-04 00:12:34 server-1   | DEBUG flwr 2025-03-03 23:12:34,063 | server.py:173 | evaluate_round 27: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:34 server-1   | 2025-03-03 23:12:34,063 - DEBUG - evaluate_round 27: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:34 client1-1  | 2025-03-03 23:12:34,070 - INFO - Client 0 Pre-Evaluation - CPU: 6.7% | Freq: 2304.008999999999 MHz | TX Power: 4.91 MB | Energy: 0.67 J/s
+2025-03-04 00:12:34 client2-1  | 2025-03-03 23:12:34,071 - INFO - Client 1 Pre-Evaluation - CPU: 6.9% | Freq: 2304.008999999999 MHz | TX Power: 4.91 MB | Energy: 0.69 J/s
+2025-03-04 00:12:34 client1-1  | 2025-03-03 23:12:34,742 - INFO - Client 0 Post-Evaluation (took 0.67s) - CPU: 12.5% | Freq: 2304.008999999999 MHz | TX Power: 4.91 MB | Energy: 1.25 J/s
+2025-03-04 00:12:34 client2-1  | 2025-03-03 23:12:34,767 - INFO - Client 1 Post-Evaluation (took 0.70s) - CPU: 12.2% | Freq: 2304.008999999999 MHz | TX Power: 4.91 MB | Energy: 1.22 J/s
+2025-03-04 00:12:34 server-1   | DEBUG flwr 2025-03-03 23:12:34,769 | server.py:187 | evaluate_round 27 received 2 results and 0 failures
+2025-03-04 00:12:34 server-1   | 2025-03-03 23:12:34,769 - DEBUG - evaluate_round 27 received 2 results and 0 failures
+2025-03-04 00:12:34 server-1   | DEBUG flwr 2025-03-03 23:12:34,769 | server.py:222 | fit_round 28: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:34 server-1   | 2025-03-03 23:12:34,769 - DEBUG - fit_round 28: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:34 client2-1  | 2025-03-03 23:12:34,776 - INFO - Client 1 Pre-Training - CPU: 7.7% | Freq: 2304.008999999999 MHz | TX Power: 4.91 MB | Energy: 0.77 J/s
+2025-03-04 00:12:34 client1-1  | 2025-03-03 23:12:34,776 - INFO - Client 0 Pre-Training - CPU: 5.8% | Freq: 2304.008999999999 MHz | TX Power: 4.91 MB | Energy: 0.58 J/s
+2025-03-04 00:12:42 client1-1  | 2025-03-03 23:12:42,063 - INFO - Client 0 Post-Training (took 6.75s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 4.91 MB | Energy: 1.18 J/s
+2025-03-04 00:12:42 client2-1  | 2025-03-03 23:12:42,448 - INFO - Client 1 Post-Training (took 7.12s) - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 4.91 MB | Energy: 1.16 J/s
+2025-03-04 00:12:42 server-1   | DEBUG flwr 2025-03-03 23:12:42,451 | server.py:236 | fit_round 28 received 2 results and 0 failures
+2025-03-04 00:12:42 server-1   | 2025-03-03 23:12:42,451 - DEBUG - fit_round 28 received 2 results and 0 failures
+2025-03-04 00:12:42 server-1   | 2025-03-03 23:12:42,453 - INFO - Server Round 28 Pre-Eval - CPU: 11.6% | Freq: 2304.008999999999 MHz | TX Power: 19.86 MB | Energy: 1.16 J/s
+2025-03-04 00:12:43 server-1   | 2025-03-03 23:12:43,559 - INFO - Server Round 28 Post-Eval (took 1.10s) - CPU: 6.2% | Freq: 2304.008999999999 MHz | TX Power: 19.86 MB | Energy: 0.62 J/s
+2025-03-04 00:12:43 server-1   | INFO flwr 2025-03-03 23:12:43,559 | server.py:125 | fit progress: (28, 3.493901174106952, {'accuracy': 0.9903}, 274.07580515200243)
+2025-03-04 00:12:43 server-1   | 2025-03-03 23:12:43,559 - INFO - fit progress: (28, 3.493901174106952, {'accuracy': 0.9903}, 274.07580515200243)
+2025-03-04 00:12:43 server-1   | DEBUG flwr 2025-03-03 23:12:43,559 | server.py:173 | evaluate_round 28: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:43 server-1   | 2025-03-03 23:12:43,559 - DEBUG - evaluate_round 28: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:43 client2-1  | 2025-03-03 23:12:43,565 - INFO - Client 1 Pre-Evaluation - CPU: 6.2% | Freq: 2304.008999999999 MHz | TX Power: 5.09 MB | Energy: 0.62 J/s
+2025-03-04 00:12:43 client1-1  | 2025-03-03 23:12:43,565 - INFO - Client 0 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 5.09 MB | Energy: 0.63 J/s
+2025-03-04 00:12:44 client1-1  | 2025-03-03 23:12:44,227 - INFO - Client 0 Post-Evaluation (took 0.66s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 5.09 MB | Energy: 1.26 J/s
+2025-03-04 00:12:44 client2-1  | 2025-03-03 23:12:44,299 - INFO - Client 1 Post-Evaluation (took 0.73s) - CPU: 12.1% | Freq: 2304.008999999999 MHz | TX Power: 5.09 MB | Energy: 1.21 J/s
+2025-03-04 00:12:44 server-1   | DEBUG flwr 2025-03-03 23:12:44,301 | server.py:187 | evaluate_round 28 received 2 results and 0 failures
+2025-03-04 00:12:44 server-1   | 2025-03-03 23:12:44,301 - DEBUG - evaluate_round 28 received 2 results and 0 failures
+2025-03-04 00:12:44 server-1   | DEBUG flwr 2025-03-03 23:12:44,301 | server.py:222 | fit_round 29: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:44 server-1   | 2025-03-03 23:12:44,301 - DEBUG - fit_round 29: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:44 client2-1  | 2025-03-03 23:12:44,307 - INFO - Client 1 Pre-Training - CPU: 0.0% | Freq: 2304.008999999999 MHz | TX Power: 5.09 MB | Energy: 0.00 J/s
+2025-03-04 00:12:44 client1-1  | 2025-03-03 23:12:44,308 - INFO - Client 0 Pre-Training - CPU: 7.0% | Freq: 2304.008999999999 MHz | TX Power: 5.09 MB | Energy: 0.70 J/s
+2025-03-04 00:12:51 client1-1  | 2025-03-03 23:12:51,415 - INFO - Client 0 Post-Training (took 6.57s) - CPU: 11.8% | Freq: 2304.008999999999 MHz | TX Power: 5.09 MB | Energy: 1.18 J/s
+2025-03-04 00:12:51 client2-1  | 2025-03-03 23:12:51,938 - INFO - Client 1 Post-Training (took 7.13s) - CPU: 11.4% | Freq: 2304.008999999999 MHz | TX Power: 5.09 MB | Energy: 1.14 J/s
+2025-03-04 00:12:51 server-1   | DEBUG flwr 2025-03-03 23:12:51,941 | server.py:236 | fit_round 29 received 2 results and 0 failures
+2025-03-04 00:12:51 server-1   | 2025-03-03 23:12:51,941 - DEBUG - fit_round 29 received 2 results and 0 failures
+2025-03-04 00:12:51 server-1   | 2025-03-03 23:12:51,943 - INFO - Server Round 29 Pre-Eval - CPU: 11.5% | Freq: 2304.008999999999 MHz | TX Power: 20.59 MB | Energy: 1.15 J/s
+2025-03-04 00:12:53 server-1   | 2025-03-03 23:12:53,061 - INFO - Server Round 29 Post-Eval (took 1.12s) - CPU: 6.6% | Freq: 2304.008999999999 MHz | TX Power: 20.59 MB | Energy: 0.66 J/s
+2025-03-04 00:12:53 server-1   | INFO flwr 2025-03-03 23:12:53,061 | server.py:125 | fit progress: (29, 3.483710181925346, {'accuracy': 0.9913}, 283.5778234419995)
+2025-03-04 00:12:53 server-1   | 2025-03-03 23:12:53,061 - INFO - fit progress: (29, 3.483710181925346, {'accuracy': 0.9913}, 283.5778234419995)
+2025-03-04 00:12:53 server-1   | DEBUG flwr 2025-03-03 23:12:53,061 | server.py:173 | evaluate_round 29: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:53 server-1   | 2025-03-03 23:12:53,061 - DEBUG - evaluate_round 29: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:53 client1-1  | 2025-03-03 23:12:53,068 - INFO - Client 0 Pre-Evaluation - CPU: 6.5% | Freq: 2304.008999999999 MHz | TX Power: 5.27 MB | Energy: 0.65 J/s
+2025-03-04 00:12:53 client2-1  | 2025-03-03 23:12:53,068 - INFO - Client 1 Pre-Evaluation - CPU: 6.6% | Freq: 2304.008999999999 MHz | TX Power: 5.27 MB | Energy: 0.66 J/s
+2025-03-04 00:12:53 client1-1  | 2025-03-03 23:12:53,750 - INFO - Client 0 Post-Evaluation (took 0.68s) - CPU: 12.6% | Freq: 2304.008999999999 MHz | TX Power: 5.27 MB | Energy: 1.26 J/s
+2025-03-04 00:12:53 client2-1  | 2025-03-03 23:12:53,783 - INFO - Client 1 Post-Evaluation (took 0.71s) - CPU: 12.4% | Freq: 2304.008999999999 MHz | TX Power: 5.27 MB | Energy: 1.24 J/s
+2025-03-04 00:12:53 server-1   | DEBUG flwr 2025-03-03 23:12:53,784 | server.py:187 | evaluate_round 29 received 2 results and 0 failures
+2025-03-04 00:12:53 server-1   | 2025-03-03 23:12:53,784 - DEBUG - evaluate_round 29 received 2 results and 0 failures
+2025-03-04 00:12:53 server-1   | DEBUG flwr 2025-03-03 23:12:53,785 | server.py:222 | fit_round 30: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:53 server-1   | 2025-03-03 23:12:53,785 - DEBUG - fit_round 30: strategy sampled 2 clients (out of 2)
+2025-03-04 00:12:53 client1-1  | 2025-03-03 23:12:53,791 - INFO - Client 0 Pre-Training - CPU: 10.3% | Freq: 2304.008999999999 MHz | TX Power: 5.28 MB | Energy: 1.03 J/s
+2025-03-04 00:12:53 client2-1  | 2025-03-03 23:12:53,791 - INFO - Client 1 Pre-Training - CPU: 14.3% | Freq: 2304.008999999999 MHz | TX Power: 5.28 MB | Energy: 1.43 J/s
+2025-03-04 00:13:00 client1-1  | 2025-03-03 23:13:00,576 - INFO - Client 0 Post-Training (took 6.25s) - CPU: 11.7% | Freq: 2304.008999999999 MHz | TX Power: 5.28 MB | Energy: 1.17 J/s
+2025-03-04 00:13:01 client2-1  | 2025-03-03 23:13:01,477 - INFO - Client 1 Post-Training (took 7.16s) - CPU: 11.0% | Freq: 2304.008999999999 MHz | TX Power: 5.28 MB | Energy: 1.10 J/s
+2025-03-04 00:13:01 server-1   | DEBUG flwr 2025-03-03 23:13:01,481 | server.py:236 | fit_round 30 received 2 results and 0 failures
+2025-03-04 00:13:01 server-1   | 2025-03-03 23:13:01,481 - DEBUG - fit_round 30 received 2 results and 0 failures
+2025-03-04 00:13:01 server-1   | 2025-03-03 23:13:01,483 - INFO - Server Round 30 Pre-Eval - CPU: 11.1% | Freq: 2304.008999999999 MHz | TX Power: 21.31 MB | Energy: 1.11 J/s
+2025-03-04 00:13:00 server-1   | 2025-03-03 23:13:00,320 - INFO - Server Round 30 Post-Eval (took 1.14s) - CPU: 6.4% | Freq: 2304.008999999999 MHz | TX Power: 21.31 MB | Energy: 0.64 J/s
+2025-03-04 00:13:00 server-1   | INFO flwr 2025-03-03 23:13:00,321 | server.py:125 | fit progress: (30, 3.252171944455199, {'accuracy': 0.9914}, 293.1402997300029)
+2025-03-04 00:13:00 server-1   | 2025-03-03 23:13:00,321 - INFO - fit progress: (30, 3.252171944455199, {'accuracy': 0.9914}, 293.1402997300029)
+2025-03-04 00:13:00 server-1   | DEBUG flwr 2025-03-03 23:13:00,321 | server.py:173 | evaluate_round 30: strategy sampled 2 clients (out of 2)
+2025-03-04 00:13:00 server-1   | 2025-03-03 23:13:00,321 - DEBUG - evaluate_round 30: strategy sampled 2 clients (out of 2)
+2025-03-04 00:13:00 client2-1  | 2025-03-03 23:13:00,325 - INFO - Client 1 Pre-Evaluation - CPU: 6.3% | Freq: 2304.008999999999 MHz | TX Power: 5.46 MB | Energy: 0.63 J/s
+2025-03-04 00:13:00 client1-1  | 2025-03-03 23:13:00,326 - INFO - Client 0 Pre-Evaluation - CPU: 6.2% | Freq: 2304.008999999999 MHz | TX Power: 5.46 MB | Energy: 0.62 J/s
+2025-03-04 00:13:00 client1-1  | 2025-03-03 23:13:00,930 - INFO - Client 0 Post-Evaluation (took 0.60s) - CPU: 12.8% | Freq: 2304.008999999999 MHz | TX Power: 5.46 MB | Energy: 1.28 J/s
+2025-03-04 00:13:01 client2-1  | 2025-03-03 23:13:01,011 - INFO - Client 1 Post-Evaluation (took 0.69s) - CPU: 12.0% | Freq: 2304.008999999999 MHz | TX Power: 5.46 MB | Energy: 1.20 J/s
+2025-03-04 00:13:01 server-1   | DEBUG flwr 2025-03-03 23:13:01,013 | server.py:187 | evaluate_round 30 received 2 results and 0 failures
+2025-03-04 00:13:01 server-1   | 2025-03-03 23:13:01,013 - DEBUG - evaluate_round 30 received 2 results and 0 failures
+2025-03-04 00:13:01 server-1   | INFO flwr 2025-03-03 23:13:01,013 | server.py:153 | FL finished in 293.83279010499973
+2025-03-04 00:13:01 server-1   | 2025-03-03 23:13:01,013 - INFO - FL finished in 293.83279010499973
+2025-03-04 00:13:01 server-1   | INFO flwr 2025-03-03 23:13:01,013 | app.py:225 | app_fit: losses_distributed [(1, 19.13597583770752), (2, 10.799335956573486), (3, 11.103631496429443), (4, 9.064291715621948), (5, 10.08658504486084), (6, 8.829250812530518), (7, 8.511572360992432), (8, 8.630771160125732), (9, 8.741129398345947), (10, 8.986486911773682), (11, 9.19499683380127), (12, 9.645530223846436), (13, 9.61321210861206), (14, 9.622532844543457), (15, 11.941955089569092), (16, 9.129002094268799), (17, 10.815528869628906), (18, 11.205666065216064), (19, 10.384240627288818), (20, 12.289651870727539), (21, 10.572604179382324), (22, 13.796551704406738), (23, 10.491522789001465), (24, 11.714579105377197), (25, 11.095006942749023), (26, 10.505873203277588), (27, 12.101135730743408), (28, 11.717662811279297), (29, 11.545750617980957), (30, 11.514663219451904)]
+2025-03-04 00:13:01 server-1   | 2025-03-03 23:13:01,013 - INFO - app_fit: losses_distributed [(1, 19.13597583770752), (2, 10.799335956573486), (3, 11.103631496429443), (4, 9.064291715621948), (5, 10.08658504486084), (6, 8.829250812530518), (7, 8.511572360992432), (8, 8.630771160125732), (9, 8.741129398345947), (10, 8.986486911773682), (11, 9.19499683380127), (12, 9.645530223846436), (13, 9.61321210861206), (14, 9.622532844543457), (15, 11.941955089569092), (16, 9.129002094268799), (17, 10.815528869628906), (18, 11.205666065216064), (19, 10.384240627288818), (20, 12.289651870727539), (21, 10.572604179382324), (22, 13.796551704406738), (23, 10.491522789001465), (24, 11.714579105377197), (25, 11.095006942749023), (26, 10.505873203277588), (27, 12.101135730743408), (28, 11.717662811279297), (29, 11.545750617980957), (30, 11.514663219451904)]
+2025-03-04 00:13:01 server-1   | INFO flwr 2025-03-03 23:13:01,013 | app.py:226 | app_fit: metrics_distributed_fit {'accuracy': [(1, 0.9596666666666667), (2, 0.9756666666666667), (3, 0.977), (4, 0.9803333333333333), (5, 0.9688333333333334), (6, 0.9824999999999999), (7, 0.9806666666666667), (8, 0.9804999999999999), (9, 0.9808333333333332), (10, 0.9833333333333333), (11, 0.9841666666666666), (12, 0.9811666666666667), (13, 0.983), (14, 0.9848333333333333), (15, 0.9804999999999999), (16, 0.9864999999999999), (17, 0.9848333333333333), (18, 0.9763333333333333), (19, 0.9851666666666666), (20, 0.9808333333333333), (21, 0.9821666666666666), (22, 0.9801666666666666), (23, 0.9801666666666666), (24, 0.9836666666666667), (25, 0.985), (26, 0.9838333333333333), (27, 0.985), (28, 0.9821666666666666), (29, 0.9861666666666666), (30, 0.9861666666666666)]}
+2025-03-04 00:13:01 server-1   | 2025-03-03 23:13:01,013 - INFO - app_fit: metrics_distributed_fit {'accuracy': [(1, 0.9596666666666667), (2, 0.9756666666666667), (3, 0.977), (4, 0.9803333333333333), (5, 0.9688333333333334), (6, 0.9824999999999999), (7, 0.9806666666666667), (8, 0.9804999999999999), (9, 0.9808333333333332), (10, 0.9833333333333333), (11, 0.9841666666666666), (12, 0.9811666666666667), (13, 0.983), (14, 0.9848333333333333), (15, 0.9804999999999999), (16, 0.9864999999999999), (17, 0.9848333333333333), (18, 0.9763333333333333), (19, 0.9851666666666666), (20, 0.9808333333333333), (21, 0.9821666666666666), (22, 0.9801666666666666), (23, 0.9801666666666666), (24, 0.9836666666666667), (25, 0.985), (26, 0.9838333333333333), (27, 0.985), (28, 0.9821666666666666), (29, 0.9861666666666666), (30, 0.9861666666666666)]}
+2025-03-04 00:13:01 server-1   | INFO flwr 2025-03-03 23:13:01,014 | app.py:227 | app_fit: metrics_distributed {'accuracy': [(1, 0.9711666666666667), (2, 0.9816666666666667), (3, 0.9838333333333333), (4, 0.986), (5, 0.9841666666666666), (6, 0.9868333333333333), (7, 0.9888333333333333), (8, 0.9868333333333333), (9, 0.9868333333333333), (10, 0.9876666666666667), (11, 0.9873333333333333), (12, 0.9884999999999999), (13, 0.9863333333333333), (14, 0.9868333333333333), (15, 0.9858333333333333), (16, 0.9895), (17, 0.9881666666666666), (18, 0.9861666666666666), (19, 0.9878333333333333), (20, 0.9866666666666666), (21, 0.9876666666666667), (22, 0.9866666666666666), (23, 0.9864999999999999), (24, 0.9875), (25, 0.9903333333333333), (26, 0.9891666666666667), (27, 0.9876666666666667), (28, 0.9868333333333333), (29, 0.9883333333333333), (30, 0.9886666666666666)]}
+2025-03-04 00:13:01 server-1   | 2025-03-03 23:13:01,014 - INFO - app_fit: metrics_distributed {'accuracy': [(1, 0.9711666666666667), (2, 0.9816666666666667), (3, 0.9838333333333333), (4, 0.986), (5, 0.9841666666666666), (6, 0.9868333333333333), (7, 0.9888333333333333), (8, 0.9868333333333333), (9, 0.9868333333333333), (10, 0.9876666666666667), (11, 0.9873333333333333), (12, 0.9884999999999999), (13, 0.9863333333333333), (14, 0.9868333333333333), (15, 0.9858333333333333), (16, 0.9895), (17, 0.9881666666666666), (18, 0.9861666666666666), (19, 0.9878333333333333), (20, 0.9866666666666666), (21, 0.9876666666666667), (22, 0.9866666666666666), (23, 0.9864999999999999), (24, 0.9875), (25, 0.9903333333333333), (26, 0.9891666666666667), (27, 0.9876666666666667), (28, 0.9868333333333333), (29, 0.9883333333333333), (30, 0.9886666666666666)]}
+2025-03-04 00:13:01 server-1   | INFO flwr 2025-03-03 23:13:01,014 | app.py:228 | app_fit: losses_centralized [(0, 181.8919665813446), (1, 7.625237619969994), (2, 3.8258060819935054), (3, 3.6220274044317193), (4, 3.087817683825051), (5, 3.0842632010171656), (6, 2.8997093635916826), (7, 2.747006026282179), (8, 2.64303325524088), (9, 2.735495765795349), (10, 3.360348530192823), (11, 2.9723018664217307), (12, 3.315786227299782), (13, 2.90266741767482), (14, 3.211104342553881), (15, 3.442780854017201), (16, 2.9838150070213487), (17, 3.3870940420949864), (18, 3.7750967718675383), (19, 2.8811550563750643), (20, 4.094407012299598), (21, 3.508410271802404), (22, 4.378648220013247), (23, 3.7603713880498617), (24, 3.738696495748023), (25, 3.441351286459607), (26, 2.923599591477114), (27, 3.641124373192099), (28, 3.493901174106952), (29, 3.483710181925346), (30, 3.252171944455199)]
+2025-03-04 00:13:01 server-1   | 2025-03-03 23:13:01,014 - INFO - app_fit: losses_centralized [(0, 181.8919665813446), (1, 7.625237619969994), (2, 3.8258060819935054), (3, 3.6220274044317193), (4, 3.087817683825051), (5, 3.0842632010171656), (6, 2.8997093635916826), (7, 2.747006026282179), (8, 2.64303325524088), (9, 2.735495765795349), (10, 3.360348530192823), (11, 2.9723018664217307), (12, 3.315786227299782), (13, 2.90266741767482), (14, 3.211104342553881), (15, 3.442780854017201), (16, 2.9838150070213487), (17, 3.3870940420949864), (18, 3.7750967718675383), (19, 2.8811550563750643), (20, 4.094407012299598), (21, 3.508410271802404), (22, 4.378648220013247), (23, 3.7603713880498617), (24, 3.738696495748023), (25, 3.441351286459607), (26, 2.923599591477114), (27, 3.641124373192099), (28, 3.493901174106952), (29, 3.483710181925346), (30, 3.252171944455199)]
+2025-03-04 00:13:01 server-1   | INFO flwr 2025-03-03 23:13:01,014 | app.py:229 | app_fit: metrics_centralized {'accuracy': [(0, 0.0821), (1, 0.9702), (2, 0.9838), (3, 0.9849), (4, 0.9876), (5, 0.9875), (6, 0.9889), (7, 0.9895), (8, 0.9894), (9, 0.9894), (10, 0.9886), (11, 0.9883), (12, 0.9891), (13, 0.9892), (14, 0.9875), (15, 0.9884), (16, 0.9907), (17, 0.99), (18, 0.9881), (19, 0.9904), (20, 0.9871), (21, 0.9885), (22, 0.9883), (23, 0.9874), (24, 0.9895), (25, 0.9902), (26, 0.9913), (27, 0.99), (28, 0.9903), (29, 0.9913), (30, 0.9914)]}
+2025-03-04 00:13:01 server-1   | 2025-03-03 23:13:01,014 - INFO - app_fit: metrics_centralized {'accuracy': [(0, 0.0821), (1, 0.9702), (2, 0.9838), (3, 0.9849), (4, 0.9876), (5, 0.9875), (6, 0.9889), (7, 0.9895), (8, 0.9894), (9, 0.9894), (10, 0.9886), (11, 0.9883), (12, 0.9891), (13, 0.9892), (14, 0.9875), (15, 0.9884), (16, 0.9907), (17, 0.99), (18, 0.9881), (19, 0.9904), (20, 0.9871), (21, 0.9885), (22, 0.9883), (23, 0.9874), (24, 0.9895), (25, 0.9902), (26, 0.9913), (27, 0.99), (28, 0.9903), (29, 0.9913), (30, 0.9914)]}
+2025-03-04 00:13:01 client1-1  | DEBUG flwr 2025-03-03 23:13:01,025 | connection.py:139 | gRPC channel closed
+2025-03-04 00:13:01 client1-1  | 2025-03-03 23:13:01,025 - DEBUG - gRPC channel closed
+2025-03-04 00:13:01 client1-1  | INFO flwr 2025-03-03 23:13:01,025 | app.py:215 | Disconnect and shut down
+2025-03-04 00:13:01 client1-1  | 2025-03-03 23:13:01,025 - INFO - Disconnect and shut down
+2025-03-04 00:13:01 client2-1  | DEBUG flwr 2025-03-03 23:13:01,025 | connection.py:139 | gRPC channel closed
+2025-03-04 00:13:01 client2-1  | 2025-03-03 23:13:01,025 - DEBUG - gRPC channel closed
+2025-03-04 00:13:01 client2-1  | INFO flwr 2025-03-03 23:13:01,025 | app.py:215 | Disconnect and shut down
+2025-03-04 00:13:01 client2-1  | 2025-03-03 23:13:01,025 - INFO - Disconnect and shut down
+2033-01-01 00:00:00 
+client2-1 exited with code 0
+
+client1-1 exited with code 0
+
+2001-01-01 00:00:00 xited with code 0

@@ -1,0 +1,154 @@
+version: '3.8'
+
+services:
+  cloud:
+    build:
+      context: ./cloud
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_TYPE=cloud
+    networks:
+      fl_network:
+        ipv4_address: 172.20.0.2
+    volumes:
+      - cloud_data:/app/data
+
+  edge0:
+    build:
+      context: ./edge
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    environment:
+      - NODE_TYPE=edge
+      - EDGE_ID=0
+    networks:
+      fl_network:
+        ipv4_address: 172.20.0.3
+    depends_on:
+      - cloud
+    volumes:
+      - edge0_data:/app/data
+
+  edge1:
+    build:
+      context: ./edge
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8080"
+    environment:
+      - NODE_TYPE=edge
+      - EDGE_ID=1
+    networks:
+      fl_network:
+        ipv4_address: 172.20.0.4
+    depends_on:
+      - cloud
+    volumes:
+      - edge1_data:/app/data
+
+  client0:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    environment:
+      - NODE_TYPE=client
+      - CLIENT_ID=0
+    networks:
+      - fl_network
+    depends_on:
+      - edge0
+    volumes:
+      - client0_data:/app/data
+    runtime: nvidia  # Add this
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  client1:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    environment:
+      - NODE_TYPE=client
+      - CLIENT_ID=1
+    networks:
+      - fl_network
+    depends_on:
+      - edge0
+    volumes:
+      - client1_data:/app/data
+    runtime: nvidia  # Add this
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  client2:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    environment:
+      - NODE_TYPE=client
+      - CLIENT_ID=2
+    networks:
+      - fl_network
+    depends_on:
+      - edge1
+    volumes:
+      - client2_data:/app/data
+    runtime: nvidia  # Add this
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  client3:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    environment:
+      - NODE_TYPE=client
+      - CLIENT_ID=3
+    networks:
+      - fl_network
+    depends_on:
+      - edge1
+    volumes:
+      - client3_data:/app/data
+    runtime: nvidia  # Add this
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+networks:
+  fl_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+
+volumes:
+  cloud_data:
+  edge0_data:
+  edge1_data:
+  client0_data:
+  client1_data:
+  client2_data:
+  client3_data:
